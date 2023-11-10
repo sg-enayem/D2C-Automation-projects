@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Your Vehicle Service Protection summary_c_ce9273</name>
+   <tag></tag>
+   <elementGuidId>4428cfeb-e61d-4436-b53a-85690b2db1c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[3]/div/div/div/span/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>211363fd-a5aa-4897-b08c-dfaaeeaa06be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-icon  c-icon--[edit] c-icon--medium u-mr-xsmall </value>
+      <webElementGuid>3b0ac80f-3531-4864-9476-f76064610731</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;u-float-right&quot;]/span[@class=&quot;c-link&quot;]/i[@class=&quot;c-icon  c-icon--[edit] c-icon--medium u-mr-xsmall&quot;]</value>
+      <webElementGuid>2bd194c2-01c7-4fe0-a2f7-4fba11126f89</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[3]/div/div/div/span/i</value>
+      <webElementGuid>36a1cfb8-10f5-4819-9295-a52067c657a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div/div/div/span/i</value>
+      <webElementGuid>3fcf7f0b-afb5-47c5-ae3d-d1c12c15a432</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

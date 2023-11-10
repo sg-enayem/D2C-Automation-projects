@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Whats this</name>
+   <tag></tag>
+   <elementGuidId>fc3f4ae4-de6e-458d-b4f3-5f6cd1e4e2bf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#lightduty > a.click-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//label[@id='lightduty']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>a44bb136-5970-4c51-b82d-1a8e59995297</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>click-text</value>
+      <webElementGuid>32bb31fe-99ef-489c-9748-d1c2cbaf5a89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>What's this?</value>
+      <webElementGuid>6dcab6ec-6277-4e49-b214-5c3df8fc9090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lightduty&quot;)/a[@class=&quot;click-text&quot;]</value>
+      <webElementGuid>d3eaea52-9b6c-462a-89f0-b1b1d3ad0b28</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//label[@id='lightduty']/a</value>
+      <webElementGuid>2b1ef50e-c41d-4512-9be8-f483ecf47cb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Your Term Length**'])[1]/following::a[1]</value>
+      <webElementGuid>172e3dcd-34b5-4c0c-8db5-a325834d466e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[7]/preceding::a[1]</value>
+      <webElementGuid>4f45ce23-c594-46b0-88f2-28b14733364d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/a</value>
+      <webElementGuid>415fb658-9d3d-4422-8301-d5103f53afed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = concat(&quot;What&quot; , &quot;'&quot; , &quot;s this?&quot;) or . = concat(&quot;What&quot; , &quot;'&quot; , &quot;s this?&quot;))]</value>
+      <webElementGuid>28f38fc6-0fe5-4d4e-81bf-e2cf72a29b1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

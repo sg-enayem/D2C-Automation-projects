@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Pay Now</name>
+   <tag></tag>
+   <elementGuidId>067b9203-0f86-4e6e-8dc8-2aaf12d0d81b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/div/div/div/span[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>09a390fe-5cd9-4597-a447-7218c9f4733c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-btn__text</value>
+      <webElementGuid>91f67fde-2dd8-44b8-aa05-f70da1c29740</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Pay Now</value>
+      <webElementGuid>c06fb398-0c79-4823-bf8c-c45d4b5f06ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/div[@class=&quot;o-layout o-layout--center u-pv-large u-ph u-ph-small@s&quot;]/div[@class=&quot;o-layout__item u-1/3 u-1/2@l u-2/3@m u-1/1@s&quot;]/div[@class=&quot;o-button-container&quot;]/span[@class=&quot;o-button-container__button&quot;]/button[@class=&quot;c-btn  c-btn--full&quot;]/span[@class=&quot;c-btn__text&quot;]</value>
+      <webElementGuid>d2772c0c-16d1-4916-8f5d-ded80960fb0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/div/div/div/span[2]/button/span</value>
+      <webElementGuid>14d89937-c252-429c-8526-f89cec6988d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::span[2]</value>
+      <webElementGuid>4ec0883b-f594-4d8b-ad20-494d2b0761ff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(due on October 28)'])[1]/following::span[4]</value>
+      <webElementGuid>79f72307-9bb4-4ba8-80d2-7336e5caa14f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to top'])[1]/preceding::span[1]</value>
+      <webElementGuid>778d6a2c-cd76-4487-89e9-2146ee4259eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VW Emissions Modification Lookup'])[1]/preceding::span[2]</value>
+      <webElementGuid>16a0e4e9-641a-4414-a933-cd51ec314358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Pay Now']/parent::*</value>
+      <webElementGuid>47ddffe7-a65d-4c09-9c86-eb1026e7983f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button/span</value>
+      <webElementGuid>a9c07dad-db9f-468a-b395-488fc6d377ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Pay Now' or . = 'Pay Now')]</value>
+      <webElementGuid>5d52a0f3-b01d-4717-9248-4cbb3d4a48ad</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

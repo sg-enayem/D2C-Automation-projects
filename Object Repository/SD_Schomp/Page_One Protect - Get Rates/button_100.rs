@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_100</name>
+   <tag></tag>
+   <elementGuidId>ccce6462-32ed-4a43-a4f0-1469718dcc9d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;deductible-1-1&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bba3b725-0337-41ba-a766-69fef4cc7d72</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn primary-btn deductible-btn ng-star-inserted</value>
+      <webElementGuid>aa10f62d-efba-4df4-abee-017e07a2cb51</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$100</value>
+      <webElementGuid>8e470133-1e4a-49b7-b191-0d0e2d2b78ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;plan-tab-id-0&quot;)/div[@class=&quot;col-12 mt-4 mb-4 ng-star-inserted&quot;]/span[@class=&quot;pt-2 deductible-line&quot;]/div[1]/button[@class=&quot;btn primary-btn deductible-btn ng-star-inserted&quot;]</value>
+      <webElementGuid>1335eef6-2e74-4e6f-a2aa-3f1009a21196</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='plan-tab-id-0']/div[2]/span/div/button[2]</value>
+      <webElementGuid>4d8fc6e9-70fa-40bb-ba2e-e838a778b6b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0'])[1]/following::button[1]</value>
+      <webElementGuid>4d5011d8-0cf9-4c9f-b7e8-7acdc9ddb48c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$250'])[1]/preceding::button[1]</value>
+      <webElementGuid>83477dd2-03a6-4c99-90ad-3865df3fa255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay less with $100 disappearing deductible'])[1]/preceding::button[2]</value>
+      <webElementGuid>05dcc84f-8ee8-454c-9f54-fe6da2089021</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$100']/parent::*</value>
+      <webElementGuid>15192358-ab3f-403f-9733-8589a649e935</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>15c60c41-c969-48dd-a1df-3ccb045892e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '$100' or . = '$100')]</value>
+      <webElementGuid>5b7e7533-1ef9-44f1-b167-d2f9ca211e7e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

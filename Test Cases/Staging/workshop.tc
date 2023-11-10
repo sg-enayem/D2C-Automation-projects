@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>workshop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9faee5d2-d764-487e-9819-9c141774d662</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3974dbf7-d367-4a30-afd9-bce9c751feed</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c585a59e-c5ee-4b0c-867b-761394564378</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9d1e93a7-b258-4bf0-bdbf-8e379498cbeb</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>3974dbf7-d367-4a30-afd9-bce9c751feed</id>
+      <masked>false</masked>
+      <name>pdfCheck</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>c585a59e-c5ee-4b0c-867b-761394564378</id>
+      <masked>false</masked>
+      <name>result1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>9d1e93a7-b258-4bf0-bdbf-8e379498cbeb</id>
+      <masked>false</masked>
+      <name>a</name>
+   </variable>
+</TestCaseEntity>

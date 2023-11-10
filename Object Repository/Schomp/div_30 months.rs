@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_30 months</name>
+   <tag></tag>
+   <elementGuidId>cfc014bb-07da-42a6-bd0a-f5d9da2f05c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-shopping-cart/div/div[2]/mdb-card/mdb-card-body/mdb-card-text/p/div/div[2]/app-cart-payment/div/mdb-card/mdb-card-body/app-cart-payment-options/div/form/div/div/div/div[2]/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a1f924cc-d757-419a-92b8-aef63d14451f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>payment-button</value>
+      <webElementGuid>9f288c05-0662-40ea-ba4e-40b7d6cae856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>30 months</value>
+      <webElementGuid>4d682ee8-2a92-4ff8-b613-ffa3fe196d5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c156-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-shopping-cart[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5 pt-5 desktop ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/mdb-card[@class=&quot;w-100 shadow mb-4 card&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/mdb-card-text[@class=&quot;w-100&quot;]/p[@class=&quot;card-text w-100&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5&quot;]/app-cart-payment[1]/div[@class=&quot;cart-payment&quot;]/mdb-card[@class=&quot;card&quot;]/mdb-card-body[@class=&quot;payment-options-tabs pt-0 card-body&quot;]/app-cart-payment-options[1]/div[@class=&quot;cart-pay-monthly&quot;]/form[@class=&quot;w-100 ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;customize-payments&quot;]/div[@class=&quot;paymentOptions&quot;]/div[@class=&quot;row md-form hide-border&quot;]/div[@class=&quot;col-4 p-1 ng-star-inserted&quot;]/div[@class=&quot;payment-button&quot;]</value>
+      <webElementGuid>9a39054b-f668-49b5-a7b6-e5e95b1e4b47</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-shopping-cart/div/div[2]/mdb-card/mdb-card-body/mdb-card-text/p/div/div[2]/app-cart-payment/div/mdb-card/mdb-card-body/app-cart-payment-options/div/form/div/div/div/div[2]/div</value>
+      <webElementGuid>8052aa34-e8b0-4266-94d3-cb47cb7d3d03</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Coverage Starts'])[1]/following::div[8]</value>
+      <webElementGuid>3946accf-38d3-4bf1-802f-e95d1bfc10f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='payment options'])[1]/following::div[9]</value>
+      <webElementGuid>57442a43-420d-4bf2-a2a0-fb00b6585b83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='pay in full'])[1]/preceding::div[9]</value>
+      <webElementGuid>111deefe-0dec-48bb-b924-3ab277d77f73</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$'])[1]/preceding::div[11]</value>
+      <webElementGuid>9c62b403-738f-4bd3-a8e1-4043e8c16b44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='30 months']/parent::*</value>
+      <webElementGuid>629ffeb5-bbe3-4bb5-bc72-bc29a201201f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div[2]/div</value>
+      <webElementGuid>28ae379e-a3c9-476b-bdaf-d949a6ab6e25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '30 months' or . = '30 months')]</value>
+      <webElementGuid>dc207824-99aa-41a0-b8fe-e2e300b0caba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mdb-card-body_1 Contact InfoAll fields requ_d75179</name>
+   <tag></tag>
+   <elementGuidId>28c4f463-ef8c-4a7a-9188-16c11df06548</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-contact-information/mdb-card/mdb-card-body</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mdb-card-body.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mdb-card-body</value>
+      <webElementGuid>b8b22a0b-e744-4843-ae3b-e8710fd2c844</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>e7aa5eea-64c4-458c-8c94-843a5d517214</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 Contact InfoAll fields required unless specified otherwiseFirst NameLast NameEmail AddressConfirm Your EmailPhone Number Where is your vehicle registered?Street Address *Apt/Suite City *Province *AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon TerritoryPostal Code **Please enter a valid postal code Continue to Billing </value>
+      <webElementGuid>f50444d6-da3b-4133-906b-475d7238bd40</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c156-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-contact-information[@class=&quot;ng-tns-c169-10 ng-star-inserted&quot;]/mdb-card[@class=&quot;shadow mb-4 ng-tns-c169-10 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>71df2253-7995-41f6-a86d-301f233b0bda</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-contact-information/mdb-card/mdb-card-body</value>
+      <webElementGuid>5c09882b-9da1-4394-95d6-00fb8d6ac4ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::mdb-card-body[1]</value>
+      <webElementGuid>6ac605eb-4c59-4460-91e8-f5c988bd9d75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/following::mdb-card-body[1]</value>
+      <webElementGuid>d41ff12f-a267-41a7-ae43-4631d80a199e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdb-card-body</value>
+      <webElementGuid>5a7724ae-ca4e-4802-99fe-784e8e1f6c9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mdb-card-body[(text() = '1 Contact InfoAll fields required unless specified otherwiseFirst NameLast NameEmail AddressConfirm Your EmailPhone Number Where is your vehicle registered?Street Address *Apt/Suite City *Province *AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon TerritoryPostal Code **Please enter a valid postal code Continue to Billing ' or . = '1 Contact InfoAll fields required unless specified otherwiseFirst NameLast NameEmail AddressConfirm Your EmailPhone Number Where is your vehicle registered?Street Address *Apt/Suite City *Province *AlbertaBritish ColumbiaManitobaNew BrunswickNewfoundland and LabradorNorthwest TerritoriesNova ScotiaNunavutOntarioPrince Edward IslandQuebecSaskatchewanYukon TerritoryPostal Code **Please enter a valid postal code Continue to Billing ')]</value>
+      <webElementGuid>887b9d9e-7a77-4352-9def-9ee2c5410430</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

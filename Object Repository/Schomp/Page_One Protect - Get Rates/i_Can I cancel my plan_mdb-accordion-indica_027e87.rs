@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Can I cancel my plan_mdb-accordion-indica_027e87</name>
+   <tag></tag>
+   <elementGuidId>bc50210f-ae97-409b-b180-d7fcc8d93585</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#faq-button-3 > i.mdb-accordion-indicator.rotate-icon.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-3']/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>63832ebe-ed8a-46b7-bfce-cbfd84776b42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>52ec4727-6abc-4f42-b115-d4db01f42fd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdb-accordion-indicator rotate-icon ng-star-inserted</value>
+      <webElementGuid>936411b2-65fd-474b-887b-5d0befb9d8fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-3&quot;)/i[@class=&quot;mdb-accordion-indicator rotate-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>efaf605c-28f7-45b6-bfbd-67e6ca7a1695</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-3']/i</value>
+      <webElementGuid>2894b90b-5cd1-4d1a-b520-94107f30086d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdb-accordion-item[3]/div/mdb-accordion-item-head/div/a/i</value>
+      <webElementGuid>21c4e522-ce72-49ea-bd3e-a818377b2e6e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

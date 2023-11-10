@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Confirm Your EmailConfirm email does not match</name>
+   <tag></tag>
+   <elementGuidId>a00e6859-3e91-4c5f-a210-1a4d92a8cb90</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-contact-information/mdb-card/mdb-card-body/form/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bc85fa34-4970-4e98-a320-78b264b2973f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col ng-tns-c293-24</value>
+      <webElementGuid>c4a5624d-f12c-40c9-81f0-2a296d30f008</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Confirm Your Email*Confirm email does not match</value>
+      <webElementGuid>3ac98d60-2e08-448a-9e37-e1b482cceaf9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c269-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-contact-information[@class=&quot;ng-tns-c293-24 ng-star-inserted&quot;]/mdb-card[@class=&quot;shadow mb-4 ng-tns-c293-24 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/form[@class=&quot;text-center ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;form-row ng-tns-c293-24&quot;]/div[@class=&quot;col ng-tns-c293-24&quot;]</value>
+      <webElementGuid>a4ad3a3a-3e4c-4fc3-9a06-5076816bf747</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-contact-information/mdb-card/mdb-card-body/form/div[3]/div</value>
+      <webElementGuid>fb421a89-d7d6-4034-8a83-fcc0729c1bc9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Email Address'])[1]/following::div[2]</value>
+      <webElementGuid>c6393508-7b56-4564-96a4-fcfbdd66e898</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::div[5]</value>
+      <webElementGuid>3107ae69-fc6e-4fc9-8daf-b382c2db3729</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div[3]/div</value>
+      <webElementGuid>3ddab334-b8c9-437f-abc7-1db4ad54cacf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Confirm Your Email*Confirm email does not match' or . = 'Confirm Your Email*Confirm email does not match')]</value>
+      <webElementGuid>0a3ddbcd-cfb8-414f-8a76-487696935b19</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

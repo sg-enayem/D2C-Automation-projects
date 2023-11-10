@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkOutCalculation</name>
+   <tag></tag>
+   <elementGuidId>22d243cb-5968-4a29-ba86-1f9fbaeed6a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[11]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.remaining-payments</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1e2d5003-d4d6-41ae-9cbf-85b7a112151c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>remaining-payments</value>
+      <webElementGuid>e5b04313-58f3-43b0-a1af-d485fe6822e9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>35 Remaining Payments of $70.56</value>
+      <webElementGuid>c4d18fb4-1234-4919-9685-3590233fc744</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c170-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5&quot;]/app-checkout-cart[1]/mdb-card[@class=&quot;shadow mb-4 checkout card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/div[@class=&quot;pt-2 pb-2 mt-2 border-top ng-star-inserted&quot;]/span[@class=&quot;remaining-payments&quot;]</value>
+      <webElementGuid>68035aa3-0685-41aa-afe9-bc8689fa5974</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[9]/span</value>
+      <webElementGuid>fad9ebd7-cb84-44aa-bb3a-677766b08443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2,737.02'])[1]/following::span[1]</value>
+      <webElementGuid>37e5de68-5047-4f67-acb5-30e5ceff82a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total'])[1]/following::span[2]</value>
+      <webElementGuid>241ce06d-dcd1-4344-bbee-431378c4d972</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Due Today:'])[1]/preceding::span[3]</value>
+      <webElementGuid>a0164701-1d76-424d-92e3-12dc9b55d44d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$267.42'])[1]/preceding::span[4]</value>
+      <webElementGuid>5a867152-692e-4ad7-8e42-95e53abb5378</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='35 Remaining Payments of $70.56']/parent::*</value>
+      <webElementGuid>fcebfe31-e7c1-45ca-8a86-617792846e5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[9]/span</value>
+      <webElementGuid>57e638f5-3baf-4a3a-a991-c6cfa691946a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '35 Remaining Payments of $70.56' or . = '35 Remaining Payments of $70.56')]</value>
+      <webElementGuid>3a78697c-57e4-4673-bb73-2b5f2c7c1786</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

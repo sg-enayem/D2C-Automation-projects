@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_250</name>
+   <tag></tag>
+   <elementGuidId>3371da6f-9873-43b8-8b50-123f380ee90d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='plan-tab-id-2']/div[2]/span/div/button[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>8d414a92-fa33-4249-ace5-d5175ea38bec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn primary-btn deductible-btn ng-star-inserted</value>
+      <webElementGuid>81b1bfc8-9c57-4026-a6b2-9f67d711c98f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-ng-class</name>
+      <type>Main</type>
+      <value>[object Object]</value>
+      <webElementGuid>0bfa074d-359a-47f8-8d47-bf07128fb171</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$250</value>
+      <webElementGuid>76110066-b017-40dd-b167-3a6694e3de64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;plan-tab-id-2&quot;)/div[@class=&quot;col-12 mt-4 mb-4 ng-star-inserted&quot;]/span[@class=&quot;pt-2 deductible-line&quot;]/div[1]/button[@class=&quot;btn primary-btn deductible-btn ng-star-inserted&quot;]</value>
+      <webElementGuid>9621d1f6-22b0-429f-a907-0cfd1f00a144</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='plan-tab-id-2']/div[2]/span/div/button[3]</value>
+      <webElementGuid>60b3f0c1-8b9b-4773-8fe1-9d4e500cdb68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$100'])[3]/following::button[1]</value>
+      <webElementGuid>26bee130-bd4b-49d4-b817-b386a5e0fff0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0'])[3]/following::button[2]</value>
+      <webElementGuid>503d07bd-0f1c-491d-bae4-196ec4246d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/preceding::button[1]</value>
+      <webElementGuid>fec896b6-d802-4b74-855a-f071170a8a1e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/span/div/button[3]</value>
+      <webElementGuid>5dbb3e02-be73-4e02-9b34-9e9e9debad5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '$250' or . = '$250')]</value>
+      <webElementGuid>672c46dd-abda-4d87-9cd1-0bfdf3bc0000</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

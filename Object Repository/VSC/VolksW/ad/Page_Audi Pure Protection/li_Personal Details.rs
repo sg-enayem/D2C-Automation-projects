@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Personal Details</name>
+   <tag></tag>
+   <elementGuidId>a2f5590b-eb5a-4570-a7b9-e9827c26c8a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/nav/ol/li[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>24100511-39fc-485f-8bd8-9c248ada7a17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-wizard__item</value>
+      <webElementGuid>ec2c7d5a-d128-481a-9c8a-777313762fc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Personal Details</value>
+      <webElementGuid>5805bbfc-6bd0-412d-b16a-0405e29d23d0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/nav[@class=&quot;c-wizard js-wizard&quot;]/ol[@class=&quot;c-wizard__list js-wizard__list  is-closed&quot;]/li[@class=&quot;c-wizard__item&quot;]</value>
+      <webElementGuid>e94389c8-487f-4991-b528-a9757fdc4abc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/nav/ol/li[2]</value>
+      <webElementGuid>0fa27f4d-6248-49ce-88b3-8e3eb4bc2b91</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose your product'])[1]/following::li[1]</value>
+      <webElementGuid>5073f87a-9177-4c31-8370-455b9da40e4f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current step: Mount the horse'])[1]/following::li[2]</value>
+      <webElementGuid>d6e50726-4c04-4fe4-863c-a9b7b7e74a7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Information'])[1]/preceding::li[1]</value>
+      <webElementGuid>12f2e65e-0d76-4856-8bf1-71ba31f3fc46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]</value>
+      <webElementGuid>69501eda-2f47-4f37-bf9c-f8af761cacbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Personal Details' or . = 'Personal Details')]</value>
+      <webElementGuid>72c87a0f-9063-4698-bfa3-523963ee2006</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

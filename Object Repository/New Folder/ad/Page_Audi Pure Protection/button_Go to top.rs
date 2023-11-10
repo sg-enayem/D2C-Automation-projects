@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Go to top</name>
+   <tag></tag>
+   <elementGuidId>bd68fcbe-533d-4a00-a996-2ed8e3aac275</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[7]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.c-btn.c-btn--secondary.c-btn--icon.c-back-to-top__trigger</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>99eaca7c-d082-4718-8e98-f6a5ec07a969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b1b302cd-00c0-4a9d-9c7b-1a10f6d867a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-btn  c-btn--secondary  c-btn--icon  c-back-to-top__trigger</value>
+      <webElementGuid>5f1d8d5f-1d81-4f4a-850d-07f84c58b8a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Go to top</value>
+      <webElementGuid>cca78470-d420-440a-94b3-72c8f7726b1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/div[@class=&quot;c-back-to-top&quot;]/div[@class=&quot;c-back-to-top__pagewrap&quot;]/button[@class=&quot;c-btn  c-btn--secondary  c-btn--icon  c-back-to-top__trigger&quot;]</value>
+      <webElementGuid>1f2e6e6b-97a9-4b48-a7d5-7cbe870ef8c2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[7]</value>
+      <webElementGuid>2a6abbd6-21bb-4108-abf1-223c2157c8ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div/div/button</value>
+      <webElementGuid>31dc3f12-1a54-46d6-9e58-f5d2a22cd19c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Your Quote'])[1]/following::button[1]</value>
+      <webElementGuid>4f19292e-4762-4d66-9131-eec3a6dae63a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download Sample Customer Agreement'])[1]/following::button[2]</value>
+      <webElementGuid>dee92fa7-53e2-4101-be28-2a10cca7c04f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audi Emissions Modification Lookup'])[1]/preceding::button[1]</value>
+      <webElementGuid>3c64f711-d85b-408d-bc84-19625bbebaab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/button</value>
+      <webElementGuid>371f13c6-b200-42dc-86bc-c54c66870488</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Go to top' or . = 'Go to top')]</value>
+      <webElementGuid>d4d52c93-70c3-49d4-94ea-8c6574f4154b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

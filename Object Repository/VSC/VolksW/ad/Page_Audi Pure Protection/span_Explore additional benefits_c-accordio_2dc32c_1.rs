@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Explore additional benefits_c-accordio_2dc32c_1</name>
+   <tag></tag>
+   <elementGuidId>24a1b85d-55f2-4700-860c-79a68e111472</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.c-accordion__title-icon</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/section[4]/div/div/div/div/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>97195dc4-f260-4c1d-8ba2-a1274a308200</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-accordion__title-icon</value>
+      <webElementGuid>f9b4df6d-36f0-47f6-b34e-686b4428b49c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;c-accordion js-accordion&quot;]/div[@class=&quot;c-accordion__header js-accordion__title is-active&quot;]/span[@class=&quot;c-accordion__title-icon&quot;]</value>
+      <webElementGuid>4ffdc607-0166-4ea8-b209-8d2ade0ef966</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/section[4]/div/div/div/div/span</value>
+      <webElementGuid>bfe48f63-7f48-459a-8b5b-d3306f6bc0a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[4]/div/div/div/div/span</value>
+      <webElementGuid>8c9717bc-be2a-4b40-ad3a-8efea5a09114</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

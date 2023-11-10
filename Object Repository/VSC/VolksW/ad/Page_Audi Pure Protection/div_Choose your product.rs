@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Choose your product</name>
+   <tag></tag>
+   <elementGuidId>8c6e0f8d-0389-4aff-adbf-62cdea973178</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.c-wizard__link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/nav/ol/li/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4fc52705-733d-4d11-a5d3-732d78eba11a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-wizard__link</value>
+      <webElementGuid>3ee07d1a-6243-438a-beea-5e5cda2a9ace</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose your product</value>
+      <webElementGuid>1f1be00e-17ef-4568-b8c7-5a01a3eff856</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/nav[@class=&quot;c-wizard js-wizard&quot;]/ol[@class=&quot;c-wizard__list js-wizard__list  is-closed&quot;]/li[@class=&quot;c-wizard__item is-active&quot;]/div[@class=&quot;c-wizard__link&quot;]</value>
+      <webElementGuid>34d6f838-af33-4b01-a627-d9b0f0a4d233</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/nav/ol/li/div</value>
+      <webElementGuid>6f5d277e-6f9a-4b10-8ca2-4bd29f1ded5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current step: Mount the horse'])[1]/following::div[1]</value>
+      <webElementGuid>85b66c31-fa5a-4069-9273-0ecb21113fbd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audi Pure Protection'])[2]/following::div[2]</value>
+      <webElementGuid>58b9d256-2a17-4854-982a-5dfd0ca6e6af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Details'])[1]/preceding::div[1]</value>
+      <webElementGuid>36cda7f5-358c-485a-8e02-0cab7f1144f9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/div</value>
+      <webElementGuid>054f487b-95c5-4e45-9479-373e26f212ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Choose your product' or . = 'Choose your product')]</value>
+      <webElementGuid>a3a9c6ee-eecb-445c-a19c-186092cf12ff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

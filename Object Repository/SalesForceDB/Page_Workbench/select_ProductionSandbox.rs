@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_ProductionSandbox</name>
+   <tag></tag>
+   <elementGuidId>1f5349a7-a62a-44dc-bca7-d998cd5c2fba</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#oauth_env</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='oauth_env']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>0cd1effd-771e-4af2-97c7-e810a89082a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>oauth_env</value>
+      <webElementGuid>e646caed-19e9-4fdd-a885-2736ba871730</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>oauth_host</value>
+      <webElementGuid>4fd50e7b-69cc-4305-a15d-fe25ed61bff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Production
+Sandbox
+                </value>
+      <webElementGuid>adb15414-0dc2-4899-a9d5-ca94b37f1da9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;oauth_env&quot;)</value>
+      <webElementGuid>e61875a2-76c6-4338-9740-25e5b3cfe2a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='oauth_env']</value>
+      <webElementGuid>c6643e70-d166-4d81-b67e-b202f7a957a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='login_form']/div[2]/p/select</value>
+      <webElementGuid>48805613-ac4a-4e96-a39b-ff5b35bb05ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Environment:'])[1]/following::select[1]</value>
+      <webElementGuid>d6ec87b0-cc4b-4d6a-9d49-a948a82851d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OAuth'])[1]/following::select[1]</value>
+      <webElementGuid>0e0d2bb6-c4b5-4480-a384-71c8f85a66d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='API Version:'])[1]/preceding::select[1]</value>
+      <webElementGuid>8262ca8e-2c0f-47fa-b1b8-5712972b7bb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[1]/preceding::select[2]</value>
+      <webElementGuid>8c24ede1-ff5c-4868-99c4-8ddb4079babd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>2d5cdc73-77f9-4c25-a512-09d2722a6ea3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'oauth_env' and @name = 'oauth_host' and (text() = '
+                    Production
+Sandbox
+                ' or . = '
+                    Production
+Sandbox
+                ')]</value>
+      <webElementGuid>472b08a0-967c-47d0-a481-8e29efe52ee5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

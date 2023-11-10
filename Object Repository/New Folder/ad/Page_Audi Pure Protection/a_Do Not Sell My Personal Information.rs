@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Do Not Sell My Personal Information</name>
+   <tag></tag>
+   <elementGuidId>8274ef65-71b6-4333-881c-b12cf4aad708</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/footer/div/div/nav/ul/li[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>388f8ab5-5466-4326-acc6-3ba69d384656</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>ed92993c-e863-47a0-99da-620f90ddec22</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noopener noreferrer</value>
+      <webElementGuid>e92e2a94-2700-48f3-b9da-ce9d0adc0395</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-footer-meta-nav__link</value>
+      <webElementGuid>f5ee4f9e-a187-4796-97d7-4758c380d5f9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://privacyportal.volkswagengroupofamerica.com/donotsell</value>
+      <webElementGuid>146be081-8667-443f-9b36-fe9439c12e09</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Do Not Sell My Personal Information</value>
+      <webElementGuid>5c630ee1-9dcf-4de3-b0d5-dec99cf3e58f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/footer[@class=&quot;c-footer&quot;]/div[@class=&quot;c-footer__module  c-footer__module--meta-nav&quot;]/div[@class=&quot;o-page-wrap&quot;]/nav[@class=&quot;c-footer-meta-bar&quot;]/ul[@class=&quot;c-footer-meta-nav&quot;]/li[@class=&quot;c-footer-meta-nav__item&quot;]/a[@class=&quot;c-footer-meta-nav__link&quot;]</value>
+      <webElementGuid>9762fcb3-cf41-4c65-ad46-00cb52554658</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/footer/div/div/nav/ul/li[4]/a</value>
+      <webElementGuid>e48f78a5-890f-4590-8a46-f1e46d3135c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Do Not Sell My Personal Information')]</value>
+      <webElementGuid>f899e6cd-c10c-4dbb-8ff8-efd256a42fca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/following::a[1]</value>
+      <webElementGuid>9b5fe1ff-d5f1-417a-a350-4bab3106ae7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Terms'])[1]/following::a[2]</value>
+      <webElementGuid>92d49650-b70c-47bb-9818-61d6a19ab9bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Do Not Sell My Personal Information']/parent::*</value>
+      <webElementGuid>eeadef74-e85d-4238-80f9-4652af44e560</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://privacyportal.volkswagengroupofamerica.com/donotsell')]</value>
+      <webElementGuid>40988cf8-df76-4c9b-9128-ba86245b85b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/a</value>
+      <webElementGuid>02c88843-91e4-45ad-bf84-ae94ec9181bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://privacyportal.volkswagengroupofamerica.com/donotsell' and (text() = 'Do Not Sell My Personal Information' or . = 'Do Not Sell My Personal Information')]</value>
+      <webElementGuid>a47a0f37-21dc-4f5a-80ec-b97b136b42f6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

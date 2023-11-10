@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_What if my vehicle is still under warrant_d30b4f</name>
+   <tag></tag>
+   <elementGuidId>3dd06b39-ba34-4656-8a1e-8bf9289dd345</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-0']/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdb-accordion-indicator.rotate-icon.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>9566d0de-69c6-417a-9a5a-18837b8ad788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>8ad98909-db24-4ff2-8516-92ff5bed8466</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdb-accordion-indicator rotate-icon ng-star-inserted</value>
+      <webElementGuid>c57b545a-1a87-4bd3-bb27-7f2f4998038b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-0&quot;)/i[@class=&quot;mdb-accordion-indicator rotate-icon ng-star-inserted&quot;]</value>
+      <webElementGuid>8d5cc7fc-049b-4921-b128-5e4644337084</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-0']/i</value>
+      <webElementGuid>09418e1c-0a90-468d-ae24-39011dcd5477</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a/i</value>
+      <webElementGuid>a0c1bb5d-399f-4f46-985b-01be5e721c64</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

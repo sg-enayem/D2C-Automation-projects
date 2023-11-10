@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_I have read and agree to the terms an_dd875f</name>
+   <tag></tag>
+   <elementGuidId>f9ee2c92-c32e-4723-bf3a-f6ee1baa7fbf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/form/div/div/div[3]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form.ng-untouched.ng-pristine.ng-star-inserted.ng-valid.ng-submitted > div.row > div.review-item.col-12 > div.form-group.mt-2.pt-2 > label.form-check-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>cb0c08d1-0a1b-4bd0-9831-458c26a61a11</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>terms</value>
+      <webElementGuid>b5d0b8a3-175b-4e00-a013-33df374d4509</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label</value>
+      <webElementGuid>0189609d-db6d-4796-aaeb-4d2fb361c54d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I have read and agree to the terms and conditions.</value>
+      <webElementGuid>89526f21-f80a-4a23-96fb-5bbe2b181407</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c270-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-summary[1]/mdb-card[@class=&quot;shadow mb-4 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-star-inserted ng-valid ng-submitted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;review-item col-12&quot;]/div[@class=&quot;form-group mt-2 pt-2&quot;]/label[@class=&quot;form-check-label&quot;]</value>
+      <webElementGuid>e0a79634-2ce2-4f2a-af21-83c9d3ed6c7c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/form/div/div/div[3]/label</value>
+      <webElementGuid>79c92dd0-d4dd-4485-be5d-2437bb2ddbe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[2]/following::label[1]</value>
+      <webElementGuid>187d6403-bbbd-453b-be63-d183a447a156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You must read all terms and conditions to proceed.'])[1]/following::label[1]</value>
+      <webElementGuid>c28a2d9e-eee3-46cd-a73c-559a4a3c6d76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Now'])[1]/preceding::label[1]</value>
+      <webElementGuid>e5158ef3-934e-4680-b32d-c331c2b4647d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::label[1]</value>
+      <webElementGuid>043a4431-a6b2-499b-8ad0-a5c6277f3fbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I have read and agree to the terms and conditions.']/parent::*</value>
+      <webElementGuid>8b41fac6-0178-4aee-aac5-737b5d9380a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/label</value>
+      <webElementGuid>8240a229-fb90-4745-9a7f-f9f820eadf39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'I have read and agree to the terms and conditions.' or . = 'I have read and agree to the terms and conditions.')]</value>
+      <webElementGuid>d6250d6c-0180-411b-aa85-33c8186e1f97</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

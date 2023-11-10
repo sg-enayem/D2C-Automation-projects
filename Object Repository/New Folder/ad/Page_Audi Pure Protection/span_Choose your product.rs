@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Choose your product</name>
+   <tag></tag>
+   <elementGuidId>19195de8-a861-4305-bd74-99977c727116</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/nav/ol/li/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.c-wizard__link-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>39fc0175-6a5f-4b35-82a6-5453156e74d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-wizard__link-title</value>
+      <webElementGuid>4066f3c5-45a0-4d4c-9c2d-af10af09944b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Choose your product</value>
+      <webElementGuid>28809675-ca8a-4487-a585-9b2c02c02ea9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/nav[@class=&quot;c-wizard js-wizard&quot;]/ol[@class=&quot;c-wizard__list js-wizard__list  is-closed&quot;]/li[@class=&quot;c-wizard__item is-done&quot;]/div[@class=&quot;c-wizard__link&quot;]/span[@class=&quot;c-wizard__link-title&quot;]</value>
+      <webElementGuid>6a7c76a6-0a85-4e1b-bf2c-d4f0b1ab0448</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/nav/ol/li/div/span</value>
+      <webElementGuid>21f18800-58d5-494c-983a-657f9f0afbf2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current step: Mount the horse'])[1]/following::span[2]</value>
+      <webElementGuid>747fe289-53e5-4778-9bee-7936bef4a3d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audi Pure Protection'])[2]/following::span[3]</value>
+      <webElementGuid>0f9b60f6-2bfb-47d4-acc0-ac5d85b63276</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Personal Details'])[1]/preceding::span[1]</value>
+      <webElementGuid>437984d8-2a42-409d-9df9-f91221dbfbc1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Information'])[1]/preceding::span[2]</value>
+      <webElementGuid>a6bac42c-adce-46b2-a2bc-7f70c0cedbd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Choose your product']/parent::*</value>
+      <webElementGuid>68f30bcc-3098-4ea7-a36c-0741f7a062be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>446fc394-1d7b-4fba-841a-2893d95bfe43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Choose your product' or . = 'Choose your product')]</value>
+      <webElementGuid>908fdc2c-981f-40ca-bb10-30c344742c9a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Validate Address</name>
+   <tag></tag>
+   <elementGuidId>e0bc18ac-70d1-4a05-9a5a-18c002ba4032</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[3]/span[2]/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>84472115-a882-473c-96ec-e9d2d54e708d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-btn__text</value>
+      <webElementGuid>5a387e13-fff5-4aa1-9ccd-5e439c890067</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Validate Address</value>
+      <webElementGuid>93b7a124-cab5-448c-ae88-1cf24b5238cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/form[1]/div[@class=&quot;o-layout o-layout--center u-pt-xlarge&quot;]/div[@class=&quot;o-layout__item u-1/2 u-1/1@s&quot;]/div[@class=&quot;o-button-container&quot;]/span[@class=&quot;o-button-container__button&quot;]/button[@class=&quot;c-btn  c-btn--full&quot;]/span[@class=&quot;c-btn__text&quot;]</value>
+      <webElementGuid>aa513e9c-27d4-45e9-8443-ca86749b5c16</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[3]/span[2]/button/span</value>
+      <webElementGuid>4b754883-a820-44e6-854b-52a1a84c69c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/following::span[2]</value>
+      <webElementGuid>b8c5520c-5aee-4d74-a9e3-654a81e4f996</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::span[4]</value>
+      <webElementGuid>ee823ede-c0bd-46ab-a4d1-9b5e48943ae5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to top'])[1]/preceding::span[1]</value>
+      <webElementGuid>7d4a7ae0-dabe-4059-a3bc-c3217b52e252</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audi Emissions Modification Lookup'])[1]/preceding::span[2]</value>
+      <webElementGuid>09b382e6-a457-4f62-a8de-050c2f40d4e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Validate Address']/parent::*</value>
+      <webElementGuid>aa66b041-ecfb-446f-bc64-318bc41da97a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/button/span</value>
+      <webElementGuid>93cc2d41-6fce-4eb7-99b2-68ce1523ac06</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Validate Address' or . = 'Validate Address')]</value>
+      <webElementGuid>96f71b19-6eef-485b-8b81-d1c027d59644</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

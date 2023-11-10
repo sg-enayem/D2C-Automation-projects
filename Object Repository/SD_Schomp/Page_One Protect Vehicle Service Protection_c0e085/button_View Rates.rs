@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_View Rates</name>
+   <tag></tag>
+   <elementGuidId>f9ef22ac-341b-42e1-9dc8-1578d5979972</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.modal-component-see-pricing-btn.btn.primary-btn.flat.waves-light</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>78e340ef-a85f-4c96-9b8b-e32e9e60d6b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>a34fe1a6-10ab-497f-a45b-36beb9122808</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-component-see-pricing-btn btn primary-btn flat waves-light</value>
+      <webElementGuid>a09bcf95-2275-486d-ac3c-090bb59941de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> View Rates </value>
+      <webElementGuid>9b450916-3d35-4e66-a3ff-118ed6661a4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c170-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;schomp-non-electric&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-content-block[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-wrap schomp-main-hero&quot;]/section[1]/div[@class=&quot;row d-flex align-items-stretch&quot;]/div[@class=&quot;col-md col-12 content-feature ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;cb-text mobile-margin&quot;]/app-service-drive[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;mt-5&quot;]/button[@class=&quot;modal-component-see-pricing-btn btn primary-btn flat waves-light&quot;]</value>
+      <webElementGuid>1c8e08c2-6170-463a-8407-c46fc557b33a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>8d0a28f9-10fb-4316-9531-c18e230b86d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div/div/app-service-drive/div/div[3]/div/button</value>
+      <webElementGuid>f4e9095f-f0bb-4f71-897b-94fffbaea24d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Vehicle inspection document will be required at checkout for vehicles out of warranty.'])[1]/following::button[1]</value>
+      <webElementGuid>00a1886a-7709-4cf3-b1b7-ed7f585570e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/following::button[1]</value>
+      <webElementGuid>e4f643d3-c204-47bb-92ae-690413e6e225</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Vehicle'])[1]/preceding::button[1]</value>
+      <webElementGuid>add9d824-4272-48de-836b-b06292496183</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE SALT LAKE CITY'])[2]/preceding::button[1]</value>
+      <webElementGuid>9fed220a-72c1-48b6-9a7a-25e118b4455d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Rates']/parent::*</value>
+      <webElementGuid>ff4fe6ab-4093-477d-a6f7-3620ddbb9f11</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>633e4c3d-9e80-480d-8efa-d53dab559ab7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = ' View Rates ' or . = ' View Rates ')]</value>
+      <webElementGuid>f7e84bf1-bb53-4776-b73b-f9be240d3363</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_One-time</name>
+   <tag></tag>
+   <elementGuidId>0a5da6cb-429e-4dcc-99b2-e6af66e6a294</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[2]/div/div/div/div/div[4]/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.u-mt > div.c-button-group.c-button-group--auto > label.c-button-group__item > span.c-button-group__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>52e829ab-fcf4-466b-86ee-662f88b7ac43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-button-group__label</value>
+      <webElementGuid>d8a401ac-7d39-43c6-9156-918bf6a73c84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>One-time</value>
+      <webElementGuid>7e6eb231-79a2-4bad-a353-c59618e97cee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;o-layout&quot;]/div[@class=&quot;o-layout__item u-1/2 u-1/1@l&quot;]/div[@class=&quot;u-mt&quot;]/div[@class=&quot;c-button-group  c-button-group--auto&quot;]/label[@class=&quot;c-button-group__item&quot;]/span[@class=&quot;c-button-group__label&quot;]</value>
+      <webElementGuid>fead5a7e-22ff-4748-95f9-1311f4373bdc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/div/div/div[4]/div/label/span</value>
+      <webElementGuid>656266ff-6568-4847-8b6f-d04a41c3e47d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$250'])[1]/following::span[3]</value>
+      <webElementGuid>de679992-4cce-448b-9517-f6ff31424f2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$100'])[1]/following::span[4]</value>
+      <webElementGuid>53ed3645-ba10-48ec-a19a-167a5d2b7476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Installments'])[1]/preceding::span[1]</value>
+      <webElementGuid>d75d07c4-2f21-48a6-a271-1288aadf8698</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Vehicle Service Protection summary.'])[1]/preceding::span[2]</value>
+      <webElementGuid>1389918f-6fd5-41a2-a15d-7640a0a48c21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='One-time']/parent::*</value>
+      <webElementGuid>ee083447-13f5-40a3-ab3d-75eb0118fdae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/label/span</value>
+      <webElementGuid>e7de854d-d4d2-4019-8e88-7af0449f2fad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'One-time' or . = 'One-time')]</value>
+      <webElementGuid>9ef8b9ad-5e56-4934-8cb5-c512c7c9061f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

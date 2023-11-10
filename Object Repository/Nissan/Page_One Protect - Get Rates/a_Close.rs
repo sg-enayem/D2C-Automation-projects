@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Close</name>
+   <tag></tag>
+   <elementGuidId>8609327f-9200-41ce-ba91-c48d08611f64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.click-text.ng-tns-c46-13</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[2]/div/app-coverage-select/div/div/div/div/form/div/div/div[2]/div/div/div[3]/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>09a41e85-be7b-4645-8dc0-2406f148f84a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>click-text ng-tns-c46-13</value>
+      <webElementGuid>e8801a4b-73bf-4815-b098-1729f13f01fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Close</value>
+      <webElementGuid>17c7f3fc-df13-4e55-8c7e-46540eed2412</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c157-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-product-tabset[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-coverage-select[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;customize-container pt-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 offset-md-2 col-md-8 offset-lg-2 col-lg-8 pt-4&quot;]/div[1]/form[@class=&quot;ng-untouched ng-pristine ng-valid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 coverage-section&quot;]/div[@class=&quot;commercial-use-section ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;switch success-switch pl-2 pr-2&quot;]/div[@class=&quot;row whats_this_panel&quot;]/div[@class=&quot;ng-tns-c46-13 ng-trigger ng-trigger-expandBody ng-star-inserted&quot;]/a[@class=&quot;click-text ng-tns-c46-13&quot;]</value>
+      <webElementGuid>7bceb333-c652-4f83-9ffb-76bb76092579</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[2]/div/app-coverage-select/div/div/div/div/form/div/div/div[2]/div/div/div[3]/div/a</value>
+      <webElementGuid>e8d3fa2e-33a4-450c-8eb8-82ddbd67f97d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Close')])[7]</value>
+      <webElementGuid>11b3b1ab-3ca7-46ad-b9ab-4d3877c246af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('What', &quot;'&quot;, 's this?')])[7]/following::a[1]</value>
+      <webElementGuid>5df39e0c-e8d5-439b-880f-3feb7bfed76d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Payment Options'])[2]/preceding::a[1]</value>
+      <webElementGuid>a6c514a9-1619-4a2f-a6c3-f91567901807</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Platinum Coverage Overview'])[1]/preceding::a[1]</value>
+      <webElementGuid>bc02fae1-4f33-4b98-ab77-e66231e0e723</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[3]/div/a</value>
+      <webElementGuid>e6043595-a096-4216-a7ac-ef02ed737a7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>c0287d3f-c091-4bd6-b848-b69c571adb4f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

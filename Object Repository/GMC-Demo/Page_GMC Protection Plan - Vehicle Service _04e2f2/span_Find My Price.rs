@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Find My Price</name>
+   <tag></tag>
+   <elementGuidId>03a1be8f-02ca-41d2-83cd-c452338fb55f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='modal-component-see-pricing-btn-0']/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modal-component-see-pricing-btn-0 > span.ng-star-inserted > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>486ca10e-082e-4e7e-845e-6344ba3214cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>62f586d5-3fc9-4b48-a8d9-0ac17e75f5ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find My Price</value>
+      <webElementGuid>8f41bd49-77a8-44bf-9a06-ba18f7add52e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-component-see-pricing-btn-0&quot;)/span[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>b06d5ddc-9839-4089-a243-c4dde8e783fd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='modal-component-see-pricing-btn-0']/span/span</value>
+      <webElementGuid>ecbd4ed1-bb9f-4134-a2ae-ada8927508a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State of Vehicle Registration'])[1]/following::span[2]</value>
+      <webElementGuid>839e2f89-6825-49ef-8a91-483a9343006e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Mileage'])[1]/following::span[2]</value>
+      <webElementGuid>2fd3b768-6033-43ec-b72a-5ff458c01505</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Protection Endorsed By GMC'])[1]/preceding::span[1]</value>
+      <webElementGuid>87e2f6a9-6d3c-4385-baba-3b5f422a42c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GMC Protection Plan'])[1]/preceding::span[1]</value>
+      <webElementGuid>94671150-f997-4b1a-a1d9-142c9cf0ba05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find My Price']/parent::*</value>
+      <webElementGuid>a5c68096-48a9-47d3-bd6c-39b86a07ecb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span/span</value>
+      <webElementGuid>8b4ef9f1-5b9f-42d4-8296-40eddb3e585f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Find My Price' or . = 'Find My Price')]</value>
+      <webElementGuid>5113b4f3-d023-4dac-9526-9fc42ba4526b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

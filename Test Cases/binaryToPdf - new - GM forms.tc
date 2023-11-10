@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>binaryToPdf - new - GM forms</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a6b3387e-eb6a-4b5a-9203-9112a7c0d02d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1a1a6912-1302-4ff2-9b76-c9f7e2561456</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>227691c1-515c-48b7-aa82-fe4f0694fde9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>998d4e69-ad95-4194-97f3-a39094775198</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>0161ae63-8ad4-4e7c-960d-bd7da0c77d85</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>daf079a4-d76d-41b4-813e-db3edfe15aa9</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'(833)951-0123'</defaultValue>
+      <description></description>
+      <id>1a1a6912-1302-4ff2-9b76-c9f7e2561456</id>
+      <masked>false</masked>
+      <name>actual_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>' (833) 955-0045'</defaultValue>
+      <description></description>
+      <id>227691c1-515c-48b7-aa82-fe4f0694fde9</id>
+      <masked>false</masked>
+      <name>Buick_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>' (833) 955-0047'</defaultValue>
+      <description></description>
+      <id>998d4e69-ad95-4194-97f3-a39094775198</id>
+      <masked>false</masked>
+      <name>GMC_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>' (833) 955-0046'</defaultValue>
+      <description></description>
+      <id>0161ae63-8ad4-4e7c-960d-bd7da0c77d85</id>
+      <masked>false</masked>
+      <name>Cadillac_phoneNumber</name>
+   </variable>
+   <variable>
+      <defaultValue>' (833) 955-0044'</defaultValue>
+      <description></description>
+      <id>daf079a4-d76d-41b4-813e-db3edfe15aa9</id>
+      <masked>false</masked>
+      <name>Chevy_phoneNumber</name>
+   </variable>
+</TestCaseEntity>

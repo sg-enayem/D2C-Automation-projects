@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mdb-card-body_1 Contact InfoAll fields are _3c3fd2</name>
+   <tag></tag>
+   <elementGuidId>f693d89e-210c-4487-8247-cab00bf8e1b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-contact-information/mdb-card/mdb-card-body</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>mdb-card-body.card-body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>mdb-card-body</value>
+      <webElementGuid>51dab7aa-74ba-4ee9-8d86-835f6f6385f7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body</value>
+      <webElementGuid>c135e4ed-e9d2-4a94-a05c-c69240ff886b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1 Contact InfoAll fields are required unless specified otherwise.First NameLast NameEmail AddressConfirm Your Email*Confirm email does not matchPhone Number Where is your vehicle registered?Street Address *Continue to Billing </value>
+      <webElementGuid>6c0813f3-940b-47f9-890b-14083b6310cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c269-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-contact-information[@class=&quot;ng-tns-c293-24 ng-star-inserted&quot;]/mdb-card[@class=&quot;shadow mb-4 ng-tns-c293-24 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]</value>
+      <webElementGuid>808b4bc1-8b03-4bec-90da-29228351552f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-contact-information/mdb-card/mdb-card-body</value>
+      <webElementGuid>2efefdb3-6da5-4b44-af0c-f17cf9aee3d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go back to cart'])[1]/following::mdb-card-body[1]</value>
+      <webElementGuid>144c99c4-45f5-4eb7-a45f-96c31c0d2df9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Review'])[1]/following::mdb-card-body[1]</value>
+      <webElementGuid>8bc73f27-9977-4cfa-ae1c-a83e2cfb7edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdb-card-body</value>
+      <webElementGuid>9e347694-7816-40b1-8d12-9c52c19cb24f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//mdb-card-body[(text() = '1 Contact InfoAll fields are required unless specified otherwise.First NameLast NameEmail AddressConfirm Your Email*Confirm email does not matchPhone Number Where is your vehicle registered?Street Address *Continue to Billing ' or . = '1 Contact InfoAll fields are required unless specified otherwise.First NameLast NameEmail AddressConfirm Your Email*Confirm email does not matchPhone Number Where is your vehicle registered?Street Address *Continue to Billing ')]</value>
+      <webElementGuid>6980dc9f-782b-4e8f-bcc9-9bc2efd40cec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

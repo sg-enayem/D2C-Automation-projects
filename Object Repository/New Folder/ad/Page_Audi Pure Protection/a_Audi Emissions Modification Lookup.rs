@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Audi Emissions Modification Lookup</name>
+   <tag></tag>
+   <elementGuidId>9e721fc0-cf51-4f54-af9e-7f4746c18157</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/footer/div/div/nav/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.c-footer-meta-nav__link</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>765a0e04-ef0b-46c5-b026-bea04fb92488</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>b919cf5c-ba47-41a0-bf20-b83f6829ac53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noopener noreferrer</value>
+      <webElementGuid>8dd59f99-34fe-4530-9994-af8275a95f6a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-footer-meta-nav__link</value>
+      <webElementGuid>86b9f287-44d5-488d-a346-a99073a4a45b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://audidiesellookup.com</value>
+      <webElementGuid>adc73a2b-f220-4464-acdf-af7c85b7037f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Audi Emissions Modification Lookup</value>
+      <webElementGuid>49cd4ca3-fffd-4d2e-a0fb-7911b14dc7aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/footer[@class=&quot;c-footer&quot;]/div[@class=&quot;c-footer__module  c-footer__module--meta-nav&quot;]/div[@class=&quot;o-page-wrap&quot;]/nav[@class=&quot;c-footer-meta-bar&quot;]/ul[@class=&quot;c-footer-meta-nav&quot;]/li[@class=&quot;c-footer-meta-nav__item&quot;]/a[@class=&quot;c-footer-meta-nav__link&quot;]</value>
+      <webElementGuid>9120344f-8810-4de9-8e5a-e10f52bc3af9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/footer/div/div/nav/ul/li/a</value>
+      <webElementGuid>12548047-047a-46c5-a01c-b3dd402e622d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Audi Emissions Modification Lookup')]</value>
+      <webElementGuid>b307e49a-3c92-4d53-9252-ccf8ddb43e48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to top'])[1]/following::a[1]</value>
+      <webElementGuid>5a848e0a-c5dc-4fe2-af0c-4ffa76d11516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Your Quote'])[1]/following::a[1]</value>
+      <webElementGuid>2f99b09b-db7a-4334-85df-e709d28ff44a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Terms'])[1]/preceding::a[1]</value>
+      <webElementGuid>c76dc557-cad8-4975-b041-c64e10e392a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/preceding::a[2]</value>
+      <webElementGuid>e30a781e-7b71-4103-82e6-ada6c544fb5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Audi Emissions Modification Lookup']/parent::*</value>
+      <webElementGuid>614a4b77-6066-4157-a123-14309e24e6cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://audidiesellookup.com')]</value>
+      <webElementGuid>25b1138b-3343-4190-8039-234e3a26e78a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/a</value>
+      <webElementGuid>cc411b5c-ad81-44f1-a06d-0829d3ee8a6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://audidiesellookup.com' and (text() = 'Audi Emissions Modification Lookup' or . = 'Audi Emissions Modification Lookup')]</value>
+      <webElementGuid>ce46204e-5409-43d5-832d-0528b9e98624</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

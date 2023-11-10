@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_View Payment Options</name>
+   <tag></tag>
+   <elementGuidId>89ed4592-3f4e-4f7f-828f-d73a82feb4a2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='add-to-cart-button']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#add-to-cart-button > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>773028ef-4ab4-4eb6-ae6e-46eed29dafe8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> View Payment Options </value>
+      <webElementGuid>30ff2366-a520-4dfb-b932-e6200f210103</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;add-to-cart-button&quot;)/span[1]</value>
+      <webElementGuid>7e673bd4-fd6b-43f3-af53-e1cb23f34a35</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='add-to-cart-button']/span</value>
+      <webElementGuid>25550b08-78c3-4791-aa6d-561b63fc9746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose Your Term Length**'])[1]/following::span[1]</value>
+      <webElementGuid>705b0245-1e25-4c20-9fcf-3afe5d8d1eb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Payment Options'])[1]/following::span[1]</value>
+      <webElementGuid>c84c45b4-5405-4a07-b215-4427351ab297</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gold Coverage Overview'])[1]/preceding::span[1]</value>
+      <webElementGuid>39c5349d-da95-4d79-a7d5-7d4217725968</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Agreement &amp; Exclusions'])[1]/preceding::span[1]</value>
+      <webElementGuid>8d524390-ff19-46d8-8956-fd372c820ab3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/button/span</value>
+      <webElementGuid>5821ee96-1bd4-4147-873f-e133592f3803</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' View Payment Options ' or . = ' View Payment Options ')]</value>
+      <webElementGuid>541ada9e-712e-4426-b1f6-04b77bb63d52</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

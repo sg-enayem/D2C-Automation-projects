@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_No  Yes</name>
+   <tag></tag>
+   <elementGuidId>8648a5fa-5e2b-49a0-98f5-f9004f638806</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[2]/div/app-coverage-select/div/div/div/div/form/div/div/div[2]/div[3]/div/div[2]/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>7c4fc6ff-3ad2-4a32-a506-2dbe237500f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> No  Yes </value>
+      <webElementGuid>fb9881db-c9c8-40e7-8680-9c5ecbb09392</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c159-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-product-tabset[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-coverage-select[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;customize-container pt-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 offset-md-2 col-md-8 offset-lg-2 col-lg-8 pt-4&quot;]/div[1]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 coverage-section&quot;]/div[@class=&quot;commercial-use-section ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;switch success-switch pl-2 pt-2 pr-2 pb-3&quot;]/div[@class=&quot;row&quot;]/label[1]</value>
+      <webElementGuid>2b76500e-fc1b-4636-92b7-eadb961eff67</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[2]/div/app-coverage-select/div/div/div/div/form/div/div/div[2]/div[3]/div/div[2]/label</value>
+      <webElementGuid>abe3f97d-4502-4549-a428-1147af45c3d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('What', &quot;'&quot;, 's this?')])[3]/following::label[1]</value>
+      <webElementGuid>feb66c69-9749-4677-a824-f36925e4b3c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::label[1]</value>
+      <webElementGuid>ba2b2a1b-94c3-468d-b5d7-4bad04f96459</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Payment Options'])[2]/preceding::label[1]</value>
+      <webElementGuid>ab613f4e-46c8-4962-8f37-1a41d8b4db3d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/label</value>
+      <webElementGuid>f49815a7-d550-4a35-aaca-661b95c10e6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' No  Yes ' or . = ' No  Yes ')]</value>
+      <webElementGuid>623ada65-9e68-48a9-92e2-421f7040d1c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

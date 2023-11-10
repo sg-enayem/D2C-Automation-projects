@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Choose your coverage level_c-icon  c-icon_f68380</name>
+   <tag></tag>
+   <elementGuidId>080db501-2c1f-493e-a4a7-10df8928567d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section/div/div/div/div/div/label/span/span/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8f46a3b0-f5ea-4c0a-bc4a-8fff96d0edfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-icon  c-icon--[award-winner-premium]  c-icon--xlarge </value>
+      <webElementGuid>7ada42c2-b627-40c5-a2db-e1c55ef4965c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;o-layout  o-layout--equal-height&quot;]/div[@class=&quot;o-layout__item u-1/3&quot;]/div[@class=&quot;c-tile-select&quot;]/label[@class=&quot;c-tile-select__label&quot;]/span[@class=&quot;c-tile-select__body&quot;]/span[@class=&quot;c-tile-select__body-top&quot;]/i[@class=&quot;c-icon  c-icon--[award-winner-premium]  c-icon--xlarge&quot;]</value>
+      <webElementGuid>5bdada33-7583-4e36-b0fa-e265b8252397</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section/div/div/div/div/div/label/span/span/i</value>
+      <webElementGuid>cc2ea483-84e6-4fd1-b01c-2a72145b6822</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span/i</value>
+      <webElementGuid>b559326f-420a-456f-b7eb-dd858e2d649b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

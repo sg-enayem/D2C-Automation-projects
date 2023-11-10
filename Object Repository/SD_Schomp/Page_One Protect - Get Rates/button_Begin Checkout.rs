@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Begin Checkout</name>
+   <tag></tag>
+   <elementGuidId>f6a1daee-1f1e-4e56-8843-4ce4a7ce25e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.modal-component-see-pricing-btn.btn.primary-btn.flat.waves-light.uppercase</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e590d0d6-11b9-4aef-bf06-48424978b303</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>89ec1734-1ea8-47db-a337-154d28761d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-component-see-pricing-btn btn primary-btn flat waves-light uppercase</value>
+      <webElementGuid>7f5fa14c-65a7-4b53-9e2e-ba2387364f5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Begin Checkout </value>
+      <webElementGuid>05d45d24-a041-40f6-9a57-cfac4f5bf0b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c170-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-documents[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container documents&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;row w-100&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;mt-5 text-center&quot;]/button[@class=&quot;modal-component-see-pricing-btn btn primary-btn flat waves-light uppercase&quot;]</value>
+      <webElementGuid>f421f2d4-7dcf-416c-be38-062b6750a1f7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>00021c01-86ae-4a2a-8a55-86f66d07b818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-documents/div/div/div[3]/div/div/button</value>
+      <webElementGuid>37a17bfb-3ffb-4e21-94df-f4696a251d56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload'])[1]/following::button[1]</value>
+      <webElementGuid>ab9cdad8-02d9-4c93-ac60-aa24401ef05a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WAUGMAF43LN700381-4717-MicrosoftTeams-image.png'])[1]/following::button[2]</value>
+      <webElementGuid>3c5eee9e-9003-41b1-86ee-0280701fc124</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go Back to Cart'])[1]/preceding::button[1]</value>
+      <webElementGuid>2204f889-8bf7-4741-afcd-d585e71f4883</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PORSCHE SALT LAKE CITY'])[2]/preceding::button[1]</value>
+      <webElementGuid>6fed96a6-1c15-4c97-856a-bd7cbe971821</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Begin Checkout']/parent::*</value>
+      <webElementGuid>1b2eabd1-e8fe-475a-97e7-bd73b8056f38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div/button</value>
+      <webElementGuid>63b63c95-e80d-469b-9ebd-8e3fcfc7fb82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' Begin Checkout ' or . = ' Begin Checkout ')]</value>
+      <webElementGuid>cca196d6-f333-4474-8817-1b6947030902</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

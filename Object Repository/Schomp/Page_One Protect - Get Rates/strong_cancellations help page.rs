@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_cancellations help page</name>
+   <tag></tag>
+   <elementGuidId>fc2081c3-4063-4a32-9c39-24c2a0c1df41</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#faq-button-4 > strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-4']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>41a6f1c5-478d-4379-9096-3e1e16bfe583</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>cancellations help page</value>
+      <webElementGuid>1a194f77-d464-492e-875d-ca6de5c3c903</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-4&quot;)/strong[1]</value>
+      <webElementGuid>920c5b61-d17f-4bcb-92e9-c1fd36010933</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-4']/strong</value>
+      <webElementGuid>e2c8f2ef-00c7-489d-a36d-558a9952dc49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='claims help page'])[1]/following::strong[1]</value>
+      <webElementGuid>6399f4e2-a03e-4199-ac9c-63219421bebc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='cancellations help page']/parent::*</value>
+      <webElementGuid>5f7aafc0-3e4e-430f-a2e0-e9b8c2606dd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdb-accordion-item[3]/div/mdb-accordion-item-body/div/div/div/p/a/strong</value>
+      <webElementGuid>6917c481-2c7d-49d3-811c-9cb59f00f19e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'cancellations help page' or . = 'cancellations help page')]</value>
+      <webElementGuid>ddc49adb-63c6-414b-a63b-d329b4fb6abb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

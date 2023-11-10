@@ -1,0 +1,56 @@
+{
+  "keywordFileContentHash": "5BCC1824B4BB207E3E287D9F316B392D",
+  "keywordClasses": [
+    {
+      "name": "cartUtils.cartUtils_surcharge",
+      "keywordMethods": [
+        {
+          "name": "addSurcharge",
+          "parameters": [
+            {
+              "name": "portal",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "commercialUse",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "liftKit",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": "/**\r\n\t * Adds surcharge to the cart subtotal based on portal and commercial use/lift kit options.\r\n\t * \r\n\t * @param portal the portal name (case insensitive)\r\n\t * @param commercialUse \u0027yes\u0027 or \u0027no\u0027 for commercial use option\r\n\t * @param liftKit \u0027yes\u0027 or \u0027no\u0027 for lift kit option\r\n\t * @return true if surcharge is added successfully, false otherwise\r\n\t */"
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

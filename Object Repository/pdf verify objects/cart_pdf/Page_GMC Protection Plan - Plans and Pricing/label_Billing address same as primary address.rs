@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Billing address same as primary address</name>
+   <tag></tag>
+   <elementGuidId>e7cc02a8-5f9c-4c17-bd69-5330b59ca456</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-billing-information/mdb-card/mdb-card-body/form/div[5]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-check-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>74f9f935-d1ef-4316-a02c-ad6443da080f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>billingToggle</value>
+      <webElementGuid>173aee0c-3460-435b-ba38-bbcb57eb9439</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label</value>
+      <webElementGuid>cd1a09a3-ad6a-432e-9095-1a420c3d53c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Billing address same as primary address </value>
+      <webElementGuid>4818c9f0-efee-48ba-a7e9-fcd17ad53693</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c164-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-billing-information[1]/mdb-card[@class=&quot;shadow mb-4 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/form[@class=&quot;text-center ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;form-group mb-3 text-left&quot;]/label[@class=&quot;form-check-label&quot;]</value>
+      <webElementGuid>c171e22e-1b3b-47d4-90ef-ce6910c6ac5a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-billing-information/mdb-card/mdb-card-body/form/div[5]/label</value>
+      <webElementGuid>81ceeeb5-f865-4ae2-82bf-eead4773dc36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='We accept (Visa, etc.)'])[1]/following::label[1]</value>
+      <webElementGuid>12521375-ff63-4cbb-a717-755336c272ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CVC'])[1]/following::label[1]</value>
+      <webElementGuid>4520745b-9140-493f-b9f6-4179ecd04865</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Street Address'])[1]/preceding::label[1]</value>
+      <webElementGuid>ba645bd1-5d20-48c3-9fad-d12e1bd160f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Apt/Suite'])[1]/preceding::label[2]</value>
+      <webElementGuid>7e7a45fd-e4a8-4a3f-b69b-62f79caf0ec2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Billing address same as primary address']/parent::*</value>
+      <webElementGuid>852b37dd-76cc-4d6b-a1e6-41741e7efcba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/label</value>
+      <webElementGuid>722e0a02-d35d-459d-b357-d3657ec2d244</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Billing address same as primary address ' or . = 'Billing address same as primary address ')]</value>
+      <webElementGuid>02c2c26a-204f-4ac1-85a6-7d9e50f2bbea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

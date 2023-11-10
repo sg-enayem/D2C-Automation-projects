@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_address</name>
+   <tag></tag>
+   <elementGuidId>844452bb-f2f2-40a9-abfe-93435836fd7b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@class=&quot;c-radio__label&quot;]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.c-radio__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d199faf5-77c5-44ad-8cc6-c0bbdb8f4560</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-radio__label</value>
+      <webElementGuid>e740884c-50e4-4f90-84a6-2efdc0a40f69</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1364 Boone Avenue Ext , Kingsland, GA, 31548, US</value>
+      <webElementGuid>81fdb91a-16e7-4037-9de5-7e495f5ae070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/form[1]/div[@class=&quot;o-layout o-layout--center u-pt-xlarge&quot;]/div[@class=&quot;o-layout__item u-1/2 u-1/1@s&quot;]/div[@class=&quot;c-modal&quot;]/div[@class=&quot;c-modal__wrapper&quot;]/div[@class=&quot;c-modal__content&quot;]/ol[1]/label[@class=&quot;c-radio u-mt&quot;]/span[@class=&quot;c-radio__label&quot;]</value>
+      <webElementGuid>fba1d755-9b25-435b-b6a6-dd7f11df1970</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[2]/div[2]/div[2]/ol/label/span</value>
+      <webElementGuid>89069630-c66f-4640-ae05-809fe852325c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify your address'])[1]/following::span[1]</value>
+      <webElementGuid>cdebaa41-3bff-47d7-9e07-79d422838f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::span[1]</value>
+      <webElementGuid>f5058c7c-3e0d-4918-b582-2d65e594c2f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::span[1]</value>
+      <webElementGuid>9a3fbcdd-a12c-441b-9437-c4b9cd200ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[3]</value>
+      <webElementGuid>fcaec8eb-c512-46dc-abff-73b0afe54450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='1364 Boone Avenue Ext , Kingsland, GA, 31548, US']/parent::*</value>
+      <webElementGuid>e4a14759-0357-4356-82b3-9ee5158bd110</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/label/span</value>
+      <webElementGuid>f24ac8ce-3546-4fab-8ffc-951643bf4c3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '1364 Boone Avenue Ext , Kingsland, GA, 31548, US' or . = '1364 Boone Avenue Ext , Kingsland, GA, 31548, US')]</value>
+      <webElementGuid>b5881ac4-ab77-45db-9c0f-61188ca9f9b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

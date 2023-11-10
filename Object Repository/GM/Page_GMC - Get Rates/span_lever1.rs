@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_lever1</name>
+   <tag></tag>
+   <elementGuidId>40b06947-fdb7-4b5d-b646-7a08d2ed3cb8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>(//span)[25]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[1]/app-root[1]/main[1]/div[1]/app-shopping-cart[1]/div[1]/div[2]/mdb-card[1]/mdb-card-body[1]/mdb-card-text[1]/p[1]/div[1]/div[1]/section[1]/form[1]/app-add-ons[1]/section[1]/div[2]/div[1]/div[2]/label[1]/span[1]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

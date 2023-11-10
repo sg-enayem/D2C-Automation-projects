@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Privacy Terms</name>
+   <tag></tag>
+   <elementGuidId>9ddc82ce-eeab-4073-9662-691cf54486b2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/footer/div/div/nav/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4a3f8faf-a6ab-4d99-b533-15899bf0df18</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>bd97e3f6-054f-489c-9fe3-3624b8154c5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-footer-meta-nav__link</value>
+      <webElementGuid>3da3901a-5a81-4e58-9bbf-25c871fc8c60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/privacyTerms</value>
+      <webElementGuid>74c9eafd-9d84-43c6-a941-a593d9819a53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Privacy Terms</value>
+      <webElementGuid>9041bf29-3295-40bc-a2f9-128257ceb522</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/footer[@class=&quot;c-footer&quot;]/div[@class=&quot;c-footer__module  c-footer__module--meta-nav&quot;]/div[@class=&quot;o-page-wrap&quot;]/nav[@class=&quot;c-footer-meta-bar&quot;]/ul[@class=&quot;c-footer-meta-nav&quot;]/li[@class=&quot;c-footer-meta-nav__item&quot;]/a[@class=&quot;c-footer-meta-nav__link&quot;]</value>
+      <webElementGuid>6b40cfca-2ebb-4ab4-b6fe-f7a3cf4bcfdd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/footer/div/div/nav/ul/li[2]/a</value>
+      <webElementGuid>516d87e7-082f-4a56-85a8-14c7b219fafe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Privacy Terms')]</value>
+      <webElementGuid>7b6b4cb3-f2fe-4ac8-9d8e-0aebe447a99e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Audi Emissions Modification Lookup'])[1]/following::a[1]</value>
+      <webElementGuid>c8db6c0e-1a0f-4c23-bda2-0c40eee45234</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to top'])[1]/following::a[2]</value>
+      <webElementGuid>067674bd-d73a-4c41-8e0a-e3e80daf96d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms of Service'])[1]/preceding::a[1]</value>
+      <webElementGuid>e4dada47-057b-47a3-912d-c91d9adc3c0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Do Not Sell My Personal Information'])[1]/preceding::a[2]</value>
+      <webElementGuid>dfd9577d-73a5-415e-a781-5a7f648eec4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Privacy Terms']/parent::*</value>
+      <webElementGuid>144b0b96-efc3-4ce6-aa2b-5db21cf1f363</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/privacyTerms')]</value>
+      <webElementGuid>2a254f35-2daa-46f0-9d13-9c8f94b348be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>305d7b31-69c6-4620-bc92-dc02d6492d76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/privacyTerms' and (text() = 'Privacy Terms' or . = 'Privacy Terms')]</value>
+      <webElementGuid>0aad5939-07e7-4863-a2cc-3ab136e64491</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

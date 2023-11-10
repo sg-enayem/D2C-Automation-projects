@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "750029ACA054980A36EC63304E97AC17",
+  "keywordClasses": [
+    {
+      "name": "utility.DatabaseConnection",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

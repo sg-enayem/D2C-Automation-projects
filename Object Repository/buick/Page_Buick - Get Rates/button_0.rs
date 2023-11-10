@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_0</name>
+   <tag></tag>
+   <elementGuidId>77f2fdcd-0904-4452-bd5b-1a69cba86727</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#plan-tab-id-2 > div.col-12.mt-4.mb-4.ng-star-inserted > span.pt-2.deductible-line > div > button.btn.primary-btn.deductible-btn.ng-star-inserted</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='plan-tab-id-2']/div[2]/span/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>013f0eaa-31dc-489a-8cc9-bdc5fe9b2c98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn primary-btn deductible-btn ng-star-inserted</value>
+      <webElementGuid>0ddfe708-332a-432f-b006-eaba2754cfd4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$0</value>
+      <webElementGuid>4d854fd6-b865-4812-8ef8-1040b3e953d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;plan-tab-id-2&quot;)/div[@class=&quot;col-12 mt-4 mb-4 ng-star-inserted&quot;]/span[@class=&quot;pt-2 deductible-line&quot;]/div[1]/button[@class=&quot;btn primary-btn deductible-btn ng-star-inserted&quot;]</value>
+      <webElementGuid>18e5ba11-5655-448b-aec8-3b8368881ae1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='plan-tab-id-2']/div[2]/span/div/button</value>
+      <webElementGuid>b30113f3-a395-4695-a345-30297930f731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[3]/following::button[1]</value>
+      <webElementGuid>1e1f8f3a-f615-4193-86ce-ca977474deec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$100'])[3]/preceding::button[1]</value>
+      <webElementGuid>f9507be7-4275-4736-ad3e-dee9b0bf4ffb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$250'])[3]/preceding::button[2]</value>
+      <webElementGuid>2cc858ba-ade5-42dc-aa4f-66395e09929f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/span/div/button</value>
+      <webElementGuid>a0c0ece3-32a0-433b-b7a8-759cee65cbb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '$0' or . = '$0')]</value>
+      <webElementGuid>5ee21aee-7147-44e1-9269-3f021a60a235</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

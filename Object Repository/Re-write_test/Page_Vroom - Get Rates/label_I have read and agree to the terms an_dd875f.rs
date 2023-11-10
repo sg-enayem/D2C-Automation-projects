@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_I have read and agree to the terms an_dd875f</name>
+   <tag></tag>
+   <elementGuidId>04f52ea8-a734-4140-abb4-43ca46165778</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/form/div/div/div[3]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-check-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>13c5441a-9529-4d9a-b704-e017166972a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>terms</value>
+      <webElementGuid>2af7f6e5-d528-46d0-b364-8456beff3ad5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label</value>
+      <webElementGuid>1e7beca0-6edc-4c75-bc77-4aa7acc8f330</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I have read and agree to the terms and conditions.</value>
+      <webElementGuid>5ea4414a-d69c-46e8-b1e1-2c490215aab6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c269-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-summary[1]/mdb-card[@class=&quot;shadow mb-4 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-star-inserted ng-valid ng-submitted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;review-item col-12&quot;]/div[@class=&quot;form-group mt-2 pt-2&quot;]/label[@class=&quot;form-check-label&quot;]</value>
+      <webElementGuid>80b431cd-cf44-40cd-b759-5def90ef8f08</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/form/div/div/div[3]/label</value>
+      <webElementGuid>89a3ee25-cd09-496e-b45d-2edd5270b7e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I READ THE TERMS AND CONDITIONS.'])[1]/following::label[1]</value>
+      <webElementGuid>61ccf7e0-8d1f-4bb0-be37-2f5c8962f668</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You must read all terms and conditions to proceed.'])[1]/following::label[1]</value>
+      <webElementGuid>957f9e23-603c-4b01-8b2f-35813ce1d2a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Now'])[1]/preceding::label[1]</value>
+      <webElementGuid>5ec82c14-b6a3-4e0a-878b-02313cefbc4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::label[1]</value>
+      <webElementGuid>2a96e2b0-2aea-4d57-99fe-efe941705f13</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I have read and agree to the terms and conditions.']/parent::*</value>
+      <webElementGuid>c5070e6a-b294-47af-b474-1aefce3976a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>66a68db1-7b71-4ae3-a65e-48f12d460855</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'I have read and agree to the terms and conditions.' or . = 'I have read and agree to the terms and conditions.')]</value>
+      <webElementGuid>301122e9-1e77-4ba4-b5dc-89ca65d9127d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

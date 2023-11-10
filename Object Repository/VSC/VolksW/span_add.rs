@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_add</name>
+   <tag></tag>
+   <elementGuidId>02848d0c-0630-4dc7-94c0-2d64815044dd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[2]/div[2]/div[2]/ol/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.c-radio__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a1811078-577b-4886-89c4-46c3bd5b7884</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-radio__label</value>
+      <webElementGuid>6cf76f26-6316-4e4a-9f77-4e25fb40ac0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>242 E 14th St , New York, NY, 10003, US</value>
+      <webElementGuid>ec49e260-4964-4517-a4ac-01e899999a2c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/form[1]/div[@class=&quot;o-layout o-layout--center u-pt-xlarge&quot;]/div[@class=&quot;o-layout__item u-1/2 u-1/1@s&quot;]/div[@class=&quot;c-modal&quot;]/div[@class=&quot;c-modal__wrapper&quot;]/div[@class=&quot;c-modal__content&quot;]/ol[1]/label[@class=&quot;c-radio u-mt&quot;]/span[@class=&quot;c-radio__label&quot;]</value>
+      <webElementGuid>763aad0f-37fc-4f01-907e-3d6665e93dcd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[2]/div[2]/div[2]/ol/label/span</value>
+      <webElementGuid>36a958c2-444f-4c42-a424-b053f05abb92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify your address'])[1]/following::span[1]</value>
+      <webElementGuid>e29a39a5-4e9b-4f61-8ed8-a0efd569d232</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::span[1]</value>
+      <webElementGuid>2925132b-d796-4a8e-9552-1d201fc0a199</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::span[1]</value>
+      <webElementGuid>452a97a8-96e4-4836-ac4a-20e90609ce78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[3]</value>
+      <webElementGuid>f5e612e6-2b05-48d6-bd91-c15d6e4a3c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='242 E 14th St , New York, NY, 10003, US']/parent::*</value>
+      <webElementGuid>e3d76482-eca9-48bd-ae12-9a815e027fa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/label/span</value>
+      <webElementGuid>8082e54e-91b3-4719-ba11-02f72b78f3df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '242 E 14th St , New York, NY, 10003, US' or . = '242 E 14th St , New York, NY, 10003, US')]</value>
+      <webElementGuid>236f40d2-81a4-4ae1-bcae-2339ea064ac9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

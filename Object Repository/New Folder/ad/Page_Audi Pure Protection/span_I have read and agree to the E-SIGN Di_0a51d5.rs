@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_I have read and agree to the E-SIGN Di_0a51d5</name>
+   <tag></tag>
+   <elementGuidId>178c3408-903c-4132-a7f6-18c3663fafd9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section/div/div/fieldset/div[2]/div/div/div/div/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.c-checkbox__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e27f203c-0148-4931-b580-0028c03e724e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-checkbox__label</value>
+      <webElementGuid>5a054638-2e88-468d-9dda-117daff7cada</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I have read and agree to the E-SIGN Disclosure and Consent.</value>
+      <webElementGuid>6fc69eba-8467-4ec1-b1f3-0d45be937915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/fieldset[@class=&quot;o-fieldset&quot;]/div[@class=&quot;o-fieldset__row&quot;]/div[@class=&quot;o-layout&quot;]/div[@class=&quot;o-layout__item&quot;]/div[@class=&quot;c-form-field&quot;]/div[@class=&quot;c-form-field__box u-mt-xsmall&quot;]/label[@class=&quot;c-checkbox&quot;]/span[@class=&quot;c-checkbox__label&quot;]</value>
+      <webElementGuid>398dd46b-c028-4c08-ad39-af9b8c91fd4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section/div/div/fieldset/div[2]/div/div/div/div/label/span</value>
+      <webElementGuid>efc0d926-356e-4835-974e-ae667fa16712</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='E-Sign disclosure.'])[1]/following::span[2]</value>
+      <webElementGuid>af3954cf-679c-4703-b9ee-49e73a638a98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirmation'])[1]/following::span[2]</value>
+      <webElementGuid>a42f2f96-60cd-45c6-8819-b0a123862509</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I confirm that the information I have given in this form is true, complete and accurate.'])[1]/preceding::span[1]</value>
+      <webElementGuid>f6fde8f4-d90f-4039-bc73-df23142f8dca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I have read and agree to the E-SIGN Disclosure and Consent.']/parent::*</value>
+      <webElementGuid>693bc9cd-de73-4deb-aa9b-6160ebd10a3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/span</value>
+      <webElementGuid>85c98152-40c2-4c7f-bfbe-409ec95b1ef7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'I have read and agree to the E-SIGN Disclosure and Consent.' or . = 'I have read and agree to the E-SIGN Disclosure and Consent.')]</value>
+      <webElementGuid>177c8252-96b1-47f1-9492-b27fd894bfa4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

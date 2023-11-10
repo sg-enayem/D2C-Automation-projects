@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_(833) 951-0123_fa-times fas</name>
+   <tag></tag>
+   <elementGuidId>08a54cca-4ce7-4c78-aa2a-e65a18944634</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa-times.fas</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='phoneModal']/div/div/div/button/mdb-icon/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>4c5979c2-fb7b-4654-82fe-55dd9b25445e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa-times fas</value>
+      <webElementGuid>efbb224b-c513-44af-a526-afb1b640e1e5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;phoneModal&quot;)/div[@class=&quot;modal-dialog modal-side modal-bottom-right modal-notify modal-info phone-modal&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-header&quot;]/button[@class=&quot;close&quot;]/mdb-icon[@class=&quot;fas&quot;]/i[@class=&quot;fa-times fas&quot;]</value>
+      <webElementGuid>aee1466e-273e-45fc-9ebf-998b88fc2cc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='phoneModal']/div/div/div/button/mdb-icon/i</value>
+      <webElementGuid>be464cdb-8cc0-489a-b7f8-6a6966bd9ac4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//i</value>
+      <webElementGuid>e7f96098-668f-44b2-b4fa-2deb1ff87059</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Add My Signature to the Customer Agreement</name>
+   <tag></tag>
+   <elementGuidId>d5b3245c-5f62-4e53-ad5f-e62bcc96edce</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[2]/div/div/div[3]/div/div/span[2]/span/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7073e1f0-a63e-43c2-9684-9e924f058638</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-btn__text</value>
+      <webElementGuid>616c0f77-cd84-4d5f-809d-6bbe683801c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add My Signature to the Customer Agreement</value>
+      <webElementGuid>1a4716fb-f4fa-4879-a8c1-427e732601a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;o-layout o-layout--middle o-layout__item u-mt&quot;]/div[1]/div[@class=&quot;u-mt&quot;]/span[@class=&quot;u-mt@s signature__button&quot;]/span[1]/button[@class=&quot;c-btn&quot;]/span[@class=&quot;c-btn__text&quot;]</value>
+      <webElementGuid>ecfb2e4f-9932-464b-acbd-2399562e27ec</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/div[3]/div/div/span[2]/span/button/span</value>
+      <webElementGuid>e7184f9b-9196-4a60-83f1-23f927e3c13e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Clear Signature'])[1]/following::span[3]</value>
+      <webElementGuid>f9d85e8a-7267-4230-99e0-b13b0ffb97c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::span[6]</value>
+      <webElementGuid>84d0d7f7-a80c-4afe-af5b-b04f5c49d823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment.'])[1]/preceding::span[1]</value>
+      <webElementGuid>4bc8c189-5772-45ad-a378-3d1d2919e851</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Price'])[1]/preceding::span[2]</value>
+      <webElementGuid>2d6f9d38-73ff-4013-842f-6bd6e26433ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add My Signature to the Customer Agreement']/parent::*</value>
+      <webElementGuid>977944dc-4bb1-41b5-8c49-85effbc5d3dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/span/button/span</value>
+      <webElementGuid>fced35e6-a53e-4394-9a83-265cc15e5732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Add My Signature to the Customer Agreement' or . = 'Add My Signature to the Customer Agreement')]</value>
+      <webElementGuid>81ea719b-524b-4799-b9c1-f821f844ec0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

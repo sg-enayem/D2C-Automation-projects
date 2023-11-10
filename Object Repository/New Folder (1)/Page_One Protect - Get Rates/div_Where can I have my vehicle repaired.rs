@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Where can I have my vehicle repaired</name>
+   <tag></tag>
+   <elementGuidId>a0c48de4-00d7-4b3d-8b6b-9b928b130519</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-1']/span/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#faq-button-1 > span.mb-0 > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0eedad87-4b0d-4f8c-8b84-4c642ff0c018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Where can I have my vehicle repaired?  </value>
+      <webElementGuid>6b120d9f-7718-426a-b72b-9051bc042688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-1&quot;)/span[@class=&quot;mb-0&quot;]/div[1]</value>
+      <webElementGuid>c23fc46a-854a-4549-8a22-0491c293799f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-1']/span/div</value>
+      <webElementGuid>e7d9503e-3855-4720-8fd4-ff58cd909511</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What if my vehicle is still under warranty?'])[1]/following::div[6]</value>
+      <webElementGuid>8639fccc-8f98-4e58-8be7-62529910f272</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Have questions about One Protect VSP?'])[1]/following::div[15]</value>
+      <webElementGuid>32c1f3ce-a375-4401-9737-18c7214cf5d7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='claims help page'])[1]/preceding::div[1]</value>
+      <webElementGuid>1c700287-9075-401b-b174-c5f342a085ad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdb-accordion-item[2]/div/mdb-accordion-item-head/div/a/span/div</value>
+      <webElementGuid>2d654a71-79dc-49e3-9f15-f24c9d38aba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Where can I have my vehicle repaired?  ' or . = 'Where can I have my vehicle repaired?  ')]</value>
+      <webElementGuid>602a68f2-fd56-4a40-8941-c4df36d96016</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

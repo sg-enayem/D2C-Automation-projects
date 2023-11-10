@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Find My Price</name>
+   <tag></tag>
+   <elementGuidId>2dbb09e0-be99-4c7b-8268-e3d4d7f3393b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div[4]/div/div/app-component-vehicle/div/app-verify-vehicle/div/div/div[2]/form/div[5]/div/button/span/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.modal-component-see-pricing-btn.btn.primary-btn.waves-light > span.ng-star-inserted > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>95f2c878-8751-44ef-8e84-7e1edbd255ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>6a72d421-643e-4aa0-b18d-95f03e63dd86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find My Price</value>
+      <webElementGuid>0f7d2f52-13ca-4738-a9fc-e4d516b363dc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c163-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;non-electric&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-content-block[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-wrap gmc-main-hero&quot;]/section[1]/div[@class=&quot;row d-flex align-items-stretch&quot;]/div[@class=&quot;col-md col-12 content-feature content-feature-top-padding ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;cb-text&quot;]/div[@class=&quot;ng-star-inserted&quot;]/app-component-vehicle[@class=&quot;desktop ng-star-inserted&quot;]/div[@class=&quot;row vehicle-info-container&quot;]/app-verify-vehicle[@class=&quot;verify_form ng-star-inserted&quot;]/div[@class=&quot;verify-vehicle ng-star-inserted&quot;]/div[@class=&quot;vehicle-edit ng-star-inserted&quot;]/div[2]/form[@class=&quot;no-OID-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;row w-100 d-flex justify-content-center&quot;]/div[@class=&quot;col-12 text-center&quot;]/button[@class=&quot;modal-component-see-pricing-btn btn primary-btn waves-light&quot;]/span[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>f63cafa8-3467-4596-8119-82dc797540d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f0481687-3974-47a0-a4a1-ad4512f61df8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>9516854c-a0b6-49ed-8542-d35834de18f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find My Price</value>
+      <webElementGuid>2769dc86-a32b-409e-b4bc-c0a87696b334</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c163-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;non-electric&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-content-block[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-wrap gmc-main-hero&quot;]/section[1]/div[@class=&quot;row d-flex align-items-stretch&quot;]/div[@class=&quot;col-md col-12 content-feature content-feature-top-padding ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;cb-text&quot;]/div[@class=&quot;ng-star-inserted&quot;]/app-component-vehicle[@class=&quot;desktop ng-star-inserted&quot;]/div[@class=&quot;row vehicle-info-container&quot;]/app-verify-vehicle[@class=&quot;verify_form ng-star-inserted&quot;]/div[@class=&quot;verify-vehicle ng-star-inserted&quot;]/div[@class=&quot;vehicle-edit ng-star-inserted&quot;]/div[2]/form[@class=&quot;no-OID-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;row w-100 d-flex justify-content-center&quot;]/div[@class=&quot;col-12 text-center&quot;]/button[@class=&quot;modal-component-see-pricing-btn btn primary-btn waves-light&quot;]/span[@class=&quot;ng-star-inserted&quot;]/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>f45c864b-d959-4467-baa6-dd09f3d0334a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div[4]/div/div/app-component-vehicle/div/app-verify-vehicle/div/div/div[2]/form/div[5]/div/button/span/span</value>
+      <webElementGuid>762225b9-7f4d-4058-a082-b6b44767a30b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State of Vehicle Registration'])[1]/following::span[2]</value>
+      <webElementGuid>95edc228-7afa-4f45-95e2-bb3d428ba487</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Mileage'])[1]/following::span[2]</value>
+      <webElementGuid>fc2dc60e-2010-42b0-ae40-8638dd3c7fd7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Protection Endorsed By GMC'])[1]/preceding::span[1]</value>
+      <webElementGuid>1536d3fe-70af-4a88-a9d4-e1f011703e28</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GMC Protection Plan'])[1]/preceding::span[1]</value>
+      <webElementGuid>a38a1469-7f0f-47cf-a22b-7dc16cccd9e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Find My Price']/parent::*</value>
+      <webElementGuid>11c50d04-b60e-482e-937d-764308e44a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span/span</value>
+      <webElementGuid>42d29a5a-9c0b-440a-b15c-666eaa7afedf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Find My Price' or . = 'Find My Price')]</value>
+      <webElementGuid>0bf0cbcb-8bc6-4bb7-9e30-30f63d56f46b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

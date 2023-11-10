@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_No</name>
+   <tag></tag>
+   <elementGuidId>6e101bfc-a6c9-4445-8477-c3a77240d4fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div/div/app-service-drive/div/div[2]/form/div/div/div[6]/div/button[2]
+</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.uppercase.warranty_btn.active</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>74e60319-a23d-428a-8100-ed5812ccb50a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn uppercase warranty_btn active</value>
+      <webElementGuid>d29cb7d3-019b-4ca3-bd01-64da4243bff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>No</value>
+      <webElementGuid>13afa368-ba66-4e08-8616-7767705f7a98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c170-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;schomp-non-electric&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-content-block[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-wrap schomp-main-hero&quot;]/section[1]/div[@class=&quot;row d-flex align-items-stretch&quot;]/div[@class=&quot;col-md col-12 content-feature ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;cb-text mobile-margin&quot;]/app-service-drive[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row ng-star-inserted&quot;]/div[@class=&quot;manual_container col-12&quot;]/form[@class=&quot;vehicle_login row ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;vehicle pr-3 pl-3 mt-3&quot;]/div[@class=&quot;vehicle_login row&quot;]/div[@class=&quot;col-12 pr-1 pl-1 pb-5&quot;]/div[@class=&quot;md-form text-left no-shadow&quot;]/button[@class=&quot;btn uppercase warranty_btn active&quot;]</value>
+      <webElementGuid>6e9e682a-7fc5-4249-9403-5ac7b1a7e3e3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div/div/app-service-drive/div/div[2]/form/div/div/div[6]/div/button[2]</value>
+      <webElementGuid>3330f727-1339-4c33-85c2-1c014e2a6719</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Yes'])[1]/following::button[1]</value>
+      <webElementGuid>b52d4602-8972-4d6b-b76c-cca0250a7ff6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Is vehicle under New Car Warranty?*'])[1]/following::button[2]</value>
+      <webElementGuid>f40bede5-cdd3-49d6-bbda-bc80c1934006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Vehicle inspection document will be required at checkout for vehicles out of warranty.'])[1]/preceding::button[1]</value>
+      <webElementGuid>e98ccde4-11e5-4f57-9758-4530015846e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Rates'])[1]/preceding::button[1]</value>
+      <webElementGuid>501ed9c9-5d8e-40d3-960d-af15ce55c247</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='No']/parent::*</value>
+      <webElementGuid>b7139deb-9ca5-409b-b9a2-867bdb75702a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]</value>
+      <webElementGuid>c7bf7dae-0fc7-4d43-8991-63bc9da06be6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'No' or . = 'No')]</value>
+      <webElementGuid>0157c949-350a-4ec1-9d56-d07a44c72695</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

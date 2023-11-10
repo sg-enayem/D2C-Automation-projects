@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_claims help page</name>
+   <tag></tag>
+   <elementGuidId>22aa3035-1411-40ef-8aab-f90746b3e354</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-2']/strong</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#faq-button-2 > strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>ef7d696d-d359-4f9a-908a-3bfa841bcd15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>claims help page</value>
+      <webElementGuid>1b90247a-2253-4d0d-ad70-fbe4932b9159</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-2&quot;)/strong[1]</value>
+      <webElementGuid>b2d84827-bfa8-4296-aaa2-53082dc067e0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-2']/strong</value>
+      <webElementGuid>d7cf5878-5a34-475f-9724-c0a78b93d5ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What if my vehicle is still under warranty?'])[1]/following::strong[1]</value>
+      <webElementGuid>68717294-c40e-4756-b595-107b31db3762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='cancellations help page'])[1]/preceding::strong[1]</value>
+      <webElementGuid>2e1f7da5-542b-4544-90c6-317bc641c6ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='claims help page']/parent::*</value>
+      <webElementGuid>9eeb8dd5-3ebd-4da0-8216-90ddf32980c0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/strong</value>
+      <webElementGuid>8673c0c5-d9a2-4f22-a004-072e9db4c82d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'claims help page' or . = 'claims help page')]</value>
+      <webElementGuid>48062438-dc0a-41c8-bd2c-b1bf65e6bae0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

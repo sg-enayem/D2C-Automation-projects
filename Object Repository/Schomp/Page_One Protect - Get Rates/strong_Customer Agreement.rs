@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Customer Agreement</name>
+   <tag></tag>
+   <elementGuidId>b65b9e35-c7a2-4b23-9ecd-6ffd8916c551</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#faq-button-6 > strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-6']/Strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>a67b892d-4374-49f9-afa2-5c9a3ffa56c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customer Agreement</value>
+      <webElementGuid>2c2c3665-50dc-4bcf-bcae-fe94a98478b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-6&quot;)/strong[1]</value>
+      <webElementGuid>2a9751ed-39ea-486e-8aa3-7a9f7fe15adf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-6']/strong</value>
+      <webElementGuid>e46107ec-a664-4ea2-aba4-b0ba287b4019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What is not covered?'])[1]/preceding::strong[1]</value>
+      <webElementGuid>cedfcb1f-17ea-4c7a-9fce-29ccd53e4b23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Customer Agreement'])[2]/preceding::strong[1]</value>
+      <webElementGuid>e62e4f9f-7774-4b6d-99a0-37cc69369794</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Customer Agreement']/parent::*</value>
+      <webElementGuid>4a1f74ad-8709-4745-b281-75e0b633e9fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mdb-accordion-item[4]/div/mdb-accordion-item-body/div/div/div/p/a/strong</value>
+      <webElementGuid>2028a3fb-d7d9-4096-bb6b-fcdca186c625</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = 'Customer Agreement' or . = 'Customer Agreement')]</value>
+      <webElementGuid>5dbd809e-ab12-4135-a42c-8c8aa4ce26c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

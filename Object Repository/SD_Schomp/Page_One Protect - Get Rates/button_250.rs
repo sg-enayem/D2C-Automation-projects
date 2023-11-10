@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_250</name>
+   <tag></tag>
+   <elementGuidId>b513ccf2-616d-41d9-9f9b-94019abb801a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.primary-btn.deductible-btn.ng-star-inserted.active</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;deductible-2-2&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>91715fce-545b-44f4-931a-97ce34597196</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn primary-btn deductible-btn ng-star-inserted active</value>
+      <webElementGuid>57533d75-9426-4aa9-b045-cf9afd5b3928</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$250</value>
+      <webElementGuid>7d6bbca5-2f73-46ff-b018-a551284ecfff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;plan-tab-id-0&quot;)/div[@class=&quot;col-12 mt-4 mb-4 ng-star-inserted&quot;]/span[@class=&quot;pt-2 deductible-line&quot;]/div[1]/button[@class=&quot;btn primary-btn deductible-btn ng-star-inserted active&quot;]</value>
+      <webElementGuid>a96393a5-9770-4fc7-ab9c-e46f699f2a1d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='plan-tab-id-0']/div[2]/span/div/button[3]</value>
+      <webElementGuid>5bc02856-c3c3-42b4-a7a8-e1e9ecb69870</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$100'])[1]/following::button[1]</value>
+      <webElementGuid>c13ccaa1-62bc-463e-a0a0-5ea39bb5c226</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$0'])[1]/following::button[2]</value>
+      <webElementGuid>8244f77f-9cc2-45fa-ad83-ebb5c0899baa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay less with $100 disappearing deductible'])[1]/preceding::button[1]</value>
+      <webElementGuid>6770b003-cd41-45cd-9594-66fc2d654e49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$250']/parent::*</value>
+      <webElementGuid>2a08981e-90ca-4684-abbc-48963f646010</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>ed2b13f3-037e-417b-8f46-82ba1e497192</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = '$250' or . = '$250')]</value>
+      <webElementGuid>21dd1c86-35e9-421f-bb1f-cea3ccfb7660</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

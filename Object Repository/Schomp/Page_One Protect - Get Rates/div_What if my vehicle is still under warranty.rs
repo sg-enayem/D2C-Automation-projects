@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_What if my vehicle is still under warranty</name>
+   <tag></tag>
+   <elementGuidId>178c09fe-f788-4c0d-91a7-2de95e518325</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.mb-0 > div</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='faq-button-0']/span/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5927ff4a-933f-4d3c-94ff-f6a6d0f64da7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>What if my vehicle is still under warranty?</value>
+      <webElementGuid>cf0fad64-7633-4873-aea0-3d0a5ebd850e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;faq-button-0&quot;)/span[@class=&quot;mb-0&quot;]/div[1]</value>
+      <webElementGuid>b5a08f4a-0595-49c9-b348-9f9f6e58aaf1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='faq-button-0']/span/div</value>
+      <webElementGuid>1a4a3c5e-f6fb-4f56-a64a-3a9a2f278a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Have questions about One Protect VSP?'])[1]/following::div[9]</value>
+      <webElementGuid>3f14219e-7927-438d-aa3b-03a87be40888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Protection on the Road'])[1]/following::div[13]</value>
+      <webElementGuid>71fec7df-a353-4c0d-a77f-ee0661c48498</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a/span/div</value>
+      <webElementGuid>f98e7e79-4550-4c5b-bef5-93d27f7615a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'What if my vehicle is still under warranty?' or . = 'What if my vehicle is still under warranty?')]</value>
+      <webElementGuid>f9b45632-a241-47be-8cf0-87f8979e93ec</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>checkout_TotalDueToday</name>
+   <tag></tag>
+   <elementGuidId>8532d39d-ea98-452f-9aea-166a4f5dec51</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[12]/div/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.total-today.pt-2.pb-2.border-top > div.d-flex.align-items-baseline.justify-content-between > span.font-weight-bold.semi-bold.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5081ce6d-54e1-4725-9df4-eb76af07fdb3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>font-weight-bold semi-bold ng-star-inserted</value>
+      <webElementGuid>8de6c165-a3b5-4a3f-86dc-7fddcde1d65f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$267.42</value>
+      <webElementGuid>97658338-20e5-4e0c-9e2e-c7471eb0b95a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c170-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5&quot;]/app-checkout-cart[1]/mdb-card[@class=&quot;shadow mb-4 checkout card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/div[@class=&quot;total-today pt-2 pb-2 border-top&quot;]/div[@class=&quot;d-flex align-items-baseline justify-content-between&quot;]/span[@class=&quot;font-weight-bold semi-bold ng-star-inserted&quot;]</value>
+      <webElementGuid>c30ca584-adf2-4d81-8de1-88108f9379b9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[10]/div/span[2]</value>
+      <webElementGuid>660c0438-fa3a-4e76-9f75-9f637394a3bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Due Today:'])[1]/following::span[1]</value>
+      <webElementGuid>cf662f29-4a0e-4bc2-9a56-dfd0110a9a1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$2,737.02'])[1]/following::span[5]</value>
+      <webElementGuid>7a5a3bc7-a266-4e1e-b08c-9de856ead12d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*Tax is estimated. Total tax amount is applied in checkout.'])[1]/preceding::span[2]</value>
+      <webElementGuid>4f71f5c9-9a8d-4f09-96d7-c559c100228d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go back to cart'])[2]/preceding::span[2]</value>
+      <webElementGuid>ca396c13-780d-4f5f-af8f-784118f5c50c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='$267.42']/parent::*</value>
+      <webElementGuid>9d8fd434-1f3b-43fa-ab07-f99605f13235</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[10]/div/span[2]</value>
+      <webElementGuid>6bf75d0c-a286-4269-a0e8-bafa206b0777</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$267.42' or . = '$267.42')]</value>
+      <webElementGuid>f4fb47fe-fa31-4022-9977-82ddabd6a5fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

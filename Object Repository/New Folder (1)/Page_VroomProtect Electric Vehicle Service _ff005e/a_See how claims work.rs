@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_See how claims work</name>
+   <tag></tag>
+   <elementGuidId>4ef24d10-3146-4e4d-a1ca-24122baef7ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div[4]/div/app-slice-content-block/div/section/div/div/div[2]/div/app-component-text/div/div/p[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8dc662a6-4d9e-4dfb-933d-654cb6140b1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://vroomprotect.com/claims</value>
+      <webElementGuid>ed122015-54bd-4887-aacd-1b1bf5920fe4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>See how claims work</value>
+      <webElementGuid>df40c357-7870-4510-840b-5c2d7e931ebe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c157-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;electric&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-content-block[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-wrap how-it-works&quot;]/section[1]/div[@class=&quot;row d-flex align-items-stretch&quot;]/div[@class=&quot;col-md col-12 content-feature ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;cb-text mobile-margin&quot;]/app-component-text[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;row pb-2&quot;]/div[@class=&quot;col-12&quot;]/p[5]/a[1]</value>
+      <webElementGuid>8b3b0fef-e539-4b83-a2c9-e79674b271ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div[4]/div/app-slice-content-block/div/section/div/div/div[2]/div/app-component-text/div/div/p[5]/a</value>
+      <webElementGuid>1f1ff92b-5ade-4599-8401-285a01c3285b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'See how claims work')]</value>
+      <webElementGuid>a1039f04-ec61-4483-9552-b0a25a231c08</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Quick and easy claims'])[1]/following::a[1]</value>
+      <webElementGuid>a6758813-21fe-4135-b60c-c7408c2093ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationwide repairs'])[1]/following::a[1]</value>
+      <webElementGuid>de6261f7-b079-45f9-a865-480aadf8db1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Emergency roadside assistance'])[1]/preceding::a[1]</value>
+      <webElementGuid>cd8c7bab-a84a-42bd-87da-04e33827fb5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('What', &quot;'&quot;, 's Not Covered')])[1]/preceding::a[1]</value>
+      <webElementGuid>82e821e0-d99a-41e2-af2c-7857a8817524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='See how claims work']/parent::*</value>
+      <webElementGuid>60a8f28c-b6c0-44f6-8ed7-9b9158807eff</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://vroomprotect.com/claims')]</value>
+      <webElementGuid>5c9a00f6-73dc-4ce3-ad41-910b51c85da6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[5]/a</value>
+      <webElementGuid>976deb44-268d-4891-9e64-575b955cb152</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://vroomprotect.com/claims' and (text() = 'See how claims work' or . = 'See how claims work')]</value>
+      <webElementGuid>f1858fdf-bb14-4d4b-a4c1-f02bc6aa6137</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

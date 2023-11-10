@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Find My Price</name>
+   <tag></tag>
+   <elementGuidId>7c6e570f-278f-4d6e-8adc-de26e16b2199</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Find My Price']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modal-component-see-pricing-btn-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>051266aa-b531-449a-9738-cc99f51be551</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>4b4609da-a1ca-43f5-b692-4805232907c9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-component-see-pricing-btn btn primary-btn waves-light</value>
+      <webElementGuid>c05cd64a-0e19-420a-876f-93f92f3ea2ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>modal-component-see-pricing-btn-0</value>
+      <webElementGuid>f33a1587-acac-4216-8841-cd7bb83a02a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find My Price </value>
+      <webElementGuid>053f5db3-8e4c-4665-8ae9-d16c80a94eb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-component-see-pricing-btn-0&quot;)</value>
+      <webElementGuid>150259bd-ab76-4de5-977d-82d71bf0d15e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='modal-component-see-pricing-btn-0']</value>
+      <webElementGuid>826ec080-56f7-4fe9-89a6-190a8c2909ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div[4]/div/div/app-component-vehicle/div/app-verify-vehicle/div/div/div[2]/div/form/div[5]/div/button</value>
+      <webElementGuid>25f6ae3b-c5fb-4723-89aa-955bd52d8ae0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State of vehicle registration'])[1]/following::button[1]</value>
+      <webElementGuid>2b8f1350-a44e-408b-b18c-c6f1d7b77562</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current mileage'])[1]/following::button[1]</value>
+      <webElementGuid>3edc8297-b323-4e33-96d0-8eefe49cb222</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Protection Endorsed By GMC'])[1]/preceding::button[1]</value>
+      <webElementGuid>ce13fafa-d6d5-4599-81e1-3385e493e1bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/button</value>
+      <webElementGuid>1f6c0dd5-3c16-4837-af8c-04f5e88699b1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and @id = 'modal-component-see-pricing-btn-0' and (text() = 'Find My Price ' or . = 'Find My Price ')]</value>
+      <webElementGuid>9d6381a7-34eb-4d15-8689-c1739ff463e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//span[text()='Find My Price']</value>
+      <webElementGuid>fde540e8-1b81-41b2-b318-5a550169babf</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

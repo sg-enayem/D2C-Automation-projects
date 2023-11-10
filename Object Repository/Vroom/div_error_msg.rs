@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_error_msg</name>
+   <tag></tag>
+   <elementGuidId>c89a0ed3-d852-4c7a-894b-88887045a7c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-billing-information/mdb-card/mdb-card-body/form/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.alert.alert-warning.w-100.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7c791ec-81e8-43eb-ad5c-0ea19771d01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>alert</value>
+      <webElementGuid>906dda01-4091-4fe6-927c-acfcf951d34f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>alert alert-warning w-100 text-center</value>
+      <webElementGuid>4f60cf77-c64d-43de-a35d-502dec5ecaff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Unfortunately, we could not process your payment. Please check all information below and make sure your billing address is the one associated with your credit card. </value>
+      <webElementGuid>e8c11d1e-0542-41d6-b538-9d01aecb2572</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c156-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-billing-information[1]/mdb-card[@class=&quot;shadow mb-4 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/form[@class=&quot;text-center ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;form-row ng-star-inserted&quot;]/div[@class=&quot;alert alert-warning w-100 text-center&quot;]</value>
+      <webElementGuid>19a204ec-eccd-4c75-8cb6-f4538cab0959</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-billing-information/mdb-card/mdb-card-body/form/div/div</value>
+      <webElementGuid>acdd3914-59ed-4ec6-b76b-9bfa582e6448</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Checkout'])[1]/following::div[16]</value>
+      <webElementGuid>7f4d5d90-c7a5-4f9a-bb2e-1cc6cbb9f1dd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All fields required unless specified otherwise.'])[1]/preceding::div[1]</value>
+      <webElementGuid>0d3286c7-1868-4937-bf09-3b7f8839c6c8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Name On Card'])[1]/preceding::div[2]</value>
+      <webElementGuid>fd15de8b-a400-4880-b00d-2ccd76fbe6de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Unfortunately, we could not process your payment. Please check all information below and make sure your billing address is the one associated with your credit card.']/parent::*</value>
+      <webElementGuid>8e1608f6-0fbd-4b39-8135-7c94e67f28a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div</value>
+      <webElementGuid>3c80bdf3-e6f8-4cfd-90aa-d1802ec87065</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = ' Unfortunately, we could not process your payment. Please check all information below and make sure your billing address is the one associated with your credit card. ' or . = ' Unfortunately, we could not process your payment. Please check all information below and make sure your billing address is the one associated with your credit card. ')]</value>
+      <webElementGuid>edb8ba59-7862-482b-9b2f-4e350d1987ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

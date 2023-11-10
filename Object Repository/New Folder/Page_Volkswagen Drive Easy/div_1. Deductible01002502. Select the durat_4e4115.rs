@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_1. Deductible01002502. Select the durat_4e4115</name>
+   <tag></tag>
+   <elementGuidId>925f05f2-9d3f-45cf-ab9b-d4989aafe97c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[2]/div/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b08441a3-f824-4d2d-b726-202185c27e93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>o-layout__item u-1/2 u-1/1@l</value>
+      <webElementGuid>f167f513-c285-44f5-9642-7fcd3ff34c8e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>1. Deductible$0$100$2502. Select the duration of coverage in monthsPlease select363942454860728496108120You must select a duration in months before moving forward.3. Select total covered milesPlease select4. Payment OptionsOne-timeInstallments</value>
+      <webElementGuid>839efb3f-e60d-4757-8790-38b1f1acfd2d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;o-layout&quot;]/div[@class=&quot;o-layout__item u-1/2 u-1/1@l&quot;]</value>
+      <webElementGuid>8130717d-eb2c-4149-9eef-9f96a8718f02</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/div/div</value>
+      <webElementGuid>3f59e607-7ad0-48a6-af69-e21ec6779d55</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose your Vehicle Service Protection term.'])[1]/following::div[2]</value>
+      <webElementGuid>7edb8f99-663d-4248-a604-e74def42fe7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rental car reimbursement up to $35 per day for up to 10 days if required'])[1]/following::div[4]</value>
+      <webElementGuid>7e8ae6c1-3365-4360-ad08-5aea0512a5ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[2]/div/div/div/div</value>
+      <webElementGuid>8e45341c-189d-44c8-a164-651bcd574cb7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '1. Deductible$0$100$2502. Select the duration of coverage in monthsPlease select363942454860728496108120You must select a duration in months before moving forward.3. Select total covered milesPlease select4. Payment OptionsOne-timeInstallments' or . = '1. Deductible$0$100$2502. Select the duration of coverage in monthsPlease select363942454860728496108120You must select a duration in months before moving forward.3. Select total covered milesPlease select4. Payment OptionsOne-timeInstallments')]</value>
+      <webElementGuid>c38c4963-b402-415d-a437-bb0e5879b0c1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

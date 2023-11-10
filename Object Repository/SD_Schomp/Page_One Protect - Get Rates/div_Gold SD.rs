@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Gold SD</name>
+   <tag></tag>
+   <elementGuidId>f179e2cb-a095-4050-8735-491a37ad2534</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='chose-plan-name-0']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#chose-plan-name-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>7afa7ac2-9662-44e9-84d4-64a13b685709</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>chose-plan-name-0</value>
+      <webElementGuid>205f7bd7-79db-497a-8b82-c770d9afcf45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Gold SD</value>
+      <webElementGuid>6bc9dd29-7c27-4fd8-906b-231eb32e33db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;chose-plan-name-0&quot;)</value>
+      <webElementGuid>dbf91b7f-f673-4b81-99c5-760bb2c6bb51</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='chose-plan-name-0']</value>
+      <webElementGuid>0b73f53f-d64a-44ff-86b7-b5644680a90f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='chose-plan-0']/div</value>
+      <webElementGuid>115f0a24-34bf-4ded-bf19-d0181f3f3e4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIN ***********700381'])[1]/following::div[17]</value>
+      <webElementGuid>8c576079-f19d-48cb-9ea9-292b49535583</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A4'])[1]/following::div[18]</value>
+      <webElementGuid>d2e178f3-8da7-4973-b9b5-2e79194e6f3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Platinum SD'])[1]/preceding::div[1]</value>
+      <webElementGuid>7435d663-9b1e-49a4-ba28-e185ff8daa65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Powertrain SD'])[1]/preceding::div[3]</value>
+      <webElementGuid>32caec9d-769e-44b0-bba1-f97eb83f1c24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Gold SD']/parent::*</value>
+      <webElementGuid>bff19425-8c32-4ff0-b03f-f0fd844cc046</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div/div/div/div/div</value>
+      <webElementGuid>c0978a62-8566-4255-b2c0-7f02f3df0696</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'chose-plan-name-0' and (text() = 'Gold SD' or . = 'Gold SD')]</value>
+      <webElementGuid>de7eb8ed-6dce-4464-b662-35dd0f4a42ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

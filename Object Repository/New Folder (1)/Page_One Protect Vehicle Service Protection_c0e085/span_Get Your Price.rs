@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Get Your Price</name>
+   <tag></tag>
+   <elementGuidId>52d19bbf-3e7f-4770-b50c-3c7e3bd704b1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='modal-component-see-pricing-btn-0']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#modal-component-see-pricing-btn-0 > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c6ba0e15-fdd2-4154-b7ee-f0984a726eaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>d5b44050-4b44-4493-b303-858f074cf85f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Get Your Price </value>
+      <webElementGuid>3f9f4e1f-2d0d-4361-a1be-b025a00c61db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;modal-component-see-pricing-btn-0&quot;)/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>f4652252-e13b-454b-8be6-12cd2ab0bbea</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='modal-component-see-pricing-btn-0']/span</value>
+      <webElementGuid>fd2d05c6-770e-408b-8aad-1aee0e88b1a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter your odometer.'])[1]/following::span[1]</value>
+      <webElementGuid>4fa3f174-390b-4805-9087-48264a674e15</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current mileage'])[1]/following::span[1]</value>
+      <webElementGuid>71f9c10d-291c-49e5-959b-a246268b1937</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Change Vehicle'])[1]/preceding::span[1]</value>
+      <webElementGuid>06aab05a-ae9d-41a6-90f1-cf23f0583377</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Get Your Price']/parent::*</value>
+      <webElementGuid>0a4ae677-dd6f-49cf-ad29-3aab66d4311a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>1fc7f2b1-a2cc-4034-9153-86b87f8d947c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Get Your Price ' or . = 'Get Your Price ')]</value>
+      <webElementGuid>5b51ed08-8630-48c8-8c26-bde9ac84ac88</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "A89D1B185613D47EAB8E521A03EAFA2C",
+  "keywordClasses": [
+    {
+      "name": "utility.scrolltest",
+      "keywordMethods": [
+        {
+          "name": "scrollToBottomInsideDiv",
+          "parameters": [
+            {
+              "name": "scrollArea",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.openqa.selenium.WebElement",
+                "unresolvedClassName": "WebElement",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Order SummaryProtection For the Followi_08568b</name>
+   <tag></tag>
+   <elementGuidId>fa6fb28f-4743-48e2-9a32-14c72d2aca6b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7a191d0-dafb-443f-8827-d514796125a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-md-5</value>
+      <webElementGuid>bb2b4f68-3f98-44e6-9b42-f56663032d32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Order SummaryProtection For the Following Vehicle:2021 Audi Q8 3.0T QUATTRO PREMIUMVIN: ***********013546Miles: 2,000 Coverage starts5/5/23 Item(s) in Cart:  Vroom Protect Vehicle Service Protection$1,847.00 Vroom Protect Vehicle Service ProtectionPlatinum4 year(s) or 48,000 mile term, whichever comes first $100.00 deductible per occurrence Light Duty Commercial Use Coverage: Yes Platinum$1,847.004 year(s) or 48,000 mile term, whichever comes first $100.00  deductible per occurrence Light Duty Commercial Use Coverage: Yes  View Agreement and Exclusions Payment Summary Subtotal$1,847.00Sales Tax$129.29*Total$1,976.2936 Remaining Payments of $49.77 Total Due Today:$184.70*Tax is estimated. Total tax amount is applied in checkout. </value>
+      <webElementGuid>764febb3-5c09-49df-81fd-ada716e238d4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c269-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5&quot;]</value>
+      <webElementGuid>12a8f69a-aab5-4f41-ad8f-99facf1e7ef7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div[2]</value>
+      <webElementGuid>aa3c465e-f55a-4147-afaa-35151f621aa7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Now'])[1]/following::div[1]</value>
+      <webElementGuid>d130999d-d3bc-4018-9ee9-fc0f0ef403a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I have read and agree to the terms and conditions.'])[1]/following::div[2]</value>
+      <webElementGuid>7ec76371-5e13-4ef5-9831-3a84d1e18ff7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]</value>
+      <webElementGuid>225474da-1493-4a15-a2f0-831e1b354556</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Order SummaryProtection For the Following Vehicle:2021 Audi Q8 3.0T QUATTRO PREMIUMVIN: ***********013546Miles: 2,000 Coverage starts5/5/23 Item(s) in Cart:  Vroom Protect Vehicle Service Protection$1,847.00 Vroom Protect Vehicle Service ProtectionPlatinum4 year(s) or 48,000 mile term, whichever comes first $100.00 deductible per occurrence Light Duty Commercial Use Coverage: Yes Platinum$1,847.004 year(s) or 48,000 mile term, whichever comes first $100.00  deductible per occurrence Light Duty Commercial Use Coverage: Yes  View Agreement and Exclusions Payment Summary Subtotal$1,847.00Sales Tax$129.29*Total$1,976.2936 Remaining Payments of $49.77 Total Due Today:$184.70*Tax is estimated. Total tax amount is applied in checkout. ' or . = 'Order SummaryProtection For the Following Vehicle:2021 Audi Q8 3.0T QUATTRO PREMIUMVIN: ***********013546Miles: 2,000 Coverage starts5/5/23 Item(s) in Cart:  Vroom Protect Vehicle Service Protection$1,847.00 Vroom Protect Vehicle Service ProtectionPlatinum4 year(s) or 48,000 mile term, whichever comes first $100.00 deductible per occurrence Light Duty Commercial Use Coverage: Yes Platinum$1,847.004 year(s) or 48,000 mile term, whichever comes first $100.00  deductible per occurrence Light Duty Commercial Use Coverage: Yes  View Agreement and Exclusions Payment Summary Subtotal$1,847.00Sales Tax$129.29*Total$1,976.2936 Remaining Payments of $49.77 Total Due Today:$184.70*Tax is estimated. Total tax amount is applied in checkout. ')]</value>
+      <webElementGuid>99bce019-8349-4451-a1dd-3102bd6e8f54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

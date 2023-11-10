@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_By providing your consent, you are al_e009d9</name>
+   <tag></tag>
+   <elementGuidId>b1be97f7-df08-421d-926b-d4c33cfab851</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/div/section[3]/section[2]/div/form/div/div/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.form-check-label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>3896dfdb-2fc2-455e-9dd7-01c238de3b43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>consentTerms</value>
+      <webElementGuid>ea587674-d9f2-409f-9a7a-92c113b02199</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-check-label</value>
+      <webElementGuid>9b56857c-dd32-41da-b2b4-1982cd00837b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> By providing your consent, you are also confirming that you are authorized to, and do, consent on behalf of all the other account owners, authorized signers, authorized representatives, delegates, product owners and/or service users identified with your GMC Protection Plan</value>
+      <webElementGuid>61c77a33-113c-48c9-a9af-94bcf8f3fce7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c270-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-summary[1]/mdb-card[@class=&quot;shadow mb-4 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/div[@class=&quot;row mt-5&quot;]/section[@class=&quot;ng-star-inserted&quot;]/section[2]/div[@class=&quot;review-item col-12 ng-star-inserted&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-valid ng-submitted&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;review-item col-12&quot;]/div[@class=&quot;form-group mt-2 pt-2&quot;]/label[@class=&quot;form-check-label&quot;]</value>
+      <webElementGuid>747b2426-e1f9-4bb0-bb41-55fbad149a94</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/div/section[3]/section[2]/div/form/div/div/div[2]/label</value>
+      <webElementGuid>fd77b59e-84b6-4fd5-bb50-69c386aa9861</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/following::label[1]</value>
+      <webElementGuid>e8fe9651-a3c0-4553-9fe5-e46527f754f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You must read all eSIGN Consent to Use Electronic Records and Signatures to proceed'])[1]/following::label[1]</value>
+      <webElementGuid>75d25125-1bd2-479f-9013-44e648006c99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Order Summary'])[1]/preceding::label[1]</value>
+      <webElementGuid>ce953c71-8f86-4852-a5d1-5ea3d0bd2a37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Protection For the Following Vehicle:'])[1]/preceding::label[1]</value>
+      <webElementGuid>c146511c-297d-421f-a637-27d46299d04e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='By providing your consent, you are also confirming that you are authorized to, and do, consent on behalf of all the other account owners, authorized signers, authorized representatives, delegates, product owners and/or service users identified with your GMC Protection Plan']/parent::*</value>
+      <webElementGuid>d0c85dc7-8f5e-488e-9f08-d288c03e9157</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label</value>
+      <webElementGuid>a4ba1eb5-9afa-4063-8a25-dcc118c9f80c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = ' By providing your consent, you are also confirming that you are authorized to, and do, consent on behalf of all the other account owners, authorized signers, authorized representatives, delegates, product owners and/or service users identified with your GMC Protection Plan' or . = ' By providing your consent, you are also confirming that you are authorized to, and do, consent on behalf of all the other account owners, authorized signers, authorized representatives, delegates, product owners and/or service users identified with your GMC Protection Plan')]</value>
+      <webElementGuid>ec4cb2b2-c5d6-43b0-8f87-e27e13a85381</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

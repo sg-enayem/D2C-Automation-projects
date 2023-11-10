@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_AKFCMarietta, GA  (770) 422-4716Closed _873917</name>
+   <tag></tag>
+   <elementGuidId>b8b8031e-b32f-470c-b575-fc577682d0e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='tsuid24']/div/div/div/a/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.CNIbvd</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ddd0ffbb-6995-475b-817f-1b3ae3513cac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>CNIbvd</value>
+      <webElementGuid>26fd1527-9da0-440f-8e56-27adf85eae76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AKFCMarietta, GA · (770) 422-4716Closed ⋅ Opens 10AMDine-in·Curbside pickup·No-contact delivery</value>
+      <webElementGuid>e45779cd-1aa7-424d-850e-a6f5f788f58e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;tsuid24&quot;)/div[@class=&quot;uMdZh tIxNaf rllt__borderless&quot;]/div[@class=&quot;VkpGBb&quot;]/div[@class=&quot;cXedhc&quot;]/a[@class=&quot;vwVdIc wzN8Ac rllt__link a-no-hover-decoration&quot;]/div[@class=&quot;CNIbvd&quot;]</value>
+      <webElementGuid>a96cdf97-b9a4-4a3f-a4d4-1250b9882176</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='tsuid24']/div/div/div/a/div</value>
+      <webElementGuid>cda7017b-b01c-45b0-b098-2443cef869f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Noon'])[1]/following::div[9]</value>
+      <webElementGuid>2fdf222e-bb33-4b02-8836-b7e7c760c2a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Midnight'])[1]/following::div[9]</value>
+      <webElementGuid>9d07e67c-1d3b-46a0-92ca-17eef09ed8e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/a/div</value>
+      <webElementGuid>2087266c-e8d6-44c7-bd56-595e3cc8a632</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AKFCMarietta, GA · (770) 422-4716Closed ⋅ Opens 10AMDine-in·Curbside pickup·No-contact delivery' or . = 'AKFCMarietta, GA · (770) 422-4716Closed ⋅ Opens 10AMDine-in·Curbside pickup·No-contact delivery')]</value>
+      <webElementGuid>560a247f-4ce7-449a-9ed4-337e190c8932</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

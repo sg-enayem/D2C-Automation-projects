@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View Agreement  Exclusions</name>
+   <tag></tag>
+   <elementGuidId>cb3d99d1-1574-4a5c-b674-2935351d8280</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[3]/div/app-plans-overview/div/div/div/div/p[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>67683700-b323-4834-8a7e-5bcd430b66b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://prismic-io.s3.amazonaws.com/sgidigital/a1bcd864-158b-41d5-8ada-708002d5ba42_OPVSC-D2C_220331_SAMPLE.pdf</value>
+      <webElementGuid>147fc7a6-3a67-41fe-a814-c1e211da119d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>37d8bca1-eefe-4765-a52e-8b5ff13a4ca7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Agreement &amp; Exclusions</value>
+      <webElementGuid>2616da6a-9012-444b-ae43-5ccb31fb10a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c157-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-product-tabset[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-plans-overview[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;plans-overview ng-star-inserted&quot;]/div[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/p[2]/a[1]</value>
+      <webElementGuid>d52023b6-6cdf-467f-9984-12da284f1a7d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[3]/div/app-plans-overview/div/div/div/div/p[2]/a</value>
+      <webElementGuid>b17b0c47-a238-411f-98ca-0786cf917998</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View Agreement &amp; Exclusions')]</value>
+      <webElementGuid>10d6abd5-473b-489f-9260-80b20ca09da7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Platinum Coverage Overview'])[1]/following::a[1]</value>
+      <webElementGuid>0ae234f9-38f1-4745-a54f-fecedb3b0e66</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Payment Options'])[2]/following::a[1]</value>
+      <webElementGuid>f54095bf-dc0a-42e9-bcec-d46004ac112e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comprehensive Protection'])[1]/preceding::a[1]</value>
+      <webElementGuid>488c45fa-2ade-4d40-947b-b9e4c4b9aa9d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='High-Tech Components'])[1]/preceding::a[1]</value>
+      <webElementGuid>ba7af3bf-48d8-4119-b2dc-798f12f6abf1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Agreement &amp; Exclusions']/parent::*</value>
+      <webElementGuid>c5cbc70e-135f-4f83-a8da-85c1c53ae014</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://prismic-io.s3.amazonaws.com/sgidigital/a1bcd864-158b-41d5-8ada-708002d5ba42_OPVSC-D2C_220331_SAMPLE.pdf')]</value>
+      <webElementGuid>6fd4a1f3-86ba-4f59-8801-72aabdb1e268</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p[2]/a</value>
+      <webElementGuid>6329ca37-4065-4db5-aa2a-a65824085853</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://prismic-io.s3.amazonaws.com/sgidigital/a1bcd864-158b-41d5-8ada-708002d5ba42_OPVSC-D2C_220331_SAMPLE.pdf' and (text() = 'View Agreement &amp; Exclusions' or . = 'View Agreement &amp; Exclusions')]</value>
+      <webElementGuid>47751b91-95c5-4404-8434-d814b1c74c65</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

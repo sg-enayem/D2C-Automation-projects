@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "ADCEBB73EA4480FCB68345E7D4BB3AE1",
+  "keywordClasses": [
+    {
+      "name": "utility.Elementwait",
+      "keywordMethods": [
+        {
+          "name": "waitForElement",
+          "parameters": [
+            {
+              "name": "locator",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "org.openqa.selenium.By",
+                "unresolvedClassName": "By",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

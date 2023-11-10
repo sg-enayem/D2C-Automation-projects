@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_View Agreement and Exclusions_1_2</name>
+   <tag></tag>
+   <elementGuidId>2b7b2134-15ee-4cb9-af08-7806f744e53f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/div/div[7]/div[2]/div/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.product-footer-text.click-text.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c8b163c5-add2-4610-88a8-edeaf283518b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>link</value>
+      <webElementGuid>d6eb1cb8-2354-4b56-949e-8fc7d30fc601</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>cf444e26-ecd8-44e7-9aab-89901aee5af5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>product-footer-text click-text ng-star-inserted</value>
+      <webElementGuid>435dc9d7-688b-42d5-a655-1f66a4a071a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>View Agreement and Exclusions</value>
+      <webElementGuid>5d57960c-fc93-461e-88f6-77325a2828ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c271-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-checkout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;container shopping-cart mt-5&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-7&quot;]/app-checkout-summary[1]/mdb-card[@class=&quot;shadow mb-4 card ng-star-inserted&quot;]/mdb-card-body[@class=&quot;card-body&quot;]/div[@class=&quot;row mt-5&quot;]/div[@class=&quot;review-item col-12 mb-0 ng-star-inserted&quot;]/div[@class=&quot;media mt-2 mb-3 checkout-products ng-star-inserted&quot;]/div[@class=&quot;media-body text-md-left&quot;]/div[@class=&quot;row mt-3 p-2 product-footer&quot;]/a[@class=&quot;product-footer-text click-text ng-star-inserted&quot;]</value>
+      <webElementGuid>76619d25-690c-4478-b09b-01298b92ab8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-checkout/div/div[3]/div/app-checkout-summary/mdb-card/mdb-card-body/div/div[7]/div[2]/div/div[2]/a</value>
+      <webElementGuid>3d7daa1f-5e17-4b1b-b140-0b1fbfcc43eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'View Agreement and Exclusions')]</value>
+      <webElementGuid>2c8fb2f8-e98f-4269-a9c1-c1b6a0daf6c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,628.00'])[2]/following::a[1]</value>
+      <webElementGuid>38c8b0bb-97fe-4f40-83c8-eb93407b1ded</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Use Coverage:'])[1]/preceding::a[1]</value>
+      <webElementGuid>03ff590c-48f0-48df-8331-4b19a390cb10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LIGHT DUTY COMMERCIAL USE COVERAGE'])[1]/preceding::a[1]</value>
+      <webElementGuid>a86c3cab-d443-4fc7-bdc3-120c9b6e0714</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='View Agreement and Exclusions']/parent::*</value>
+      <webElementGuid>db6b9b9f-3643-49c1-b6d3-c02c73375a71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/a</value>
+      <webElementGuid>5afd92fa-35b2-4197-9632-24aa7a1520ee</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'View Agreement and Exclusions' or . = 'View Agreement and Exclusions')]</value>
+      <webElementGuid>cd3318ae-ebc7-41e0-8627-5287d740fd48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

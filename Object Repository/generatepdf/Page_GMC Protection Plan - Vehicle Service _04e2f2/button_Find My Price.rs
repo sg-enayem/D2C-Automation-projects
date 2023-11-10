@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Find My Price</name>
+   <tag></tag>
+   <elementGuidId>5bd4cf4c-da33-450f-adc6-ed0d6c1860f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.modal-component-see-pricing-btn.btn.primary-btn.waves-light</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>f5241195-862e-4211-b007-4bab64e6ff4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>00d7050a-5d42-4e0b-adf9-ec05fe9d9edd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>modal-component-see-pricing-btn btn primary-btn waves-light</value>
+      <webElementGuid>7e75c18b-847f-4b34-b0d8-0515f14c4cd2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Find My Price</value>
+      <webElementGuid>1583a4df-0ab4-4264-b477-d6bbbdf0576e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c163-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;non-electric&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-content-block[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;content-block-wrap gmc-main-hero&quot;]/section[1]/div[@class=&quot;row d-flex align-items-stretch&quot;]/div[@class=&quot;col-md col-12 content-feature content-feature-top-padding ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;cb-text&quot;]/div[@class=&quot;ng-star-inserted&quot;]/app-component-vehicle[@class=&quot;desktop ng-star-inserted&quot;]/div[@class=&quot;row vehicle-info-container&quot;]/app-verify-vehicle[@class=&quot;verify_form ng-star-inserted&quot;]/div[@class=&quot;verify-vehicle ng-star-inserted&quot;]/div[@class=&quot;vehicle-edit ng-star-inserted&quot;]/div[2]/form[@class=&quot;no-OID-form ng-dirty ng-touched ng-valid&quot;]/div[@class=&quot;row w-100 d-flex justify-content-center&quot;]/div[@class=&quot;col-12 text-center&quot;]/button[@class=&quot;modal-component-see-pricing-btn btn primary-btn waves-light&quot;]</value>
+      <webElementGuid>03a7498e-e836-4ba7-be64-8b07c9b0efe7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>79dc4327-5883-47dc-b15f-13fa9f624167</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div/div/app-slice-content-block/div/section/div/div/div[4]/div/div/app-component-vehicle/div/app-verify-vehicle/div/div/div[2]/form/div[5]/div/button</value>
+      <webElementGuid>d2335c98-85ed-4a88-80e9-38d77a703450</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='State of Vehicle Registration'])[1]/following::button[1]</value>
+      <webElementGuid>729d0e2c-c508-43e4-aaf9-ba4629ea43bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Current Mileage'])[1]/following::button[1]</value>
+      <webElementGuid>52166933-b214-47a7-90d7-7a373b9f2b99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Vehicle Protection Endorsed By GMC'])[1]/preceding::button[1]</value>
+      <webElementGuid>945f246c-ced6-426c-b2e2-9a0f74e9c828</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/button</value>
+      <webElementGuid>92ea59b1-fa5d-46df-8779-36d63635799b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Find My Price' or . = 'Find My Price')]</value>
+      <webElementGuid>1f858d98-eeed-47f6-80df-2d3b06c88eac</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

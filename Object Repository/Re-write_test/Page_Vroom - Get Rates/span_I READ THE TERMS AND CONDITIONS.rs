@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_I READ THE TERMS AND CONDITIONS</name>
+   <tag></tag>
+   <elementGuidId>1eed78b6-ed3e-4e92-aaa1-6cd4852db792</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='i-read-terms-btn']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#i-read-terms-btn > span.ng-star-inserted</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>267effdb-5201-4b83-852a-f1a19a04a0fa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+      <webElementGuid>d00322c7-6d50-4caa-b0fc-8ed0c55caeb0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>I READ THE TERMS AND CONDITIONS.</value>
+      <webElementGuid>4763543c-c333-4e2c-a41e-394b6caebb36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;i-read-terms-btn&quot;)/span[@class=&quot;ng-star-inserted&quot;]</value>
+      <webElementGuid>e2510ef2-d75c-4158-be02-509131eae3f6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='i-read-terms-btn']/span</value>
+      <webElementGuid>2bd034ba-7a68-42ed-8260-e001ae8767fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='You must read all terms and conditions to proceed.'])[1]/following::span[1]</value>
+      <webElementGuid>a1d5855c-5ca4-4c84-84d7-9cabc232aa16</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terms and Conditions'])[1]/following::span[2]</value>
+      <webElementGuid>123a7887-10d8-4873-9640-e508c6a38f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I have read and agree to the terms and conditions.'])[1]/preceding::span[1]</value>
+      <webElementGuid>fdbb19ff-ed0c-4e41-a5f3-6bf3b5e9cca3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pay Now'])[1]/preceding::span[1]</value>
+      <webElementGuid>02bdccef-151c-4b18-92e3-9ffea13ba31b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='I READ THE TERMS AND CONDITIONS.']/parent::*</value>
+      <webElementGuid>ee7e51e7-293a-411b-b4cd-80eb1b15e9f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/span</value>
+      <webElementGuid>cdc922bd-e0e2-4884-b587-98f599bbab23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'I READ THE TERMS AND CONDITIONS.' or . = 'I READ THE TERMS AND CONDITIONS.')]</value>
+      <webElementGuid>6f18af90-d208-419a-8b10-813abecfa936</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

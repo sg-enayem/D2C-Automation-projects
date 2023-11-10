@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "3F6B2E707BC3A665B821F451A11A77A4",
+  "keywordClasses": [
+    {
+      "name": "devTool.DevToolsKeyword",
+      "keywordMethods": [
+        {
+          "name": "interceptApiResponse",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

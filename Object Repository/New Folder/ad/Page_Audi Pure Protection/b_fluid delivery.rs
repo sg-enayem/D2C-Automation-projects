@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_fluid delivery</name>
+   <tag></tag>
+   <elementGuidId>e223d3be-34ad-4a0c-bac7-36782d07e484</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section/div/div/div[2]/div[4]/div/div/div/article[2]/div/div/b[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>eb4940eb-519a-4ffe-b029-f0f30fb33fc1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tooltip__text u-text-brand</value>
+      <webElementGuid>106a301b-6e85-4b31-bc17-e383a8872037</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>daa6900b-428c-44ab-914c-11fb4ee1701d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-describedby</name>
+      <type>Main</type>
+      <value>tippy-9</value>
+      <webElementGuid>5c834ee1-33ee-42cf-87db-6310ce904ba6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>fluid delivery</value>
+      <webElementGuid>a71719eb-4a13-4c68-b17b-8fb1ff8f3b05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/div[@class=&quot;c-accordion js-accordion&quot;]/div[@class=&quot;c-accordion__panel js-accordion__panel&quot;]/div[@class=&quot;c-accordion__content&quot;]/div[@class=&quot;o-layout&quot;]/div[@class=&quot;o-layout__item  u-1/2  u-1/1@s&quot;]/article[@class=&quot;c-item-teaser u-m c-item-teaser--small c-item-teaser--inline&quot;]/div[@class=&quot;c-item-teaser__body&quot;]/div[@class=&quot;c-item-teaser__text&quot;]/b[@class=&quot;tooltip__text u-text-brand&quot;]</value>
+      <webElementGuid>4f4d7895-07a7-42e8-a497-86906c54947a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section/div/div/div[2]/div[4]/div/div/div/article[2]/div/div/b[2]</value>
+      <webElementGuid>27eac069-8cf4-49ea-a7df-1477f0752ef2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='fuel'])[1]/following::b[1]</value>
+      <webElementGuid>d90314b0-7c8d-4359-9a61-47eae0aaeab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='See additional benefits'])[1]/following::b[2]</value>
+      <webElementGuid>bb142b51-c0a4-453b-a591-51601d6bd543</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='like kind quality.'])[1]/preceding::b[1]</value>
+      <webElementGuid>98e3e4d7-102e-4ed7-8d07-0d85f9b48d7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='fluid delivery']/parent::*</value>
+      <webElementGuid>3e64ece5-87dc-4ede-8a40-92a0bb0d42df</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//b[2]</value>
+      <webElementGuid>35547192-b7d4-4f46-8a97-a64086d4cb1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = 'fluid delivery' or . = 'fluid delivery')]</value>
+      <webElementGuid>5c713aca-e7bf-4e2d-a589-2e52a08615a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

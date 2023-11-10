@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_12 Cobb Pkwy N , Marietta, GA, 30062, US</name>
+   <tag></tag>
+   <elementGuidId>9b5ddf22-a89a-4ecb-b16d-727a6a3ead7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[2]/div[2]/div[2]/ol/label/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.c-radio__label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>dc940d8f-67ea-4d90-8447-f99cbd9d970e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-radio__label</value>
+      <webElementGuid>c56205f6-00b7-4533-937b-6765c539bb9d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>12 Cobb Pkwy N , Marietta, GA, 30062, US</value>
+      <webElementGuid>ad79ada2-1ecc-46dd-acbb-11bc9a22cff1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/div[@class=&quot;u-pb&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/form[1]/div[@class=&quot;o-layout o-layout--center u-pt-xlarge&quot;]/div[@class=&quot;o-layout__item u-1/2 u-1/1@s&quot;]/div[@class=&quot;c-modal&quot;]/div[@class=&quot;c-modal__wrapper&quot;]/div[@class=&quot;c-modal__content&quot;]/ol[1]/label[@class=&quot;c-radio u-mt&quot;]/span[@class=&quot;c-radio__label&quot;]</value>
+      <webElementGuid>cbac829c-7974-4a89-a5dc-62d7cf36d080</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/div/section[2]/div/div/form/div[2]/div/div[2]/div[2]/div[2]/ol/label/span</value>
+      <webElementGuid>b4b9f35e-6c6e-4664-b17a-17c3647c506c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify your address'])[1]/following::span[1]</value>
+      <webElementGuid>f3ece491-9943-48b2-a6d6-90e03df3d022</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Zip Code'])[1]/following::span[1]</value>
+      <webElementGuid>7300b020-7762-40bf-8fdb-3863ee5c90dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Confirm'])[1]/preceding::span[1]</value>
+      <webElementGuid>fea7701f-c8a6-412f-b5c5-b13097ab32b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Back'])[1]/preceding::span[3]</value>
+      <webElementGuid>c89617bb-5192-40b7-8cf7-78098bf5a115</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='12 Cobb Pkwy N , Marietta, GA, 30062, US']/parent::*</value>
+      <webElementGuid>9f058d1c-4a04-4ce4-99ae-0d3213a8443d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ol/label/span</value>
+      <webElementGuid>44f8e034-816f-467a-84de-b66ad52c933b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '12 Cobb Pkwy N , Marietta, GA, 30062, US' or . = '12 Cobb Pkwy N , Marietta, GA, 30062, US')]</value>
+      <webElementGuid>655e3da3-4fd5-43f3-ae1c-cd2c76d58dea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

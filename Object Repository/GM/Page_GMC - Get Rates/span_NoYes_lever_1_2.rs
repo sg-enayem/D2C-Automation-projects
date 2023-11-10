@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_NoYes_lever_1_2</name>
+   <tag></tag>
+   <elementGuidId>cf7394bd-8c31-45aa-8893-72acbb36cad9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.switch.success-switch.pl-2.pt-2.pr-2.pb-3 > div.row > label > span.lever</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[2]/div/app-coverage-select/div/div/div/div/form/div/div/div[2]/div[2]/div/div[2]/label/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9474e6d1-49ca-4cdd-9661-00d30a598691</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lever</value>
+      <webElementGuid>47e114fa-60f1-407c-8c50-f10eb4095d3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;container-fluid h-100 ng-tns-c157-0 ng-trigger ng-trigger-fadeAnimation&quot;]/app-product-home[@class=&quot;ng-star-inserted&quot;]/div[1]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-slice-product-tabset[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[1]/app-coverage-select[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;customize-container pt-1&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 offset-md-2 col-md-8 offset-lg-2 col-lg-8 pt-4&quot;]/div[1]/form[@class=&quot;ng-valid ng-dirty ng-touched&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-sm-12 coverage-section&quot;]/div[@class=&quot;commercial-use-section ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;switch success-switch pl-2 pt-2 pr-2 pb-3&quot;]/div[@class=&quot;row&quot;]/label[1]/span[@class=&quot;lever&quot;]</value>
+      <webElementGuid>8ccb1ed2-7d55-42f3-ada3-5553c98b5133</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='mainContent']/div/app-product-home/div/div[2]/div/app-slice-product-tabset/div[2]/div/app-coverage-select/div/div/div/div/form/div/div/div[2]/div[2]/div/div[2]/label/span</value>
+      <webElementGuid>95efe8b4-871f-4d31-bbdf-048487e22ce5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/label/span</value>
+      <webElementGuid>9573f143-9cc4-460c-9883-7131ae8d35b0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

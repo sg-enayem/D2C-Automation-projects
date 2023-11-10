@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Download Sample Customer Agreement</name>
+   <tag></tag>
+   <elementGuidId>1e646547-d83d-449c-ae3c-bb8ff611bbb5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/main/section[6]/div/div/article[2]/div/div/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>15eccf08-129a-4536-a1f7-616d1c4b3f32</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>c-btn__text</value>
+      <webElementGuid>60225292-fc8b-4ce1-b819-c64603e121cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Download Sample Customer Agreement</value>
+      <webElementGuid>da5bd805-f0e3-4327-88fa-38d504ff8b29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;o-root&quot;]/main[@class=&quot;o-main&quot;]/section[@class=&quot;o-content-section&quot;]/div[@class=&quot;o-page-wrap  o-page-wrap--medium&quot;]/div[@class=&quot;o-component-wrapper&quot;]/article[@class=&quot;c-item-teaser  c-item-teaser--small  c-item-teaser--inline&quot;]/div[@class=&quot;c-item-teaser__body&quot;]/div[@class=&quot;c-item-teaser__link&quot;]/a[@class=&quot;c-btn c-btn--secondary&quot;]/span[@class=&quot;c-btn__text&quot;]</value>
+      <webElementGuid>5716b51b-6184-451e-9bf2-405bcd083cf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/main/section[6]/div/div/article[2]/div/div/a/span</value>
+      <webElementGuid>a16a56bc-38d6-443c-baa0-3b5972a23188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View a Vehicle Service Protection Plan sample customer agreement below.'])[1]/following::span[1]</value>
+      <webElementGuid>ffe1d518-54ce-4058-ad0e-885751ad3270</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download the brochure'])[1]/following::span[1]</value>
+      <webElementGuid>ad6ef26a-6730-4266-be9d-ee1206a07df1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get Your Quote'])[1]/preceding::span[1]</value>
+      <webElementGuid>6f0ff69b-7b22-43c1-a484-d5e1696a97c5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Go to top'])[1]/preceding::span[1]</value>
+      <webElementGuid>e76ff316-f7e7-4daf-9aee-48283753b875</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download Sample Customer Agreement']/parent::*</value>
+      <webElementGuid>75edf9da-57ed-4555-8f43-3d96e4f81888</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//article[2]/div/div/a/span</value>
+      <webElementGuid>958ccc74-08a5-44ab-b0ad-7c0bf38859d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Download Sample Customer Agreement' or . = 'Download Sample Customer Agreement')]</value>
+      <webElementGuid>3313d3b2-40ed-4280-8380-6ef97c7054d5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

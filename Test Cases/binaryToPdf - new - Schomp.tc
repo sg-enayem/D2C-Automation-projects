@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>binaryToPdf - new - Schomp</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03dee241-fa84-4912-975a-60d13ce234a0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9ea2a122-0997-4a05-8e48-e990e303ae13</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'(833)951-0123'</defaultValue>
+      <description></description>
+      <id>9ea2a122-0997-4a05-8e48-e990e303ae13</id>
+      <masked>false</masked>
+      <name>actual_phoneNumber</name>
+   </variable>
+</TestCaseEntity>

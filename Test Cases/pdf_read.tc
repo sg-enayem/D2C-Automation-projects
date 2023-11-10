@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>pdf_read</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de35b7d7-d166-4d9e-9523-78e16e39a91e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3b1823b-cecc-4867-bf58-cebc5229680b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d3b1823b-cecc-4867-bf58-cebc5229680b</id>
+      <masked>false</masked>
+      <name>fileName</name>
+   </variable>
+</TestCaseEntity>
