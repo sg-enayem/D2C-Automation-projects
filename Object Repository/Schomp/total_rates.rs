@@ -6,11 +6,11 @@
    <elementGuidId>a9e2c56f-bcab-472f-8577-22c2e6e883c8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[10]/div/span[2]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[8]/div/span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

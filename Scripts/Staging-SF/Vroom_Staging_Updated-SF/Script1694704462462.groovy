@@ -38,7 +38,7 @@ import java.time.Instant;
 
 
 
-if(testCase=="1") 
+if(testCase!="") 
 //{
 //			ExcelKeywords excelKeywords = new ExcelKeywords()
 //

@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>bb1cd1a2-9a99-4e8e-b670-0697c61d4b0c</dataFileGUID>
-   <dataSourceUrl>SFTestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\enayem\Documents\DTC_katalon - V.4.3\SFTestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>true</isInternalPath>
+   <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>GM_TD</sheetName>

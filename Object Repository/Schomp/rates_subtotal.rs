@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[9]/span[2]
+         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[6]/span[2]
 </value>
       </entry>
    </selectorCollection>

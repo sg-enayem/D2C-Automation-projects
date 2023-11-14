@@ -28,7 +28,7 @@ import utility.UtilKeywords as UtilKeywords
 import excelPackage.ExcelKeywords as ExcelKeywords
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-if(testCase!="") 
+if(testCase=="1") 
 //{
 //	ExcelKeywords excelKeywords = new ExcelKeywords()
 //
@@ -89,75 +89,6 @@ WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get R
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Vroom/select_termMileage'),
 	termLength, true)
 WebUI.delay(2)
-
-// New Deductible implementation-->
-if(plan=='Gold' && portal=='Schomp') {
-	if(deductible=='0'){
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_0'), 30)
-		UtilKeywords utilKeywordst = new UtilKeywords()
-		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_0'), 30)
-}
-	if(deductible=='100'){
-			WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deductible_Gold_100'), 30)
-			UtilKeywords utilKeywordst = new UtilKeywords()
-			utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deductible_Gold_100'), 30)
-			
-			if( (disappearing_deductible == "yes" || disappearing_deductible == "Yes"))
-				{
-			WebUI.click(findTestObject('Object Repository/Schomp/Schomp_Deductibles/gold_span_NoYes_lever'))
-			}
-	}
-	if(deductible=='250'){
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_250'), 30)
-		UtilKeywords utilKeywordst = new UtilKeywords()
-		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_250'), 30)
-}}
-	
-else if(plan=='Platinum' && portal=='Schomp') {
-	if(deductible=='0'){
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_0'), 30)
-		UtilKeywords utilKeywordst = new UtilKeywords()
-		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_0'), 30)
-}
-	if(deductible=='100'){
-			WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_100'), 30)
-			UtilKeywords utilKeywordst = new UtilKeywords()
-			utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_100'), 30)
-			
-			if( (disappearing_deductible == "yes" || disappearing_deductible == "Yes"))
-				{
-			WebUI.click(findTestObject('Object Repository/Schomp/Schomp_Deductibles/platinum_span_NoYes_lever'))
-			}
-	}
-	if(deductible=='250'){
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_250'), 30)
-		UtilKeywords utilKeywordst = new UtilKeywords()
-		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_250'), 30)
-}}
-else if(plan=='Powertrain' && portal=='Schomp') {
-	if(deductible=='0'){
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_0'), 30)
-		UtilKeywords utilKeywordst = new UtilKeywords()
-		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_0'), 30)
-}
-	if(deductible=='100'){
-			WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_100'), 30)
-			UtilKeywords utilKeywordst = new UtilKeywords()
-			utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_100'), 30)
-			
-			if( (disappearing_deductible == "yes" || disappearing_deductible == "Yes"))
-				{
-			WebUI.click(findTestObject('Object Repository/Schomp/Schomp_Deductibles/powertrain_span_NoYes_lever'))
-			}
-	}
-	if(deductible=='250'){
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_250'), 30)
-		UtilKeywords utilKeywordst = new UtilKeywords()
-		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_250'), 30)
-}}
-
-//----->
-/*
 if(deductible=='0') {
 	WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/button_0'))
 }
@@ -174,7 +105,7 @@ WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get R
 else if(deductible=='250') {
 WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/button_250'))
 }
-*/
+
 WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/span_View Payment Options'))
 
 // commercial Use ctrl+X
@@ -386,26 +317,9 @@ if(status=='Pass')
 			//if(vehicle_reg_province == 'GA') {
 			//WebUI.click(findTestObject('Object Repository/Vroom/vroom_gorgia_consent'))
 			//}
-			WebUI.delay(7)
-			WebUI.click(findTestObject('Object Repository/Schomp/span_Pay Now'))
-			//WebUI.delay(30)
 			
-			WebUI.delay(8)
-			//WebUI.waitForElementPresent(findTestObject('Object Repository/Vroom/p_order_id'), 60)
-			customerOrderNo=WebUI.getText(findTestObject('Object Repository/Vroom/p_orderid')).substring(9)
 			
-			WebUI.takeElementScreenshot((RunConfiguration.getProjectDir() +'/Screenshots/Schomp/')+ (customerOrderNo+'_ServiceDrive.png'), findTestObject('Object Repository/GM/Confirmation'))
-	
-			WebUI.delay(3)
 			
-					//WebUI.waitForElementPresent(findTestObject('Object Repository/Vroom/p_orderid'), 60)
-					if(WebUI.getUrl()!=baseURL+'/checkout/confirmation' && WebUI.getUrl()!=baseURL+'checkout/confirmation' )
-					{
-						WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'checkout_err.png')
-						status='fail'
-						error_msg='Error in checkout page data'
-			
-					}
 				}
 				catch(Exception E)
 				{
@@ -418,18 +332,6 @@ if(status=='Pass')
 			}
 			
 
-			// Write code here that turns the phrase above into concrete actions
-//			if(status=='Pass')
-//			{
-//				WebUI.verifyElementPresent(findTestObject('Object Repository/Vroom/p_orderid'), 5)
-//			
-//				customerOrderNo=WebUI.getText(findTestObject('Object Repository/Vroom/p_orderid')).substring(9)
-//			
-//				writeResult()
-//				println(customerOrderNo)
-//				WebUI.delay(15)
-//				
-//			}
 			
 			
 			writeResult()

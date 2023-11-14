@@ -577,6 +577,10 @@ if (status == 'Pass') {
             WebUI.click(findTestObject('Object Repository/Vroom/button_accept'))
 			WebUI.delay(4)
             WebUI.click(findTestObject('Object Repository/Vroom/label_accept'))
+			
+			if(province == 'GA') {
+				WebUI.click(findTestObject('Object Repository/Vroom/vroom_gorgia_consent'))
+				}
 
             CustomKeywords.'pdf_verification.pdf_url_check.check_agreement_value_change'()
 

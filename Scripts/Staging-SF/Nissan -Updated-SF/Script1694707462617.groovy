@@ -366,7 +366,7 @@ if(status=='Pass') {
 			}
 		}else {
 			checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
-			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal'))
+			subtotal=WebUI.getText(findTestObject('Object Repository/Nissan/rates_subtotal'))
 			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))//made change.9.19.23
 			
 		}
