@@ -330,7 +330,7 @@ if(status=='Pass') {
 	try {
 		//checkout page accounting
 		println(trimmed_totalDueToday)
-
+     /*
 		if (feePaymentPlan != 'Pay In Full') {
 			
 			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal_NISSAN_checkout'))
@@ -370,7 +370,79 @@ if(status=='Pass') {
 			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))//made change.9.19.23
 			
 		}
+		*/
 		WebUI.delay(3)
+		
+		//new Code-->
+		if (feePaymentPlan != 'Pay In Full') {
+			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal_NISSAN_checkout'))
+			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))
+			totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Total_rate_Nissan_checkout')))
+			totalDueToday_checkout = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_checkout_TotalDueToday')))
+			trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
+			trimmed_salesTax = salesTax.replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalDueToday_checkout = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
+			println("Total rate= "+ trimmed_totalrate)
+			println("Total due today= "+ trimmed_totalDueToday_checkout)
+			println("Sales Tax= "+ trimmed_salesTax)
+			println("Sub Total= "+ trimmed_subtotal)
+		strrr = WebUI.getText((findTestObject('Object Repository/Vroom/checkoutcalculation_nissan')))
+		println(strrr)
+		trimmed_monthlyPayment = strrr.tokenize('$')[1].toDouble().toFloat()
+		println("Monthly Payment= "+ trimmed_monthlyPayment)
+		//monthly payment calculation
+		if(feePaymentPlan != 'Pay In Full' ) {
+			trimmedfeePaymentPlan = feePaymentPlan.find(/\d+/)?.toInteger()
+			println(trimmedfeePaymentPlan)
+			monthlyPayment1 = ((trimmed_subtotal-trimmed_totalDueToday_checkout)+trimmed_salesTax)/trimmedfeePaymentPlan as float
+			println(monthlyPayment1)
+			if(monthlyPayment1 == trimmed_monthlyPayment ) {
+				monthlyPaymentMessage = "Calculation for remaining payment is matched"
+				println(monthlyPaymentMessage)
+			}else {
+				monthlyPaymentMessage = "Calculation for remaining payment is not matched"
+				println(monthlyPaymentMessage)
+			}
+		}//end
+		//total rates calculation and matching
+	totalrates1 = trimmed_subtotal + trimmed_salesTax as float
+	println(totalrates1)
+	if(totalrates1 == trimmed_totalrate ) {
+		totalrateMessage = "Calculation for total rate is matched"
+		println(totalrateMessage)
+	}else {
+		totalrateMessage = "Calculation for total rate is not matched"
+		println(totalrateMessage)
+	}	///end
+
+		println(trimmed_totalrate + " " + trimmed_totalDueToday_checkout)
+		duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float
+		def match_month = strrr.find(/\d+/)?.toInteger()
+		//def month = match_month[0].toInteger()
+		println("  ssss"+duesAfterInitialPay+ " " + match_month)
+		def match_pay = strrr.find(/\$\d+\.\d{2}/)
+		println(match_pay)
+		def num = strrr.tokenize('$')[1].toDouble().toFloat()
+		println(num)
+		checkout_cal = Math.ceil(duesAfterInitialPay / match_month * 100) / 100
+		println(checkout_cal + " " + num)
+
+		if(checkout_cal == num) {
+			checkoutPageCal = 'Total dues after initial pay is : '+duesAfterInitialPay+" || For "+match_month+" Remaining payment calculation is matched in Checkout page"
+			print(checkoutPageCal)
+			}
+			else{
+				checkoutPageCal = 'Calculation is not matched for Checkout page'
+			}
+		}else {
+			checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
+			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal'))
+			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax'))
+		}
+	//-->end
+		
+		
 		WebUI.setText(findTestObject('Object Repository/Schomp/input_Name On Card'), nameOnCard)
 
 		WebUI.setText(findTestObject('Object Repository/Schomp/input_Card Number'),cardNumber)
@@ -437,6 +509,7 @@ if(status=='Pass') {
 
 		}
 	}
+	
 	catch(Exception E)
 	{
 		/////

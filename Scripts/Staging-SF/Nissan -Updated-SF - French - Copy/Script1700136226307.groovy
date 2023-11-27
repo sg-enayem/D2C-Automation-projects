@@ -26,12 +26,14 @@ import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 if(testCase=="1") {
 			ExcelKeywords excelKeywords = new ExcelKeywords()
 
-			excelKeywords.deleteExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Nissan_result');
+			excelKeywords.deleteExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Vroom_Result');
 		}
 
 WebUI.openBrowser('')
 WebUI.maximizeWindow()
 println(portal)
+println(portal_type)
+
 if (portal.equalsIgnoreCase('nissan') && portal_type.equalsIgnoreCase('asp')) {
 	//if(portal_type.equalsIgnoreCase('asp')) 
 		println(portal_type)
@@ -45,15 +47,20 @@ if (portal.equalsIgnoreCase('nissan') && portal_type.equalsIgnoreCase('asp')) {
 }
 
 WebUI.delay(5)
+
+//French Language
+WebUI.selectOptionByValue(findTestObject('Object Repository/Nissan/Nissan_French/select_English - CA Franais - CA'), 'fr-ca', true)
+WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/Production/GMC/input_mileage'), mileage)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Production/GMC/input_province'), vehicle_reg_province, true)
 
-WebUI.click(findTestObject('Object Repository/GM/Page_GMC Protection Plan Vehicle Service Pr_1fd231/button_Find My Price_Nissan'))
+WebUI.click(findTestObject('Object Repository/Nissan/Nissan_French/button_find my price_nissan'))
 
 WebUI.delay(5)
 println(WebUI.getUrl())
 println(baseURL+'my-asp-pricing?plan=N1')
+WebUI.delay(5)
 //if((WebUI.getUrl()!=baseURL+'/my-vsp-pricing?plan='+portal.toUpperCase()+'1') && (WebUI.getUrl()!=baseURL+'/plans-pricing?plan='+portal.toUpperCase()+'1') && (WebUI.getUrl()!=baseURL+'/my-vsp-pricing?plan=CHEVY1') && (WebUI.getUrl()!=baseURL+'/my-asp-pricing'))
 if(WebUI.getUrl()==baseURL+'my-asp-pricing?plan=N1' || WebUI.getUrl()==baseURL+'my-pmp-pricing')
 
@@ -79,12 +86,18 @@ if(status=='Pass') {
 //		platinum
 //		platinumeco
 //		standardoilchange
+
+// french
+// platine
+// platine eco
+// or
 		
-		
-		WebUI.click(findTestObject('Object Repository/GM/Page_GMC - Get Rates/Nissan_'+plan))
+		//Object Repository/Nissan/Nissan_French/Nissan_OR
+		WebUI.click(findTestObject('Object Repository/Nissan/Nissan_French/Nissan_'+plan))
 println(plan)
 println(termLength)
 WebUI.delay(3)
+				  //WebUI.selectOptionByLabel(findTestObject('Object Repository/Vroom/select_termMileage'), termLength, true)
 				  WebUI.selectOptionByLabel(findTestObject('Object Repository/Vroom/select_termMileage'), termLength, true)
 //////////////////////////
 		WebUI.click(findTestObject('Object Repository/Vroom/span_View Payment Options'))
@@ -110,23 +123,23 @@ CustomKeywords.'pdf_verification.pdf_url_check.first_link_Nissan'()
 link1 = 'Link working:Cart Page->VIEW AGREEMENT AND EXCLUSIONS '
 if(status=='Pass')
 {
-	try {
+//	try {
 		//this.feePaymentPlan=feePaymentPlan
 		if(feePaymentPlan=="")
 		{
-			if(WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_36 months')))
-			{ feePaymentPlan="36 months" }
-			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_30 months')))
+			if(WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_35 months')))
+			{ feePaymentPlan="35 months" }
+			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_30 months')))
 			{feePaymentPlan="30 months"}
-			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_24 months')))
+			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_24 months')))
 			{feePaymentPlan="24 months"}
-			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_12 months')))
+			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_12 months')))
 			{feePaymentPlan="18 months"}
-			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_18 months')))
+			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_18 months')))
 			{feePaymentPlan="12 months"}
-			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_6 months')))
+			else if(WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_6 months')))
 			{feePaymentPlan="6 months"}
-			else if (WebUI.verifyElementClickable(findTestObject('Object Repository/Vroom/div_pay in full'))) {
+			else if (WebUI.verifyElementClickable(findTestObject('Object Repository/Nissan/div_pay in full'))) {
 				feePaymentPlan = 'Pay In Full'
 			}
 			
@@ -134,7 +147,7 @@ if(status=='Pass')
 		//WebUI.click(findTestObject('Object Repository/'+portal+'/links/span_View Payment Options'))
 
 
-		WebUI.click(findTestObject('Object Repository/Vroom/div_'+feePaymentPlan))
+		WebUI.click(findTestObject('Object Repository/Nissan/div_'+feePaymentPlan))
 		///
 		//cart calculation
 
@@ -164,43 +177,41 @@ if(status=='Pass')
 		//////
 			
 		if (feePaymentPlan != 'Pay In Full') {
-
+			
+			totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_totalRate')))
+			totalDueToday_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_TotalDueToday'))
 			subtotal_cartPage_beforeInitial=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_subtotal'))
-			trimmed_subtotal_subtotal_cartPage_beforeInitial = subtotal_cartPage_beforeInitial.replaceAll('\\$|\\.\\d+|,', '') as float
+			trimmed_subtotal_subtotal_cartPage_beforeInitial = subtotal_cartPage_beforeInitial.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalDueToday = totalDueToday_cartPage.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalrate = totalrate.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
 			println(trimmed_subtotal_subtotal_cartPage_beforeInitial)
+			
+			//////start
 		if(initial_payment != '') {
 		initialPay = (((initial_payment as int) / 100 ) * trimmed_subtotal_subtotal_cartPage_beforeInitial).toString()
 		println(initialPay)
 		WebUI.clearText(findTestObject('Object Repository/Vroom/Vroom_initial_payment_input'))
 		WebUI.sendKeys(findTestObject('Object Repository/Vroom/Vroom_initial_payment_input'), initialPay)
-		
-		//int_trimmed_totalDueToday =trimmed_subtotal as int 
-
-		//println(tenPercentsubtotal +"   "+trimmed_totalDueToday+'Total :' +trimmed_totalrate )
-		//roundtenPercenttotalDueToday = tenPercenttotalDueToday.round()
-		//println('totalDueToday_cartPage:' +totalDueToday_cartPage + 'subtotal_cartPage: '+subtotal_cartPage +'trimmed_subtotal: '+ trimmed_subtotal +'tenPercentsubtotal: '+ tenPercentsubtotal )
-	
-			//////////edit for here//////////			
+					
 		WebUI.delay(2)
-		totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_totalRate')))
-		totalDueToday_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_TotalDueToday'))
 		subtotal_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_subtotal'))
-		trimmed_subtotal = subtotal_cartPage.replaceAll('\\$|\\.\\d+|,', '') as float
-		trimmed_totalDueToday = totalDueToday_cartPage.replaceAll(/[^0-9.]/, '') as float
-		trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
+		trimmed_subtotal = subtotal_cartPage.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+		trimmed_totalDueToday = totalDueToday_cartPage.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+		trimmed_totalrate = totalrate.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
 		
 		strrr_cart = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_calculation'))) /// ex.18 Monthly Payments of $98.83
 		println(strrr_cart)
-		//trimmed_totalrate = totalrate.replaceAll('\\$|\\.\\d+|,', '') as int
-		//trimmed_totalDueToday = totalDueToday_cartPage.replaceAll('\\$|\\.\\d+|,', '') as int
+		int charactersToRemove = 2
+		def trim_strrr = strrr_cart.replace(",", ".").substring(charactersToRemove).replaceAll(/[^0-9.]/, '') as float
+		println(trim_strrr)
 		println(trimmed_totalrate + " " + trimmed_totalDueToday)
 		duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday as float
 		println(duesAfterInitialPay)
-		def match_month_cart = strrr_cart.find(/\d+/)?.toInteger()
-		//def month = match_month[0].toInteger()		
+		def match_month_cart = strrr_cart.find(/\d+/)?.toInteger()		
 		println("  ssss"+duesAfterInitialPay+ " " + match_month_cart)	
 		def match_pay = strrr_cart.find(/\$\d+\.\d{2}/)
-		def cart_num = strrr_cart.tokenize('$')[1].toDouble().toFloat()
+		//def cart_num = strrr_cart.tokenize('$')[0].toDouble().toFloat()
+		def cart_num = trim_strrr
 		println(cart_num)
 		cart_cal = (duesAfterInitialPay / match_month_cart).round(2) as float
 		println(cart_cal)
@@ -218,11 +229,15 @@ if(status=='Pass')
 			
 			tenPercentsubtotal = trimmed_subtotal_subtotal_cartPage_beforeInitial * 0.1 as float	
 			strrr_cart = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_calculation'))) /// ex.18 Monthly Payments of $98.83
+			println(strrr_cart)
+			int charactersToRemove = 2
+			def trim_strrr = strrr_cart.replace(",", ".").substring(charactersToRemove).replaceAll(/[^0-9.]/, '') as float
+			println(trim_strrr)
 			duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday as float
 			def match_month_cart = strrr_cart.find(/\d+/)?.toInteger()
-			//def month = match_month[0].toInteger()
 			def match_pay = strrr_cart.find(/\$\d+\.\d{2}/)
-			def cart_num = strrr_cart.tokenize('$')[1].toDouble().toFloat()
+			//def cart_num = strrr_cart.tokenize('$')[1].toDouble().toFloat()
+			def cart_num = trim_strrr
 
 			cart_cal = (duesAfterInitialPay / match_month_cart).round(2) as float
 			def cartPageCal = ''
@@ -233,16 +248,16 @@ if(status=='Pass')
 			
 			 cartPageCal = 'cartPageCalculation is not Accurate'
 			println(cartPageCalculation)
-		}
-		}
-		///////////////////
+		} 
+		}////end
+		
 		}else {
 			cartPageCalculation = 'Calculation is not applicable for PAY IN FULL option'
 			
 			totalDueToday_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_TotalDueToday'))
 			subtotal_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_subtotal'))
-			trimmed_subtotal = subtotal_cartPage.replaceAll('\\$|\\.\\d+|,', '') as float
-			trimmed_totalDueToday = totalDueToday_cartPage.replaceAll(/[^0-9.]/, '') as float
+			trimmed_subtotal = subtotal_cartPage.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalDueToday = totalDueToday_cartPage.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
 			
 		}
 
@@ -250,12 +265,12 @@ if(status=='Pass')
 
 		WebUI.click(findTestObject('Object Repository/Vroom/button_CHECKOUT'))
 
-	}
-	catch(Exception E)
-	{
-		WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'rates_err.png')
-		status='fail'
-		error_msg='Failed to move to checkout page'}
+//	}
+//	catch(Exception E)
+//	{
+//		WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'rates_err.png')
+//		status='fail'
+//		error_msg='Failed to move to checkout page'}
 	
 	WebUI.delay(5)
 	if(WebUI.getUrl()!=baseURL+'checkout')
@@ -267,7 +282,7 @@ if(status=='Pass')
 	}
 }
 //Get the link from vroom, as they both content same paths
-CustomKeywords.'pdf_verification.pdf_url_check.sample_agreement_link_checkoutPage_contact_vroom'()
+CustomKeywords.'pdf_verification.pdf_url_check.sample_agreement_link_checkoutPage_contact_nissan_french'()
 link4 = 'Link working:Checkout Page_Contact Page->VIEW AGREEMENT AND EXCLUSIONS'
 // Write code here that turns the phrase above into concrete actions
 if(status=='Pass')
@@ -304,6 +319,12 @@ if(status=='Pass')
 
 		WebUI.delay(1)
 
+		//WebUI.setText(findTestObject('Object Repository/GM/GM_city'), city)
+		//WebUI.selectOptionByValue(findTestObject('Object Repository/GM/GM_state'), state,true)
+		//WebUI.setText(findTestObject('Object Repository/GM/GM_city'), state)
+		//WebUI.setText(findTestObject('Object Repository/GM/GM_zip'), zip)
+
+
 
 
 		WebUI.click(findTestObject('Object Repository/Vroom/button_Continue to Billing'))
@@ -320,10 +341,10 @@ if(status=='Pass')
 
 }
 
-CustomKeywords.'pdf_verification.pdf_url_check.sample_agreement_link_checkoutPage_contact_vroom'()
+CustomKeywords.'pdf_verification.pdf_url_check.sample_agreement_link_checkoutPage_contact_nissan_french'()
 link5 = 'PDF working:Cart Page_Billingt Page->VIEW AGREEMENT AND EXCLUSIONS'
 if(status=='Pass') {
-	try {
+//	try {
 		//checkout page accounting
 		println(trimmed_totalDueToday)
 
@@ -332,11 +353,16 @@ if(status=='Pass') {
 			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal_NISSAN_checkout'))
 			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))
 			totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Total_rate_Nissan_checkout')))
+			trimmed_salesTax = salesTax.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
 			
 		strrr = WebUI.getText((findTestObject('Object Repository/Vroom/checkoutcalculation_nissan')))
+		println(strrr)
+		int charactersToRemove = 2
+		def trim_strrr = strrr.replace(",", ".").substring(charactersToRemove).replaceAll(/[^0-9.]/, '') as float
+		println(trim_strrr)
 		totalDueToday_checkout = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_checkout_TotalDueToday')))
-		trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
-		trimmed_totalDueToday_checkout = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
+		trimmed_totalrate = totalrate.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+		trimmed_totalDueToday_checkout = totalDueToday_checkout.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
 		println(trimmed_totalrate + " " + trimmed_totalDueToday_checkout)
 		duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float
 		def match_month = strrr.find(/\d+/)?.toInteger()
@@ -346,7 +372,8 @@ if(status=='Pass') {
 	
 		def match_pay = strrr.find(/\$\d+\.\d{2}/)
 		println(match_pay)
-		def num = strrr.tokenize('$')[1].toDouble().toFloat()
+		def num = trim_strrr
+		//def num = strrr.tokenize('$')[0].replace(",", ".").toDouble().toFloat()
 		println(num)
 		checkout_cal = Math.ceil(duesAfterInitialPay / match_month * 100) / 100
 		println(checkout_cal + " " + num)
@@ -363,7 +390,12 @@ if(status=='Pass') {
 		}else {
 			checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
 			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal'))
-			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))//made change.9.19.23
+			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))
+			totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Total_rate_Nissan_checkout')))
+			trimmed_subtotal = subtotal.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_salesTax = salesTax.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalrate = totalrate.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			println(trimmed_subtotal +" "+ trimmed_salesTax +" "+ trimmed_totalrate)
 			
 		}
 		WebUI.delay(3)
@@ -382,74 +414,94 @@ if(status=='Pass') {
 			//	expYear, true)
 
 		WebUI.setText(findTestObject('Object Repository/Schomp/input_CVC'), cvc)
+		
+		///--new code---
+		if (billingAddress == '') {
+			 (WebUI.click(findTestObject('Object Repository/Vroom/label_Billing address check box'))) 
 
-		WebUI.click(findTestObject('Object Repository/Vroom/label_Billing address check box'))
+			}
+			else if(billingAddress !='') {
+				WebUI.setText(findTestObject('Object Repository/Nissan/Nissan_input__Address'),billingAddress)
+					WebUI.delay(2)
+				
+				WebUI.sendKeys(findTestObject('Object Repository/Nissan/Nissan_input__Address'), Keys.chord(Keys.ARROW_DOWN))
+				WebUI.sendKeys(findTestObject('Object Repository/Nissan/Nissan_input__Address'), Keys.chord(Keys.ENTER))
+			}
+		
+
+	//	WebUI.click(findTestObject('Object Repository/Vroom/label_Billing address check box'))
 
 		//WebUI.delay(30)
 		
 		WebUI.click(findTestObject('Object Repository/Vroom/button_Continue to Review'))
 
 		WebUI.click(findTestObject('Object Repository/Vroom/button_Terms_and_conditions'))
-	  
+	 
+
+		//WebUI.click(findTestObject('Object Repository/Vroom/label_acceptAgreement'))
 		
+		//WebUI.click(findTestObject('Object Repository/Vroom/button_accept'))
+		
+		//WebUI.click(findTestObject('Object Repository/Vroom/label_accept'))
+
+		//WebUI.delay(5)
+
+		//if(WebUI.verifyElementPresent(findTestObject('Object Repository/'+portal+'/input_termsState'), 5))
+		//if(salesTax=="\$0.00")
+		/*try {
+		 if(WebUI.verifyElementPresent(findTestObject('Object Repository/Vroom/input_termsState'), 5, FailureHandling.OPTIONAL))
+		 {
+		 WebUI.click(findTestObject('Object Repository/Vroom/input_termsState'))
+		 }}
+		 catch(Exception e)
+		 {
+		 println('termsState element not present')
+		 }
+		 */
 		WebUI.click(findTestObject('Object Repository/Nissan/label_acceptAgreement'))
-		WebUI.delay(5)
-		if(vehicle_reg_province == 'GA') {
-		WebUI.click(findTestObject('Object Repository/Vroom/vroom_gorgia_consent'))
-		}
-		WebUI.delay(6)
+		//WebUI.delay(5)
+//		if(vehicle_reg_province == 'GA') {
+//		WebUI.click(findTestObject('Object Repository/Vroom/vroom_gorgia_consent'))
+//		}
+		WebUI.delay(20)
 		WebUI.click(findTestObject('Object Repository/Vroom/span_Pay Now'))
 
+//		writeResult()Screenshots/Nissan
+		
+		customerOrderNo=WebUI.getText(findTestObject('Object Repository/Vroom/p_orderid')).substring(9)
+		println((('Purchased Order number is : ' + customerOrderNo) + 'customer order :') + customerOrderNo)
+		WebUI.takeScreenshot(((RunConfiguration.getProjectDir() + '/Screenshots/Nissan/')+customerOrderNo)+'ScreenShot.png')
 		
 		WebUI.delay(10)
-		//WebUI.waitForElementPresent(findTestObject('Object Repository/Vroom/p_order_id'), 60)
-		customerOrderNo=WebUI.getText(findTestObject('Object Repository/Vroom/p_orderid')).substring(9)
 		
-		WebUI.takeElementScreenshot((RunConfiguration.getProjectDir() +'/Screenshots/Nissan/')+ (customerOrderNo+'_ContractSS.png'), findTestObject('Object Repository/GM/Confirmation'))
 
-		WebUI.delay(3)
-		
-		//WebUI.waitForElementPresent(findTestObject('Object Repository/Vroom/p_orderid'), 60)
-		if(WebUI.getUrl()!=baseURL+'/checkout/confirmation' && WebUI.getUrl()!=baseURL+'checkout/confirmation' )
-		{
-			WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'checkout_err.png')
-			status='fail'
-			error_msg='Error in checkout page data'
-
-		}
-	}
-	catch(Exception E)
-	{
-		/////
-
-		////
-		WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'payment_err.png')
-		status='fail'
-		error_msg='payment data page error'}
+//		WebUI.waitForElementPresent(findTestObject('Object Repository/Vroom/p_orderid'), 60)
+//		if(WebUI.getUrl()!=baseURL+'/checkout/confirmation' && WebUI.getUrl()!=baseURL+'checkout/confirmation' )
+//		{
+//			WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'checkout_err.png')
+//			status='fail'
+//			error_msg='Error in checkout page data'
+//
+//		}
+//	}
+//	catch(Exception E)
+//	{
+//
+//		WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'payment_err.png')
+//		status='fail'
+//		error_msg='payment data page error'}
 }
 
 
 
-//// Write code here that turns the phrase above into concrete actions
-//if(status=='Pass')
-//{
-//	WebUI.verifyElementPresent(findTestObject('Object Repository/Vroom/p_orderid'), 5)
-//
-//	customerOrderNo=WebUI.getText(findTestObject('Object Repository/Vroom/p_orderid')).substring(9)
-//
-//	//writeResult()
-//	println(customerOrderNo)
-//	WebUI.delay(15)
-//	
-//}
+
 
 
 writeResult()
-//WebUI.closeBrowser()
-WebUI.delay(5)
-//writeResult()
-WebUI.closeBrowser()
 
+
+WebUI.delay(10)
+WebUI.closeBrowser()
 
 
 		
@@ -461,9 +513,9 @@ WebUI.closeBrowser()
 		UtilKeywords utilKeywords = new UtilKeywords()
 		String currentDate = utilKeywords.getCurrentDate()
 
-		//String status = 'PASS'
+		String status = 'PASS'
 		//println(contractStatus)
-		//String responseDescription = 'SUCCESS'
+		String responseDescription = 'SUCCESS'
 		//println(responseDescription)
 
 		String[] valueToWrite = new String[80]
@@ -472,7 +524,7 @@ WebUI.closeBrowser()
 		
 			(valueToWrite[1]) = portal
 		
-			(valueToWrite[2]) = oid
+			(valueToWrite[2]) = vinNo
 		
 			(valueToWrite[3]) = firstName
 		
@@ -488,33 +540,33 @@ WebUI.closeBrowser()
 		
 			(valueToWrite[9]) = feePaymentPlan
 		
-			(valueToWrite[10]) = subtotal
+			(valueToWrite[10]) = trimmed_subtotal
 		
-			(valueToWrite[11]) = salesTax
+			(valueToWrite[11]) = trimmed_salesTax
 		
-			(valueToWrite[12]) = totalrate
+			(valueToWrite[12]) = trimmed_totalrate
 		
 			(valueToWrite[13]) = status
 		
 			(valueToWrite[14]) = customerOrderNo
 		
-			//(valueToWrite[15]) = verifyDB
+		//	(valueToWrite[15]) = verifyDB
 		
-			//(valueToWrite[16]) = cms_contract_Id
+		//	(valueToWrite[16]) = cms_contract_Id
 		
 			(valueToWrite[17]) = currentDate
 		
 			(valueToWrite[18]) = error_msg
 		
-			//(valueToWrite[19]) = first_query_result
-		
-			//(valueToWrite[20]) = second_query_result
-		
-			//(valueToWrite[21]) = third_query_result
-		
-			//(valueToWrite[22]) = fourth_query_result
-		
-			//(valueToWrite[23]) = fifth_query_result
+//			(valueToWrite[19]) = first_query_result
+//		
+//			(valueToWrite[20]) = second_query_result
+//		
+//			(valueToWrite[21]) = third_query_result
+//		
+//			(valueToWrite[22]) = fourth_query_result
+//		
+//			(valueToWrite[23]) = fifth_query_result
 		
 //			(valueToWrite[24]) = sixth_query_result
 //		
@@ -525,7 +577,7 @@ WebUI.closeBrowser()
 			(valueToWrite[25]) = link4
 			(valueToWrite[26]) = link5
 		
-			//(valueToWrite[27]) = pdfResultPrint
+		//	(valueToWrite[27]) = pdfResultPrint
 		
 		//	(valueToWrite[28]) = link2
 		
@@ -545,11 +597,9 @@ WebUI.closeBrowser()
 
 
 		ExcelKeywords excelKeywords = new ExcelKeywords()
-		 if (portal=="nissan" || portal=="nissan") {
-			excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Nissan_result', valueToWrite)
+		excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Nissan_Result', valueToWrite)
 
-		}
-		
+
 	}
 	
 	

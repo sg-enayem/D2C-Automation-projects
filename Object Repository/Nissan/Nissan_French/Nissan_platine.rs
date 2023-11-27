@@ -1,20 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_lever2</name>
+   <name>Nissan_platine</name>
    <tag></tag>
-   <elementGuidId>b3baef18-be07-4330-9dd0-b91014bc13e3</elementGuidId>
+   <elementGuidId>7efe1c82-1366-4676-ab0e-357651891f76</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@id=&quot;mainContent&quot;]/div/app-shopping-cart/div/div[2]/mdb-card/mdb-card-body/mdb-card-text/p/div/div[1]/section/form/app-add-ons/section/div[3]/div/div[2]/label/span
-</value>
+         <value>//*[@id=&quot;chose-plan-0&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

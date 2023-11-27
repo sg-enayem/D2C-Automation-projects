@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>PayInFull_salestax_GM_Checkoutcalculation_withoutsurcharge</name>
+   <tag></tag>
+   <elementGuidId>8ca576be-6866-43d1-b948-2c3ad83c00d8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;mainContent&quot;]/div/app-checkout/div/div[3]/div[2]/app-checkout-cart/mdb-card/mdb-card-body/div[7]/span[2]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

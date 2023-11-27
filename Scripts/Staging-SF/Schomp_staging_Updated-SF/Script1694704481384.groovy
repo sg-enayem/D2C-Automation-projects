@@ -23,7 +23,7 @@ import utility.UtilKeywords as UtilKeywords
 import excelPackage.ExcelKeywords as ExcelKeywords
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-if(testCase=="2") 
+if(testCase=="1") 
 //	   {
 //			ExcelKeywords excelKeywords = new ExcelKeywords()
 //

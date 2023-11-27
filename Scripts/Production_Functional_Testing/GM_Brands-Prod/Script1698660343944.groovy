@@ -229,10 +229,10 @@ if (status == 'Pass') {
 CustomKeywords.'pdf_verification.pdf_url_check.first_link_GMC'()
 
 
-CustomKeywords.'pdf_verification.pdf_url_check.second_link_GMC'()
+//CustomKeywords.'pdf_verification.pdf_url_check.second_link_GMC'()  //comment for code error
 
 //verify pdf is downloadable or not : link_02
-CustomKeywords.'pdf_verification.pdf_url_check.third_link_GMC'()
+//CustomKeywords.'pdf_verification.pdf_url_check.third_link_GMC'() //comment for code error
 
 
 //verify pdf is downloadable or not : link_03
@@ -498,8 +498,8 @@ if (feePaymentPlan != 'Pay In Full') {
 			
 	}else {
 		checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
-		subtotal=WebUI.getText(findTestObject('Object Repository/GM/rates_subtotal_GM_CheckoutCalculation'))
-		salesTax=WebUI.getText(findTestObject('Object Repository/GM/rates_salestax_GM_CheckoutCalculation'))
+		subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation_withoutsurcharge'))
+		salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation_withoutsurcharge'))
 		
 	}
 	

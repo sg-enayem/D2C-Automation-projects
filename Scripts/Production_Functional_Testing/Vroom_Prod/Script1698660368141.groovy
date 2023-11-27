@@ -59,7 +59,8 @@ if(portal=="Vroom" || portal=="vroom") {
 		WebUI.navigateToUrl(GlobalVariable.VroomURL+oid)
 		println("get the oid")
 		} else {
-			WebUI.navigateToUrl('https://staging.vroomprotect.com/vehicle-service-protection')
+			WebUI.navigateToUrl('https://www.vroomprotect.com/vehicle-service-protection?oid=')
+			
 			println(" not get the oid")
 		}	
 		baseURL=GlobalVariable.baseVroomURL
@@ -96,7 +97,7 @@ WebUI.delay(5)
 WebUI.click(findTestObject('Object Repository/GM/Page_GMC Protection Plan Vehicle Service Pr_1fd231/button_Find My Price_Vroom'))
 
 WebUI.delay(7)
-if ((WebUI.getUrl() != ((('https://staging.vroomprotect.com' + '/my-vsp-pricing')))))
+if ((WebUI.getUrl() != (('https://www.vroomprotect.com/my-vsp-pricing'))))
 	//&& (WebUI.getUrl() != ("https://staging.vroomprotect.com" + '/my-vsp-pricing'))) 
 	
 {
@@ -121,9 +122,9 @@ if ((WebUI.getUrl() != ((('https://staging.vroomprotect.com' + '/my-vsp-pricing'
 
 WebUI.delay(5)
 println(WebUI.getUrl())
-println(baseURL+'/my-asp-pricing')
+//println(baseURL+'/my-asp-pricing')
 //if((WebUI.getUrl()!=baseURL+'/my-vsp-pricing?plan='+portal.toUpperCase()+'1') && (WebUI.getUrl()!=baseURL+'/plans-pricing?plan='+portal.toUpperCase()+'1') && (WebUI.getUrl()!=baseURL+'/my-vsp-pricing?plan=CHEVY1') && (WebUI.getUrl()!=baseURL+'/my-asp-pricing'))
-if(WebUI.getUrl()!=baseURL+"/my-vsp-pricing" )
+if(WebUI.getUrl()!="https://www.vroomprotect.com/my-vsp-pricing" )
 //if(WebUI.getUrl()!='https://mango-rewrite-qa.herokuapp.com/my-vsp-pricing' && WebUI.getUrl()!='https://mango-rewrite-qa.herokuapp.com/my-vsp-pricing' )
 
 {
@@ -171,7 +172,7 @@ if(status=='Pass') {
 		error_msg='Failed to move to rates page'
 	}
 	WebUI.delay(5)
-	if(WebUI.getUrl()!=baseURL+'/cart')
+	if(WebUI.getUrl()!=baseURL+'cart')
 	{
 		WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'Plans_page_err.png')
 		status='fail'
@@ -327,7 +328,7 @@ if(status=='Pass')
 		error_msg='Failed to move to checkout page'}
 	
 	WebUI.delay(5)
-	if(WebUI.getUrl()!=baseURL+'/checkout')
+	if(WebUI.getUrl()!=baseURL+'checkout')
 	{
 		WebUI.takeFullPageScreenshot(RunConfiguration.getProjectDir()+'/Screenshots/'+testCase+'rates_err.png')
 		status='fail'

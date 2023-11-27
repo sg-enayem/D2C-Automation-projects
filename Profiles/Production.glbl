@@ -6,7 +6,7 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://www.vroomprotect.com/vehicle-service-protection?oid='</initValue>
+      <initValue>'https://www.vroomprotect.com/vehicle-service-protection'</initValue>
       <name>VroomURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -37,7 +37,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.mycadillacprotection.com/vehicle-service-protection?oid='</initValue>
-      <name>cadillaURL</name>
+      <name>cadillacURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -77,7 +77,7 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://www.mycadillacprotection.com/'</initValue>
-      <name>baseCadillaURL</name>
+      <name>baseCadillacURL</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
@@ -138,5 +138,15 @@
       <description></description>
       <initValue>'https://purchase.audipureprotection.com/'</initValue>
       <name>AudiURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.oneprotectplans.com/service-drive'</initValue>
+      <name>ServiceDriveURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://www.oneprotectplans.com/'</initValue>
+      <name>baseServiceDrive_URL</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

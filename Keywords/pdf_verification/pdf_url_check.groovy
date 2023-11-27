@@ -184,6 +184,29 @@ public class pdf_url_check {
 		WebUI.delay(1)
 	}
 
+	///new code ///
+	def static void sample_agreement_link_checkoutPage_contact_nissan_french() {
+		//verify pdf is downloadable or not : link_04
+		WebUI.click(findTestObject('Object Repository/Nissan/Nissan_French/PDF-Link/a_View Agreement and Exclusions_1'))
+		WebUI.delay(1)
+		//view_agreement_exclusion_pdf_cartPage_contact_url = 'https://prismic-io.s3.amazonaws.com/sgidigital-dev/046cf148-f4cd-45e1-917c-26bdb3d04e54_GMVSCD2C_220627_Sample.pdf'
+		WebUI.delay(1)
+		WebUI.switchToWindowIndex(1)
+
+		if(WebUI.getUrl()=='https://prismic-io.s3.amazonaws.com/sgidigital/d72661fb-e700-4a13-84ce-805fafdfd89c_VRVSCA-D2C_200918_Accessible_Sample.pdf') {
+			println('view_agreement_exclusion_pdf_contact_url pdf links downloadable on Checkout page')
+		}else {
+			println('view_agreement_exclusion_contact_pdf_url pdf links are not downloadable on Checkout Page')
+		}
+
+		WebUI.closeWindowIndex(1)
+
+		WebUI.delay(1)
+
+		WebUI.switchToWindowIndex(0)
+		WebUI.delay(1)
+	} ///ends
+
 	def static void fifth_link_GMC() {
 		//verify pdf is downloadable or not : link_05
 

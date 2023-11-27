@@ -57,18 +57,18 @@ public class db_binary_pdfCheck_Nissan {
 		PDDocument document = PDDocument.load(new File("C:/Users/enayem/Downloads/output.pdf"))
 		//Target ->Last_name =def rect = new Rectangle(55, 64, 60, 20)
 		def page = document.getPage(0)
-		
-		
+
+
 		// Target ->name
 		def nameRect = new Rectangle(53, 180, 188, 30)
 		def stripperByName = new PDFTextStripperByArea()
 		stripperByName.addRegion("nameRegion", nameRect)
 		stripperByName.extractRegions(page)
 		pdfTextnew = stripperByName.getTextForRegion("nameRegion")
-		
+
 		Pattern namePattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		Matcher nameMatcher = namePattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		println('Name: ' + converterPDF)
@@ -81,15 +81,15 @@ public class db_binary_pdfCheck_Nissan {
 		stripperByaddress.addRegion("addressRegion", addressRect)
 		stripperByaddress.extractRegions(page)
 		pdfTextnew = stripperByaddress.getTextForRegion("addressRegion")
-		
+
 		Pattern addressPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		Matcher addressMatcher = addressPattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		println('Address: ' + converterPDF)
 		def address_pdf = converterPDF
-		
+
 		////*****
 		//Language Prefferred
 		def languageRect = new Rectangle(355, 268, 86, 18) // for Language
@@ -97,17 +97,17 @@ public class db_binary_pdfCheck_Nissan {
 		stripperBylanguage.addRegion("languageRegion", languageRect)
 		stripperBylanguage.extractRegions(page)
 		pdfTextnew = stripperBylanguage.getTextForRegion("languageRegion")
-		
+
 		Pattern languagePattern = Pattern.compile("\\b[A-Za-z\\s-]+\\b")
 		Matcher languageMatcher = languagePattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String language_fromPdf = ''
 		println('Language: ' + converterPDF)
 		def Language_pdf =converterPDF
-		
-		
+
+
 		//Plan Details
 		def plandetailsRect = new Rectangle(245, 328, 270, 20)
 		//Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
@@ -115,18 +115,18 @@ public class db_binary_pdfCheck_Nissan {
 		stripperByplandetails.addRegion("plandetailsRegion", plandetailsRect)
 		stripperByplandetails.extractRegions(page)
 		pdfTextnew = stripperByplandetails.getTextForRegion("plandetailsRegion")
-		
+
 		Pattern plandetailsPattern = Pattern.compile("\\b[A-Za-z0-9-]+\\b.*")
 		//Pattern plandetailsPattern = Pattern.compile("\\b\\p{Alpha}[A-Z0-9-]+\\b.*")
 		Matcher plandetailsMatcher = plandetailsPattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String plandetails_fromPdf = ''
 		println('Plan Details: ' + converterPDF)
 		def PlanDetails_pdf =converterPDF
-		
-		
+
+
 		//Duration
 		def durationRect = new Rectangle(365, 355, 50, 20)
 		//Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
@@ -134,17 +134,17 @@ public class db_binary_pdfCheck_Nissan {
 		stripperByduration.addRegion("durationRegion", durationRect)
 		stripperByduration.extractRegions(page)
 		pdfTextnew = stripperByduration.getTextForRegion("durationRegion")
-		
+
 		Pattern durationPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		Matcher durationMatcher = durationPattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String duration_fromPdf = ''
 		println('Duration: ' + converterPDF)
 		def duration_pdf = converterPDF
-		
-		
+
+
 		// Deductible
 		def deductibleRect = new Rectangle(470, 355, 60, 20)      // for deductible
 		//Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
@@ -152,19 +152,19 @@ public class db_binary_pdfCheck_Nissan {
 		stripperBydeductible.addRegion("deductibleRegion", deductibleRect)
 		stripperBydeductible.extractRegions(page)
 		pdfTextnew = stripperBydeductible.getTextForRegion("deductibleRegion")
-		
-		
+
+
 		Pattern deductiblePattern = Pattern.compile("[\$]\\b+[0-9]+\\.+\\b.*")
 		//Pattern deductiblePattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		//Pattern deductiblePattern =Pattern.compile("[\$][0-9]\\.+[0-9]{2}")
 		Matcher deductibleMatcher = deductiblePattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String deductible_fromPdf = ''
 		println('Deductible: ' + converterPDF)
 		def Deductible_pdf =converterPDF
-		
+
 		//TARGET  -> ASP Price
 		///Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
 		def aspPriceRect = new Rectangle(381, 520, 50, 18)
@@ -172,133 +172,133 @@ public class db_binary_pdfCheck_Nissan {
 		stripperByAspPrice.addRegion("aspPriceRegion", aspPriceRect)
 		stripperByAspPrice.extractRegions(page)
 		pdfTextnew = stripperByAspPrice.getTextForRegion("aspPriceRegion")
-		
-		
+
+
 		Pattern aspPricePattern = Pattern.compile("[\$]+\\b[A-Z0-9-]+\\b.*")
 		//Pattern aspPricePattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		Matcher aspPriceMatcher = aspPricePattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String aspPrice_fromPdf = ''
 		println('ASP Price:' + converterPDF)
 		def ASP_pdf = converterPDF
-		
+
 		// Target-> GST/HST(if applicable)
 		def GSTRect = new Rectangle(381, 535, 40, 18)   //// GST
 		def stripperByGST = new PDFTextStripperByArea()
 		stripperByGST.addRegion("GSTRegion", GSTRect)
 		stripperByGST.extractRegions(page)
 		pdfTextnew = stripperByGST.getTextForRegion("GSTRegion")
-		
-		
+
+
 		Pattern GSTPattern = Pattern.compile("[\$]+\\b[A-Z0-9-]+\\b.*")
 		//Pattern GSTPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		Matcher GSTMatcher = GSTPattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String GST_fromPdf = ''
 		println('GST/HST Price:' + converterPDF)
 		def GST_pdf = converterPDF
-		
-		
+
+
 		//Target->Grand-Total
 		def Grand_TotalRect = new Rectangle(381, 560, 40, 18)   // Grand total
 		def stripperByGrand_Total = new PDFTextStripperByArea()
 		stripperByGrand_Total.addRegion("Grand_TotalRegion", Grand_TotalRect)
 		stripperByGrand_Total.extractRegions(page)
 		pdfTextnew = stripperByGrand_Total.getTextForRegion("Grand_TotalRegion")
-		
-		
+
+
 		Pattern Grand_TotalPattern = Pattern.compile("[\$]\\b[A-Z0-9-]+\\b.*")
 		//Pattern Grand_TotalPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
 		Matcher Grand_TotalMatcher = Grand_TotalPattern.matcher(pdfTextnew)
-		
+
 		converterPDF = pdfTextnew.trim()
 		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
 		String Grand_Total_fromPdf = ''
 		println('Grand Total:' + converterPDF)
 		def Grand_total =converterPDF
-		
-		
+
+
 		//////****
-// VIN
-def vinRect = new Rectangle(45, 443, 113, 19)
-def stripperByVin = new PDFTextStripperByArea()
-stripperByVin.addRegion("vinRegion", vinRect)
-stripperByVin.extractRegions(page)
-pdfTextnew = stripperByVin.getTextForRegion("vinRegion")
+		// VIN
+		def vinRect = new Rectangle(45, 443, 113, 19)
+		def stripperByVin = new PDFTextStripperByArea()
+		stripperByVin.addRegion("vinRegion", vinRect)
+		stripperByVin.extractRegions(page)
+		pdfTextnew = stripperByVin.getTextForRegion("vinRegion")
 
-Pattern vinPattern = Pattern.compile("\\b[A-Za-z0-9-]+\\b.*")
-Matcher vinMatcher = vinPattern.matcher(pdfTextnew)
+		Pattern vinPattern = Pattern.compile("\\b[A-Za-z0-9-]+\\b.*")
+		Matcher vinMatcher = vinPattern.matcher(pdfTextnew)
 
-converterPDF = pdfTextnew.trim()
-pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
-String vin_fromPdf = ''
-println('VIN: ' + converterPDF)
-def vin_pdf= converterPDF
+		converterPDF = pdfTextnew.trim()
+		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
+		String vin_fromPdf = ''
+		println('VIN: ' + converterPDF)
+		def vin_pdf= converterPDF
 
-// Odometer Reading
-def OdometerRect = new Rectangle(44, 500, 48, 18)
-def stripperByOdometer = new PDFTextStripperByArea()
-stripperByOdometer.addRegion("OdometerRegion", OdometerRect)
-stripperByOdometer.extractRegions(page)
-pdfTextnew = stripperByOdometer.getTextForRegion("OdometerRegion")
+		// Odometer Reading
+		def OdometerRect = new Rectangle(44, 500, 48, 18)
+		def stripperByOdometer = new PDFTextStripperByArea()
+		stripperByOdometer.addRegion("OdometerRegion", OdometerRect)
+		stripperByOdometer.extractRegions(page)
+		pdfTextnew = stripperByOdometer.getTextForRegion("OdometerRegion")
 
-Pattern OdometerPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
-Matcher OdometerMatcher = OdometerPattern.matcher(pdfTextnew)
+		Pattern OdometerPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
+		Matcher OdometerMatcher = OdometerPattern.matcher(pdfTextnew)
 
-converterPDF = pdfTextnew.trim()
-pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
-println('Odometer: ' + converterPDF)
-def odometer_pdf = converterPDF
+		converterPDF = pdfTextnew.trim()
+		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
+		println('Odometer: ' + converterPDF)
+		def odometer_pdf = converterPDF
 
-//Agreement Purchase Date
-def agreementDateRect = new Rectangle(70, 700, 75, 13) /// agreement purchase date
-def stripperByagreementDate = new PDFTextStripperByArea()
-stripperByagreementDate.addRegion("agreementDateRegion", agreementDateRect)
-stripperByagreementDate.extractRegions(page)
-pdfTextnew = stripperByagreementDate.getTextForRegion("agreementDateRegion")
+		//Agreement Purchase Date
+		def agreementDateRect = new Rectangle(70, 700, 75, 13) /// agreement purchase date
+		def stripperByagreementDate = new PDFTextStripperByArea()
+		stripperByagreementDate.addRegion("agreementDateRegion", agreementDateRect)
+		stripperByagreementDate.extractRegions(page)
+		pdfTextnew = stripperByagreementDate.getTextForRegion("agreementDateRegion")
 
-Pattern agreementDatePattern = Pattern.compile("\\d{2}/\\d{2}/\\d{4}") // Updated regex pattern for date format (e.g., 07/05/2023)
-Matcher agreementDateMatcher = agreementDatePattern.matcher(pdfTextnew)
+		Pattern agreementDatePattern = Pattern.compile("\\d{2}/\\d{2}/\\d{4}") // Updated regex pattern for date format (e.g., 07/05/2023)
+		Matcher agreementDateMatcher = agreementDatePattern.matcher(pdfTextnew)
 
-converterPDF = pdfTextnew.trim()
-pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
-String agreementDate_fromPdf = ''
-println('Agreement Date:' + converterPDF)
-def agreementRetailRate= converterPDF
+		converterPDF = pdfTextnew.trim()
+		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
+		String agreementDate_fromPdf = ''
+		println('Agreement Date:' + converterPDF)
+		def agreementRetailRate= converterPDF
 
-//Customer Signature
-///Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
-def customerSignatureRect = new Rectangle(380, 700, 185, 13)
-def stripperByCustomerSignature = new PDFTextStripperByArea()
-stripperByCustomerSignature.addRegion("customerSignatureRegion", customerSignatureRect)
-stripperByCustomerSignature.extractRegions(page)
-pdfTextnew = stripperByCustomerSignature.getTextForRegion("customerSignatureRegion")
-//Pattern customerSignaturePattern = Pattern.compile(".*\\b\\d{2}/\\d{2}/\\d{4}\\s+\\d{2}:\\d{2}\\s+[AP]M\\s+[A-Z]+\\b.*")
-//Matcher customerSignatureMatcher = customerSignaturePattern.matcher(pdfTextnew)
-//println('Customer Signature:' + pdfTextnew)
-converterPDF = pdfTextnew.trim()
-pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
-println('Customer Signature:' + converterPDF)
-def CSign= converterPDF
+		//Customer Signature
+		///Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
+		def customerSignatureRect = new Rectangle(380, 700, 185, 13)
+		def stripperByCustomerSignature = new PDFTextStripperByArea()
+		stripperByCustomerSignature.addRegion("customerSignatureRegion", customerSignatureRect)
+		stripperByCustomerSignature.extractRegions(page)
+		pdfTextnew = stripperByCustomerSignature.getTextForRegion("customerSignatureRegion")
+		//Pattern customerSignaturePattern = Pattern.compile(".*\\b\\d{2}/\\d{2}/\\d{4}\\s+\\d{2}:\\d{2}\\s+[AP]M\\s+[A-Z]+\\b.*")
+		//Matcher customerSignatureMatcher = customerSignaturePattern.matcher(pdfTextnew)
+		//println('Customer Signature:' + pdfTextnew)
+		converterPDF = pdfTextnew.trim()
+		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
+		println('Customer Signature:' + converterPDF)
+		def CSign= converterPDF
 
-//TARGET  -> Form Number
-///Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
-def formNumberRect = new Rectangle(380, 770, 195, 13)
-def stripperByFormNumber = new PDFTextStripperByArea()
-stripperByFormNumber.addRegion("formNumberRegion", formNumberRect)
-stripperByFormNumber.extractRegions(page)
-pdfTextnew = stripperByFormNumber.getTextForRegion("formNumberRegion")
-Pattern formNumberPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
-Matcher formNumberMatcher = formNumberPattern.matcher(pdfTextnew)
+		//TARGET  -> Form Number
+		///Rectangle2D region = new Rectangle2D.Double(x (right), y(down), width, height);
+		def formNumberRect = new Rectangle(380, 770, 195, 13)
+		def stripperByFormNumber = new PDFTextStripperByArea()
+		stripperByFormNumber.addRegion("formNumberRegion", formNumberRect)
+		stripperByFormNumber.extractRegions(page)
+		pdfTextnew = stripperByFormNumber.getTextForRegion("formNumberRegion")
+		Pattern formNumberPattern = Pattern.compile("\\b[A-Z0-9-]+\\b.*")
+		Matcher formNumberMatcher = formNumberPattern.matcher(pdfTextnew)
 
-converterPDF = pdfTextnew.trim()
-pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
-println('Form Number:' + converterPDF)
-def formNumber = converterPDF
+		converterPDF = pdfTextnew.trim()
+		pdfTextnew = pdfTextnew.replaceAll("\\s+", " ")
+		println('Form Number:' + converterPDF)
+		def formNumber = converterPDF
 
 
 
@@ -319,7 +319,7 @@ def formNumber = converterPDF
 		results.put("agreementRetailRate", agreementRetailRate);
 		results.put("CSign", CSign);
 		results.put("formNumber", formNumber);
-		
+
 
 
 		// add other results as needed
@@ -389,7 +389,7 @@ def formNumber = converterPDF
 		String agreementRetailRate = results.get("agreementRetailRate")
 		String CSign = results.get("CSign")
 		String formNumber = results.get("formNumber")
-		
+
 
 
 		// ready data for checking
@@ -416,23 +416,23 @@ def formNumber = converterPDF
 		//println(Deductible_pdf + deductible  +coverageTerm +termNumber + agreementRetailRate + Trate + firstName + first_Name + lastName + last_Name)
 		if(Deductible_pdf == deductible) {
 			print 'deductable_fromPdf matched'
-				if(agreementRetailRate == Trate) {
-					print 'agreementRetailRate is matched'
-					if(firstName == Name) {
-						print 'first name is matched'
-						if(lastName == Name) {
+			if(agreementRetailRate == Trate) {
+				print 'agreementRetailRate is matched'
+				if(firstName == Name) {
+					print 'first name is matched'
+					if(lastName == Name) {
 
-							print 'last name matched'
-						}else {
-							print 'last name not matched'
-						}
+						print 'last name matched'
 					}else {
-						print 'first name is not matched'
+						print 'last name not matched'
 					}
 				}else {
-					print 'agreementRetailRate not matched'
+					print 'first name is not matched'
 				}
-			
+			}else {
+				print 'agreementRetailRate not matched'
+			}
+
 		}else {
 			print 'deductable not matched'
 		}

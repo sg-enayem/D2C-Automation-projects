@@ -6,9 +6,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>0e6fb043-7d36-489a-86cc-c284d83b9363</dataFileGUID>
-   <dataSourceUrl>C:\Users\enayem\Documents\DTC_katalon - V.4.2\VroomTestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>SFTestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>Nissan_TD</sheetName>

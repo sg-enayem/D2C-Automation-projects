@@ -48,7 +48,7 @@ if (portal.equalsIgnoreCase('nissan') && portal_type.equalsIgnoreCase('asp')) {
 }
 
 //French Language
-WebUI.selectOptionByValue(findTestObject('Object Repository/Page_Nissan - Added Security Plans/select_English - CA Franais - CA'),
+WebUI.selectOptionByValue(findTestObject('Object Repository/Nissan/Nissan_French/select_English - CA Franais - CA'),
 	'fr-ca', true)
 WebUI.delay(5)
 WebUI.setText(findTestObject('Object Repository/Production/GMC/input_mileage'), mileage)

@@ -229,10 +229,10 @@ if (status == 'Pass') {
 CustomKeywords.'pdf_verification.pdf_url_check.first_link_GMC'()
 
 
-CustomKeywords.'pdf_verification.pdf_url_check.second_link_GMC'()
+//CustomKeywords.'pdf_verification.pdf_url_check.second_link_GMC'()  //comment for code error
 
 //verify pdf is downloadable or not : link_02
-CustomKeywords.'pdf_verification.pdf_url_check.third_link_GMC'()
+//CustomKeywords.'pdf_verification.pdf_url_check.third_link_GMC'()  //comment for code error
 
 
 //verify pdf is downloadable or not : link_03
@@ -466,24 +466,81 @@ if (feePaymentPlan != 'Pay In Full') {
 		
 	}
 	
-	//trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
-	trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
+//	//trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
+//	trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
+//	trimmed_totalDueToday_checkout = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
+//	println("Total rate= "+ trimmed_totalrate + " " + "Total due today= "+ trimmed_totalDueToday_checkout)
+//	println("Sales Tax= "+ salesTax)
+//	println("Sub Total= "+ subtotal)
+//	duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float
+//	def match_month = strrr.find(/\d+/)?.toInteger()
+//	//def month = match_month[0].toInteger()
+//	
+//	println("  ssss"+duesAfterInitialPay+ " " + match_month)
+//	
+//	def match_pay = strrr.find(/\$\d+\.\d{2}/)
+//	println(match_pay)
+//	def num = strrr.tokenize('$')[1].toDouble().toFloat()
+//	println(num)
+//	checkout_cal = Math.ceil(duesAfterInitialPay / match_month * 100) / 100
+//	println(checkout_cal + " " + num)
+//	
+//	
+	
+	trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
+	trimmed_salestax = salesTax.replaceAll(/[^0-9.]/, '') as float
+	trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float 
+	trimmed_monthlyPayment = strrr.tokenize('$')[1].toDouble().toFloat()
 	trimmed_totalDueToday_checkout = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
 	println("Total rate= "+ trimmed_totalrate + " " + "Total due today= "+ trimmed_totalDueToday_checkout)
 	println("Sales Tax= "+ salesTax)
 	println("Sub Total= "+ subtotal)
-	duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float
+	println("Monthly Payment= "+ trimmed_monthlyPayment)
+	duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float 
+	println(duesAfterInitialPay)
 	def match_month = strrr.find(/\d+/)?.toInteger()
 	//def month = match_month[0].toInteger()
-	
 	println("  ssss"+duesAfterInitialPay+ " " + match_month)
-	
 	def match_pay = strrr.find(/\$\d+\.\d{2}/)
 	println(match_pay)
 	def num = strrr.tokenize('$')[1].toDouble().toFloat()
 	println(num)
 	checkout_cal = Math.ceil(duesAfterInitialPay / match_month * 100) / 100
 	println(checkout_cal + " " + num)
+	//total due today calculation and matching
+	totalDueToday1 = trimmed_salestax + trimmed_monthlyPayment as float
+	println(totalDueToday1)
+	if(totalDueToday1 == trimmed_totalDueToday_checkout) {
+		CheckoutTotalDueTodayMessage = "Calculation for total due today is matched"
+		println(CheckoutTotalDueTodayMessage)
+	}else {
+		CheckoutTotalDueTodayMessage = "Calculation for total due today is not matched"
+		println(CheckoutTotalDueTodayMessage)
+	}///end
+	//remaining payments calculation and matching
+	if(feePaymentPlan != 'Pay In Full' ) {
+		trimmedfeePaymentPlan = feePaymentPlan.find(/\d+/)?.toInteger()
+		println(trimmedfeePaymentPlan)
+		remainingPayment1 = trimmed_subtotal/trimmedfeePaymentPlan as float 
+		println(remainingPayment1)
+		if(remainingPayment1 == trimmed_monthlyPayment ) {
+			remainingPaymentMessage = "Calculation for remaining payment is matched"
+			println(remainingPaymentMessage)
+		}else {
+			remainingPaymentMessage = "Calculation for remaining payment is not matched"
+			println(remainingPaymentMessage)
+		}
+	}///end
+	//total rates calculation and matching
+		totalrates1 = trimmed_subtotal + trimmed_salestax as float
+		println(totalrates1)
+		if(totalrates1 == trimmed_totalrate ) {
+			totalrateMessage = "Calculation for total rate is matched"
+			println(totalrateMessage)
+		}else {
+			totalrateMessage = "Calculation for total rate is not matched"
+			println(totalrateMessage)
+		}	///end
 	
 	
 	if(checkout_cal == num) {
@@ -497,9 +554,28 @@ if (feePaymentPlan != 'Pay In Full') {
 			
 	}else {
 		checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
-		subtotal=WebUI.getText(findTestObject('Object Repository/GM/rates_subtotal_GM_CheckoutCalculation'))
-		salesTax=WebUI.getText(findTestObject('Object Repository/GM/rates_salestax_GM_CheckoutCalculation'))
+		//Calculation-without surcharge
+		if(liftKit.equalsIgnoreCase('') && commercialUse.equalsIgnoreCase('')) {
+		subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation_withoutsurcharge'))
+		salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation_withoutsurcharge'))
+		totalrate =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___withoutsurcharge'))
+		}
+		//Calculation- Single Surcharge
+		if((liftKit.equalsIgnoreCase('yes') && commercialUse.equalsIgnoreCase('')) || (liftKit.equalsIgnoreCase('') && commercialUse.equalsIgnoreCase('yes')) ) {
+			
+			subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation__Single'))
+			salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation___Single'))
+			totalrate =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___Single'))
+		}
 		
+		//Calculation- Double Surcharge
+		if(liftKit.equalsIgnoreCase('yes') && commercialUse.equalsIgnoreCase('yes')) {
+			
+			subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation_Double'))
+			salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation__Double'))
+			totalrate =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___Double'))
+			
+		}
 	}
 	
 //-------->
@@ -578,7 +654,7 @@ if (status == 'Pass') {
 			WebUI.delay(4)
             WebUI.click(findTestObject('Object Repository/Vroom/label_accept'))
 			
-			if(province == 'GA') {
+			if(province == 'WA') {
 				WebUI.click(findTestObject('Object Repository/Vroom/vroom_gorgia_consent'))
 				}
 
@@ -658,93 +734,190 @@ WebUI.delay(2)
 WebUI.closeBrowser()
 
 def writeResult() {
-    'Writing the result to the excel file'
-    UtilKeywords utilKeywords = new UtilKeywords()
-
-    String currentDate = utilKeywords.getCurrentDate()
-
-    String[] valueToWrite = new String[80]
-
-    (valueToWrite[0]) = testCase
-
-    (valueToWrite[1]) = portal
-
-    (valueToWrite[2]) = vinNo
-
-    (valueToWrite[3]) = firstName
-
-    (valueToWrite[4]) = lastName
-
-    (valueToWrite[5]) = province
-
-    (valueToWrite[6]) = plan
-
-    (valueToWrite[7]) = termLength
-
-    (valueToWrite[8]) = mileage
-
-    (valueToWrite[9]) = feePaymentPlan
-
-    //(valueToWrite[10]) = subtotal
-	(valueToWrite[10]) = subtotal
+//    'Writing the result to the excel file'
+//    UtilKeywords utilKeywords = new UtilKeywords()
+//
+//    String currentDate = utilKeywords.getCurrentDate()
+//
+//    String[] valueToWrite = new String[80]
+//
+//    (valueToWrite[0]) = testCase
+//
+//    (valueToWrite[1]) = portal
+//
+//    (valueToWrite[2]) = vinNo
+//
+//    (valueToWrite[3]) = firstName
+//
+//    (valueToWrite[4]) = lastName
+//
+//    (valueToWrite[5]) = province
+//
+//    (valueToWrite[6]) = plan
+//
+//    (valueToWrite[7]) = termLength
+//
+//    (valueToWrite[8]) = mileage
+//
+//    (valueToWrite[9]) = feePaymentPlan
+//
+//    //(valueToWrite[10]) = subtotal
+//	(valueToWrite[10]) = subtotal
+//	//(valueToWrite[10]) = subtotalCartPage
+//	//valueToWrite[10] = String.valueOf(subtotal)
+//
+//    (valueToWrite[11]) = salesTax
+//
+//    (valueToWrite[12]) = Total_rate
+//
+//    (valueToWrite[13]) = status
+//
+//    (valueToWrite[14]) = customerOrderNo
+//
+//    //(valueToWrite[15]) = verifyDB
+//
+//    (valueToWrite[16]) = cms_contract_Id
+//
+//    (valueToWrite[17]) = currentDate
+//
+//    (valueToWrite[18]) = error_msg
+//
+//    //(valueToWrite[19]) = first_query_result
+//
+//    //(valueToWrite[20]) = second_query_result
+//
+//    //(valueToWrite[21]) = third_query_result
+//
+//    //(valueToWrite[22]) = fourth_query_result
+//
+//    //(valueToWrite[23]) = fifth_query_result
+//
+//   // (valueToWrite[24]) = sixth_query_result
+//
+//   // (valueToWrite[25]) = seventh_query_result
+//
+//    //(valueToWrite[26]) = eightth_query_result
+//
+//    (valueToWrite[27]) = link1
+//
+//    (valueToWrite[28]) = link2
+//
+//    (valueToWrite[29]) = link3
+//
+//    (valueToWrite[30]) = link4
+//
+//    (valueToWrite[31]) = link5
+//
+//    (valueToWrite[32]) = link6
+//
+//    (valueToWrite[33]) = link7
+//
+//    (valueToWrite[34]) = link8
+//
+//    (valueToWrite[35]) = link9 
+//	
+//	//(valueToWrite[36]) = pdfResultPrint
+//	
+//
+//    ExcelKeywords excelKeywords = new ExcelKeywords()
+//
+//    excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'GM_Brands_Result', valueToWrite)
+	
+	///
+	'Writing the result to the excel file'
+	UtilKeywords utilKeywords = new UtilKeywords()
+ 
+	String currentDate = utilKeywords.getCurrentDate()
+ 
+	String[] valueToWrite = new String[80]
+ 
+	(valueToWrite[0]) = testCase
+ 
+	(valueToWrite[1]) = portal
+ 
+	(valueToWrite[2]) = vinNo
+ 
+	(valueToWrite[3]) = firstName
+ 
+	(valueToWrite[4]) = lastName
+	(valueToWrite[5]) = email
+ 
+	(valueToWrite[6]) = province
+ 
+	(valueToWrite[7]) = plan
+	(valueToWrite[8]) = deductible
+//	(valueToWrite[9]) = liftlit
+ 
+	(valueToWrite[10]) = termLength
+ 
+	(valueToWrite[11]) = mileage
+ 
+	(valueToWrite[12]) = feePaymentPlan
+ 
+	(valueToWrite[13]) = subtotal
+	//(valueToWrite[10]) = subtotal.toString()
 	//(valueToWrite[10]) = subtotalCartPage
 	//valueToWrite[10] = String.valueOf(subtotal)
+ 
+	(valueToWrite[14]) = salesTax
+ 
+	(valueToWrite[15]) = totalrate
+	(valueToWrite[16]) = totalDueToday_checkout
+	(valueToWrite[17]) = trimmed_monthlyPayment  //monthly/remaining payment
+	(valueToWrite[18]) = CheckoutTotalDueTodayMessage
+	(valueToWrite[19]) = remainingPaymentMessage
+	(valueToWrite[20]) = totalrateMessage
+ 
+	(valueToWrite[21]) = status
+ 
+	(valueToWrite[22]) = customerOrderNo
+ 
+//	(valueToWrite[23]) = verifyDB
+ 
+	(valueToWrite[24]) = cms_contract_Id
+ 
+	(valueToWrite[25]) = currentDate
+ 
+	(valueToWrite[26]) = error_msg
+ 
+//    (valueToWrite[25]) = first_query_result
+//
+//    (valueToWrite[26]) = second_query_result
+//
+//    (valueToWrite[27]) = third_query_result
+//
+//    (valueToWrite[28]) = fourth_query_result
+//
+//    (valueToWrite[29]) = fifth_query_result
+//
+//    (valueToWrite[30]) = sixth_query_result
+//
+//    (valueToWrite[31]) = seventh_query_result
+//
+//    (valueToWrite[32]) = eightth_query_result
+ 
+	(valueToWrite[35]) = link1
+ 
+	(valueToWrite[36]) = link2
+ 
+	(valueToWrite[37]) = link3
+ 
+	(valueToWrite[38]) = link4
+ 
+	(valueToWrite[39]) = link5
+ 
+	(valueToWrite[40]) = link6
+ 
+	(valueToWrite[41]) = link7
+ 
+	(valueToWrite[42]) = link8
+ 
+	(valueToWrite[43]) = link9
+//	(valueToWrite[44]) = pdfResultPrint
 
-    (valueToWrite[11]) = salesTax
-
-    (valueToWrite[12]) = Total_rate
-
-    (valueToWrite[13]) = status
-
-    (valueToWrite[14]) = customerOrderNo
-
-    //(valueToWrite[15]) = verifyDB
-
-    (valueToWrite[16]) = cms_contract_Id
-
-    (valueToWrite[17]) = currentDate
-
-    (valueToWrite[18]) = error_msg
-
-    //(valueToWrite[19]) = first_query_result
-
-    //(valueToWrite[20]) = second_query_result
-
-    //(valueToWrite[21]) = third_query_result
-
-    //(valueToWrite[22]) = fourth_query_result
-
-    //(valueToWrite[23]) = fifth_query_result
-
-   // (valueToWrite[24]) = sixth_query_result
-
-   // (valueToWrite[25]) = seventh_query_result
-
-    //(valueToWrite[26]) = eightth_query_result
-
-    (valueToWrite[27]) = link1
-
-    (valueToWrite[28]) = link2
-
-    (valueToWrite[29]) = link3
-
-    (valueToWrite[30]) = link4
-
-    (valueToWrite[31]) = link5
-
-    (valueToWrite[32]) = link6
-
-    (valueToWrite[33]) = link7
-
-    (valueToWrite[34]) = link8
-
-    (valueToWrite[35]) = link9 
-	
-	//(valueToWrite[36]) = pdfResultPrint
-	
-
-    ExcelKeywords excelKeywords = new ExcelKeywords()
-
-    excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'GM_Brands_Result', valueToWrite)
+ 
+	ExcelKeywords excelKeywords = new ExcelKeywords()
+ 
+	excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'GM_result', valueToWrite)
 }
 

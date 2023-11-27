@@ -49,7 +49,7 @@ if(portal=="ServiceDrive" || portal=="servicedrive") {
 		println("get the dealerid")
 }
 		 else {
-			WebUI.navigateToUrl('https://staging.oneprotectplans.com/service-drive')
+			WebUI.navigateToUrl('https://oneprotectplans.com/service-drive')
 			println(" -get the dealerid")
 		}
 		baseURL=GlobalVariable.baseServiceDrive_URL
@@ -89,6 +89,8 @@ WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get R
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Vroom/select_termMileage'),
 	termLength, true)
 WebUI.delay(2)
+
+/*
 if(deductible=='0') {
 	WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/button_0'))
 }
@@ -105,6 +107,75 @@ WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get R
 else if(deductible=='250') {
 WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/button_250'))
 }
+*/
+
+// New Deductible implementation-->
+if(plan=='Gold' && portal=='ServiceDrive') {
+	if(deductible=='0'){
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_0'), 30)
+		UtilKeywords utilKeywordst = new UtilKeywords()
+		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_0'), 30)
+}
+	if(deductible=='100'){
+			WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deductible_Gold_100'), 30)
+			UtilKeywords utilKeywordst = new UtilKeywords()
+			utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deductible_Gold_100'), 30)
+			
+			if( (disappearing_deductible == "yes" || disappearing_deductible == "Yes"))
+				{
+			WebUI.click(findTestObject('Object Repository/Schomp/Schomp_Deductibles/gold_span_NoYes_lever'))
+			}
+	}
+	if(deductible=='250'){
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_250'), 30)
+		UtilKeywords utilKeywordst = new UtilKeywords()
+		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Gold_250'), 30)
+}}
+	
+else if(plan=='Platinum' && portal=='ServiceDrive') {
+	if(deductible=='0'){
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_0'), 30)
+		UtilKeywords utilKeywordst = new UtilKeywords()
+		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_0'), 30)
+}
+	if(deductible=='100'){
+			WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_100'), 30)
+			UtilKeywords utilKeywordst = new UtilKeywords()
+			utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_100'), 30)
+			
+			if( (disappearing_deductible == "yes" || disappearing_deductible == "Yes"))
+				{
+			WebUI.click(findTestObject('Object Repository/Schomp/Schomp_Deductibles/platinum_span_NoYes_lever'))
+			}
+	}
+	if(deductible=='250'){
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_250'), 30)
+		UtilKeywords utilKeywordst = new UtilKeywords()
+		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Platinum_250'), 30)
+}}
+else if(plan=='Powertrain' && portal=='ServiceDrive') {
+	if(deductible=='0'){
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_0'), 30)
+		UtilKeywords utilKeywordst = new UtilKeywords()
+		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_0'), 30)
+}
+	if(deductible=='100'){
+			WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_100'), 30)
+			UtilKeywords utilKeywordst = new UtilKeywords()
+			utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_100'), 30)
+			
+			if( (disappearing_deductible == "yes" || disappearing_deductible == "Yes"))
+				{
+			WebUI.click(findTestObject('Object Repository/Schomp/Schomp_Deductibles/powertrain_span_NoYes_lever'))
+			}
+	}
+	if(deductible=='250'){
+		WebUI.waitForElementClickable(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_250'), 30)
+		UtilKeywords utilKeywordst = new UtilKeywords()
+		utilKeywordst.clickUsingJS(findTestObject('Object Repository/Schomp/Schomp_Deductibles/deducticble_Powertrain_250'), 30)
+}}
+
+//----->
 
 WebUI.click(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/span_View Payment Options'))
 
@@ -435,7 +506,7 @@ if(status=='Pass')
 			
 					ExcelKeywords excelKeywords = new ExcelKeywords()
 					
-					excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'ServiceDrive_Result', valueToWrite)
+					excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result - Prod.xlsx', 'ServiceDrive_Result', valueToWrite)
 			
 					
 					

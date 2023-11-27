@@ -9,6 +9,12 @@
    <dataSourceUrl>C:\Users\enayem\Documents\DTC_katalon - V.4.3\SFTestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
+   <properties>
+      <entry>
+         <key>readAsString</key>
+         <value>true</value>
+      </entry>
+   </properties>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName>GM_TD</sheetName>
