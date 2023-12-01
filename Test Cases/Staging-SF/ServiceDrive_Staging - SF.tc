@@ -218,6 +218,12 @@
       <value></value>
       <variableId>879801ee-11f8-4b10-944c-5d9efe3f8365</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId>bb230d70-5a84-4204-9a08-2e15cbe2e797</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>billingAddress</value>
+      <variableId>7a33ce9b-55e6-4fe1-a1f8-0f17b17b7694</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>'servicedrive'</defaultValue>
       <description></description>
@@ -455,5 +461,12 @@
       <id>879801ee-11f8-4b10-944c-5d9efe3f8365</id>
       <masked>false</masked>
       <name>verifyDB</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7a33ce9b-55e6-4fe1-a1f8-0f17b17b7694</id>
+      <masked>false</masked>
+      <name>billingAddress</name>
    </variable>
 </TestCaseEntity>

@@ -316,6 +316,7 @@ if(status=='Pass')
 			//checkout page accounting
 			println(trimmed_totalDueToday)
 	
+			/*
 			if (feePaymentPlan != 'Pay In Full') {
 				
 				subtotal=WebUI.getText(findTestObject('Object Repository/SD_Schomp/Page_One Protect - Get Rates/rates_subtotal'))
@@ -354,6 +355,122 @@ if(status=='Pass')
 				
 			}
 			
+			//----//
+			*/
+			
+			///-- Checkout calculation start-->
+			if (feePaymentPlan != 'Pay In Full') {
+				if(commercialUse.equalsIgnoreCase('')) {
+					subtotal=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-Subtotal'))
+					salesTax=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-SalesTax'))
+					totalrate=WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-TotalRates')))
+				strrr = WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-MonthlyPayment')))
+				totalDueToday_checkout = WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-TotalDueToday')))
+				}
+				if((commercialUse.equalsIgnoreCase('yes')) ) {
+					subtotal=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-Subtotal'))
+					salesTax=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-SalesTax'))
+					totalrate=WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-TotalRates')))
+				strrr = WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-MonthlyPayment')))
+				totalDueToday_checkout = WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-TotalDueToday')))
+			 
+				}
+			//		strrr = WebUI.getText((findTestObject('Object Repository/Vroom/checkOutCalculation')))
+			//		totalDueToday_checkout = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_checkout_TotalDueToday')))
+					trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
+					trimmed_salestax = salesTax.replaceAll(/[^0-9.]/, '') as float
+					trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
+					trimmed_monthlyPayment = strrr.tokenize('$')[1].toDouble().toFloat()
+					trimmed_totalDueToday_checkout = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
+					println("Total rate= "+ trimmed_totalrate)
+					println("Total due today= "+ trimmed_totalDueToday_checkout)
+					println("Sales Tax= "+ trimmed_salestax)
+					println("Sub Total= "+ trimmed_subtotal)
+					println("Monthly Payment= "+ trimmed_monthlyPayment)
+			
+					//total due today calculation and matching
+					totalDueToday1 = trimmed_salestax + trimmed_monthlyPayment as float
+					println(totalDueToday1)
+					if(totalDueToday1 == trimmed_totalDueToday_checkout) {
+						CheckoutTotalDueTodayMessage = "Calculation for total due today is matched"
+						println(CheckoutTotalDueTodayMessage)
+					}else {
+						CheckoutTotalDueTodayMessage = "Calculation for total due today is not matched"
+						println(CheckoutTotalDueTodayMessage)
+					}///end
+					//remaining payments calculation and matching
+					if(feePaymentPlan != 'Pay In Full' ) {
+						trimmedfeePaymentPlan = feePaymentPlan.find(/\d+/)?.toInteger()
+						println(trimmedfeePaymentPlan)
+						remainingPayment1 = trimmed_subtotal/trimmedfeePaymentPlan as float
+						println(remainingPayment1)
+						def roundedMonthlyPayment = new BigDecimal(remainingPayment1.toString()).setScale(2, BigDecimal.ROUND_HALF_UP).floatValue() // Round the result to two decimal places using BigDecimal
+						println(roundedMonthlyPayment)
+						if(roundedMonthlyPayment == trimmed_monthlyPayment ) {
+							remainingPaymentMessage = "Calculation for remaining payment is matched"
+							println(remainingPaymentMessage)
+						}else {
+							remainingPaymentMessage = "Calculation for remaining payment is not matched"
+							println(remainingPaymentMessage)
+						}
+					}///end
+					//total rates calculation and matching
+						totalrates1 = trimmed_subtotal + trimmed_salestax as float
+						println(totalrates1)
+						def roundedTotalRate = new BigDecimal(totalrates1.toString()).setScale(2, BigDecimal.ROUND_HALF_UP).floatValue() // Round the result to two decimal places using BigDecimal
+						println(roundedTotalRate)
+						if(roundedTotalRate == trimmed_totalrate ) {
+							totalrateMessage = "Calculation for total rate is matched"
+							println(totalrateMessage)
+						}else {
+							totalrateMessage = "Calculation for total rate is not matched"
+							println(totalrateMessage)
+						}	///end
+			
+			
+					println(trimmed_totalrate + " " + trimmed_totalDueToday_checkout)
+					duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float
+					def match_month = strrr.find(/\d+/)?.toInteger()
+					//def month = match_month[0].toInteger()
+			 
+					
+					println("  ssss"+duesAfterInitialPay+ " " + match_month)
+					def match_pay = strrr.find(/\$\d+\.\d{2}/)
+					def num = strrr.tokenize('$')[1].toDouble().toFloat()
+					checkout_cal = (duesAfterInitialPay / match_month).round(2) as float
+					println(checkout_cal + " " + num)
+					if(checkout_cal == num) {
+						checkoutPageCal = 'Total dues after initial pay is : '+duesAfterInitialPay+" || For "+match_month+" Remaining payment calculation is matched in Checkout page"
+						print(checkoutPageCal)
+						}
+						else{
+							checkoutPageCal = 'Calculation is not matched for Checkout page'
+						}
+					}else { // payInFull
+				if(commercialUse.equalsIgnoreCase('')) {
+					subtotal=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-Subtotal'))
+					salesTax=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-SalesTax'))
+					totalDueToday_checkout=WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Without-Surcharge/Without-TotalRates')))
+					totalrate = "total due today is total amount in pay in full"
+					trimmed_monthlyPayment = "no remaining payment for Pay In Full"
+					remainingPaymentMessage = "no remaining payment message for Pay In Full"
+					totalrateMessage = "no total amount message for Pay In Full"
+					CheckoutTotalDueTodayMessage = ""
+				}
+				if((commercialUse.equalsIgnoreCase('yes')) ) {
+					subtotal=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-Subtotal'))
+					salesTax=WebUI.getText(findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-SalesTax'))
+					totalDueToday_checkout=WebUI.getText((findTestObject('Object Repository/Schomp/Checkout-Calculation-Rates/Single-Surcharge/Single-TotalRates')))
+					totalrate = "total due today is total amount in pay in full"
+					trimmed_monthlyPayment = "no remaining payment for Pay In Full"
+					remainingPaymentMessage = "no remaining payment message for Pay In Full"
+					totalrateMessage = "no total amount message for Pay In Full"
+					CheckoutTotalDueTodayMessage = ""
+				}
+					}
+					
+			//---END-->
+			
 			println(subtotal)
 			WebUI.delay(3)
 			WebUI.setText(findTestObject('Object Repository/Schomp/input_Name On Card'), nameOnCard)
@@ -372,9 +489,21 @@ if(status=='Pass')
 	
 			WebUI.setText(findTestObject('Object Repository/Schomp/input_CVC'), cvc)
 	
-			WebUI.click(findTestObject('Object Repository/Vroom/label_Billing address check box'))
+			//WebUI.click(findTestObject('Object Repository/Vroom/label_Billing address check box'))
 	
-			//WebUI.delay(30)
+			
+			//---new code--//
+			if (billingAddress == '') {
+				WebUI.click(findTestObject('Object Repository/Vroom/label_Billing address check box'))
+					
+				}
+				else if(billingAddress !='') {
+					WebUI.setText(findTestObject('Object Repository/Nissan/Nissan_input__Address'), billingAddress)
+					WebUI.delay(1)
+					WebUI.sendKeys(findTestObject('Object Repository/Nissan/Nissan_input__Address'), Keys.chord(Keys.ARROW_DOWN))
+					WebUI.sendKeys(findTestObject('Object Repository/Nissan/Nissan_input__Address'), Keys.chord(Keys.ENTER))
+				}
+			
 			
 			WebUI.click(findTestObject('Object Repository/Vroom/button_Continue to Review'))
 	
@@ -464,71 +593,74 @@ if(status=='Pass')
 						(valueToWrite[4]) = firstName
 					
 						(valueToWrite[5]) = lastName
-					
-						//(valueToWrite[6]) = vehicle_reg_province
+						
+						(valueToWrite[6]) = email
 					
 						(valueToWrite[7]) = plan
-					
-						(valueToWrite[8]) = termLength
-					
-						(valueToWrite[9]) = mileage
-					
-						(valueToWrite[10]) = feePaymentPlan
-					
-						(valueToWrite[11]) = subtotal
-					
-						(valueToWrite[12]) = salesTax
-					
-						(valueToWrite[13]) = totalrate
-					
-						(valueToWrite[14]) = status
-					
-						(valueToWrite[15]) = customerOrderNo
-					
-				//		(valueToWrite[16]) = verifyDB
-					
-				//		(valueToWrite[17]) = cms_contract_Id
-					
-						(valueToWrite[18]) = currentDate
-					
-			//			(valueToWrite[18]) = error_msg
-					
-//						(valueToWrite[19]) = first_query_result
-//					
-//						(valueToWrite[20]) = second_query_result
-//					
-//						(valueToWrite[21]) = third_query_result
-//					
-//						(valueToWrite[22]) = fourth_query_result
-//					
-//						(valueToWrite[23]) = fifth_query_result
-//					
-			//			(valueToWrite[24]) = sixth_query_result
+						
+			            (valueToWrite[8]) = deductible
+						
+	    	            (valueToWrite[9]) = commercialUse
+						
+			            (valueToWrite[10]) = termLength
+						
+			            (valueToWrite[11]) = mileage
+						
+			            (valueToWrite[12]) = feePaymentPlan
+						
+			            (valueToWrite[13]) = subtotal
+						
+			            (valueToWrite[14]) = salesTax
+						
+			            (valueToWrite[15]) = totalrate
+						
+			            (valueToWrite[16]) = totalDueToday_checkout
 			
-			//			(valueToWrite[25]) = seventh_query_result
-			//
-			//			(valueToWrite[26]) = eightth_query_result
-			//			(valueToWrite[24]) = link1
-			//			(valueToWrite[25]) = link4
-			//			(valueToWrite[26]) = link5
-					
-			//			(valueToWrite[27]) = pdfResultPrint
-					
-					//	(valueToWrite[28]) = link2
-					
-					//	(valueToWrite[29]) = link3
-					
-		//				(valueToWrite[28]) = cartPageCal
-					
-		//				(valueToWrite[29]) = checkoutPageCal
-					
-						//(valueToWrite[32]) = link6
-					
-						//(valueToWrite[33]) = link7
-					
-						//(valueToWrite[34]) = link8
-					
-						//(valueToWrite[35]) = link9
+			            (valueToWrite[17]) = trimmed_monthlyPayment  //monthly/remaining payment
+			
+			            (valueToWrite[18]) = CheckoutTotalDueTodayMessage
+			
+			            (valueToWrite[19]) = remainingPaymentMessage
+			
+			            (valueToWrite[20]) = totalrateMessage
+			
+			            (valueToWrite[21]) = status
+			
+			            (valueToWrite[22]) = customerOrderNo
+			
+//			(valueToWrite[22]) = verifyDB
+//			(valueToWrite[23]) = cms_contract_Id
+			            (valueToWrite[23]) = currentDate
+						
+			            (valueToWrite[24]) = error_msg 
+						
+//			(valueToWrite[19]) = first_query_result
+//
+//			(valueToWrite[20]) = second_query_result
+//
+//			(valueToWrite[21]) = third_query_result
+//
+//			(valueToWrite[22]) = fourth_query_result
+//
+//			(valueToWrite[23]) = fifth_query_result
+//			(valueToWrite[24]) = sixth_query_result
+//
+//			(valueToWrite[25]) = seventh_query_result
+//
+//			(valueToWrite[26]) = eightth_query_result
+//			(valueToWrite[24]) = link1
+//			(valueToWrite[25]) = link4
+//			(valueToWrite[26]) = link5
+		//	(valueToWrite[27]) = pdfResultPrint
+		//	(valueToWrite[28]) = link2
+		//	(valueToWrite[29]) = link3
+//			(valueToWrite[28]) = cartPageCal
+//
+//			(valueToWrite[29]) = checkoutPageCal
+			//(valueToWrite[32]) = link6
+			//(valueToWrite[33]) = link7
+			//(valueToWrite[34]) = link8
+			//(valueToWrite[35]) = link9
 			
 			
 					ExcelKeywords excelKeywords = new ExcelKeywords()

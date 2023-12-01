@@ -466,26 +466,7 @@ if (feePaymentPlan != 'Pay In Full') {
 		
 	}
 	
-//	//trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
-//	trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
-//	trimmed_totalDueToday_checkout = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
-//	println("Total rate= "+ trimmed_totalrate + " " + "Total due today= "+ trimmed_totalDueToday_checkout)
-//	println("Sales Tax= "+ salesTax)
-//	println("Sub Total= "+ subtotal)
-//	duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday_checkout as float
-//	def match_month = strrr.find(/\d+/)?.toInteger()
-//	//def month = match_month[0].toInteger()
-//	
-//	println("  ssss"+duesAfterInitialPay+ " " + match_month)
-//	
-//	def match_pay = strrr.find(/\$\d+\.\d{2}/)
-//	println(match_pay)
-//	def num = strrr.tokenize('$')[1].toDouble().toFloat()
-//	println(num)
-//	checkout_cal = Math.ceil(duesAfterInitialPay / match_month * 100) / 100
-//	println(checkout_cal + " " + num)
-//	
-//	
+
 	
 	trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
 	trimmed_salestax = salesTax.replaceAll(/[^0-9.]/, '') as float
@@ -558,23 +539,39 @@ if (feePaymentPlan != 'Pay In Full') {
 		if(liftKit.equalsIgnoreCase('') && commercialUse.equalsIgnoreCase('')) {
 		subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation_withoutsurcharge'))
 		salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation_withoutsurcharge'))
-		totalrate =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___withoutsurcharge'))
+		totalDueToday_checkout =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___withoutsurcharge'))
+		totalrate = "total due today is total amount in pay in full"
+		strrr = "no remaining payment for Pay In Full"
+		remainingPaymentMessage = "no remaining payment message for Pay In Full"
+		totalrateMessage = "no total amount message for Pay In Full"
+		CheckoutTotalDueTodayMessage = ""
+		
 		}
 		//Calculation- Single Surcharge
 		if((liftKit.equalsIgnoreCase('yes') && commercialUse.equalsIgnoreCase('')) || (liftKit.equalsIgnoreCase('') && commercialUse.equalsIgnoreCase('yes')) ) {
 			
 			subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation__Single'))
 			salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation___Single'))
-			totalrate =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___Single'))
-		}
+			totalDueToday_checkout =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___Single'))
+			totalrate = "total due today is total amount in pay in full"
+			strrr = "no remaining payment for Pay In Full"
+			remainingPaymentMessage = "no remaining payment message for Pay In Full"
+			totalrateMessage = "no total amount message for Pay In Full"
+			CheckoutTotalDueTodayMessage = ""
+			
+			}
 		
 		//Calculation- Double Surcharge
 		if(liftKit.equalsIgnoreCase('yes') && commercialUse.equalsIgnoreCase('yes')) {
 			
 			subtotal=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_subtotal_GM_Checkoutcalculation_Double'))
 			salesTax=WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_salestax_GM_Checkoutcalculation__Double'))
-			totalrate =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___Double'))
-			
+			totalDueToday_checkout =WebUI.getText(findTestObject('Object Repository/GM/GM-Checkout-Calculation/Rates-Pay In FUll/PayInFull_totalrate_GM_Checkoutcalculation___Double'))
+			totalrate = "total due today is total amount in pay in full"
+			strrr = "no remaining payment for Pay In Full"
+			remainingPaymentMessage = "no remaining payment message for Pay In Full"
+			totalrateMessage = "no total amount message for Pay In Full"
+			CheckoutTotalDueTodayMessage = ""
 		}
 	}
 	
@@ -732,7 +729,7 @@ writeResult()
 WebUI.delay(2)
 
 WebUI.closeBrowser()
-
+/*
 def writeResult() {
 //    'Writing the result to the excel file'
 //    UtilKeywords utilKeywords = new UtilKeywords()
@@ -914,6 +911,105 @@ def writeResult() {
  
 	(valueToWrite[43]) = link9
 //	(valueToWrite[44]) = pdfResultPrint
+
+ 
+	ExcelKeywords excelKeywords = new ExcelKeywords()
+ 
+	excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'GM_result', valueToWrite)
+}
+*/
+///--->
+def writeResult() {
+	'Writing the result to the excel file'
+	UtilKeywords utilKeywords = new UtilKeywords()
+ 
+	String currentDate = utilKeywords.getCurrentDate()
+ 
+	String[] valueToWrite = new String[80]
+ 
+	(valueToWrite[0]) = testCase
+ 
+	(valueToWrite[1]) = portal
+ 
+	(valueToWrite[2]) = vinNo
+ 
+	(valueToWrite[3]) = firstName
+ 
+	(valueToWrite[4]) = lastName
+	(valueToWrite[5]) = email
+ 
+	(valueToWrite[6]) = province
+ 
+	(valueToWrite[7]) = plan
+	(valueToWrite[8]) = deductible
+//	(valueToWrite[9]) = liftlit
+ 
+	(valueToWrite[10]) = termLength
+ 
+	(valueToWrite[11]) = mileage
+ 
+	(valueToWrite[12]) = feePaymentPlan
+ 
+	(valueToWrite[13]) = subtotal
+	//(valueToWrite[10]) = subtotal.toString()
+	//(valueToWrite[10]) = subtotalCartPage
+	//valueToWrite[10] = String.valueOf(subtotal)
+ 
+	(valueToWrite[14]) = salesTax
+ 
+	(valueToWrite[15]) = totalrate
+	(valueToWrite[16]) = totalDueToday_checkout
+	(valueToWrite[17]) = strrr  //monthly/remaining payment
+	(valueToWrite[18]) = CheckoutTotalDueTodayMessage
+	(valueToWrite[19]) = remainingPaymentMessage
+	(valueToWrite[20]) = totalrateMessage
+ 
+	(valueToWrite[21]) = status
+ 
+	(valueToWrite[22]) = customerOrderNo
+ 
+	(valueToWrite[23]) = verifyDB
+ 
+	(valueToWrite[24]) = cms_contract_Id
+ 
+	(valueToWrite[25]) = currentDate
+ 
+	(valueToWrite[26]) = error_msg
+ 
+//    (valueToWrite[25]) = first_query_result
+//
+//    (valueToWrite[26]) = second_query_result
+//
+//    (valueToWrite[27]) = third_query_result
+//
+//    (valueToWrite[28]) = fourth_query_result
+//
+//    (valueToWrite[29]) = fifth_query_result
+//
+//    (valueToWrite[30]) = sixth_query_result
+//
+//    (valueToWrite[31]) = seventh_query_result
+//
+//    (valueToWrite[32]) = eightth_query_result
+ 
+	(valueToWrite[35]) = link1
+ 
+	(valueToWrite[36]) = link2
+ 
+	(valueToWrite[37]) = link3
+ 
+	(valueToWrite[38]) = link4
+ 
+	(valueToWrite[39]) = link5
+ 
+	(valueToWrite[40]) = link6
+ 
+	(valueToWrite[41]) = link7
+ 
+	(valueToWrite[42]) = link8
+ 
+	(valueToWrite[43]) = link9
+	(valueToWrite[44]) = pdfResultPrint
 
  
 	ExcelKeywords excelKeywords = new ExcelKeywords()

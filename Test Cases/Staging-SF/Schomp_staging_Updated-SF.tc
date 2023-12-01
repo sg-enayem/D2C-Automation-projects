@@ -314,6 +314,12 @@
       <value>disappearing_deductible</value>
       <variableId>a1454354-4e5b-4180-a0fb-034b072b4bf5</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d5acc7c9-ffe2-4d98-959f-11c2786c71cb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>billingAddress</value>
+      <variableId>cb2dddcc-c596-401b-94ea-4170ee2ee657</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -663,5 +669,12 @@
       <id>a1454354-4e5b-4180-a0fb-034b072b4bf5</id>
       <masked>false</masked>
       <name>disappearing_deductible</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb2dddcc-c596-401b-94ea-4170ee2ee657</id>
+      <masked>false</masked>
+      <name>billingAddress</name>
    </variable>
 </TestCaseEntity>

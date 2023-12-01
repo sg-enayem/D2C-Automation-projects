@@ -23,7 +23,7 @@ import utility.UtilKeywords as UtilKeywords
 import excelPackage.ExcelKeywords as ExcelKeywords
 import com.kms.katalon.core.configuration.RunConfiguration as RunConfiguration
 
-if(testCase!="") 
+if(testCase=="4") 
 //	   {
 //			ExcelKeywords excelKeywords = new ExcelKeywords()
 //
@@ -166,7 +166,7 @@ if(status=='Pass')
 			
 		WebUI.delay(5)
 		//////
-			
+		/*	
 		if (feePaymentPlan != 'Pay In Full') {
 
 			subtotal_cartPage_beforeInitial=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_subtotal'))
@@ -250,7 +250,81 @@ if(status=='Pass')
 			
 		}
 
-		
+		*/
+		//--->
+		if (feePaymentPlan != 'Pay In Full') {
+			totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_totalRate')))
+			totalDueToday_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_TotalDueToday'))
+			subtotal_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_subtotal'))
+			trimmed_subtotal = subtotal_cartPage.replaceAll('\\$|\\.\\d+|,', '') as float
+			trimmed_totalDueToday = totalDueToday_cartPage.replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalrate = totalrate.replaceAll(/[^0-9.]/, '') as float
+	 
+	 
+			if(initial_payment != '') {
+			initialPay = (((initial_payment as int) / 100 ) * trimmed_subtotal).toString()
+			println(initialPay)
+	//		WebUI.clearText(findTestObject('Object Repository/Vroom/Vroom_initial_payment_input'))
+	//		WebUI.sendKeys(findTestObject('Object Repository/Vroom/Vroom_initial_payment_input'), initialPay)
+			//int_trimmed_totalDueToday =trimmed_subtotal as int
+	 
+			//println(tenPercentsubtotal +"   "+trimmed_totalDueToday+'Total :' +trimmed_totalrate )
+			//roundtenPercenttotalDueToday = tenPercenttotalDueToday.round()
+			//println('totalDueToday_cartPage:' +totalDueToday_cartPage + 'subtotal_cartPage: '+subtotal_cartPage +'trimmed_subtotal: '+ trimmed_subtotal +'tenPercentsubtotal: '+ tenPercentsubtotal )
+				//////////edit for here//////////
+			strrr_cart = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_calculation'))) /// ex.18 Monthly Payments of $98.83
+			println(strrr_cart)
+			//trimmed_totalrate = totalrate.replaceAll('\\$|\\.\\d+|,', '') as int
+			//trimmed_totalDueToday = totalDueToday_cartPage.replaceAll('\\$|\\.\\d+|,', '') as int
+			println(trimmed_totalrate + " " + trimmed_totalDueToday)
+			duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday as float
+			println(duesAfterInitialPay)
+			def match_month_cart = strrr_cart.find(/\d+/)?.toInteger()
+			//def month = match_month[0].toInteger()
+			println("  ssss"+duesAfterInitialPay+ " " + match_month_cart)
+			def match_pay = strrr_cart.find(/\$\d+\.\d{2}/)
+			def cart_num = strrr_cart.tokenize('$')[1].toDouble().toFloat()
+			println(cart_num)
+			cart_cal = (duesAfterInitialPay / match_month_cart).round(2) as float
+			println(cart_cal)
+			println(cart_cal + " " + cart_num)
+	
+			if(cart_cal == cart_num) {
+				cartPageCal = 'For customized initial Pay: '+initial_payment+'% ,Monthly payment after initial pay is : '+duesAfterInitialPay+" || For "+match_month_cart+"months Remaining payment, calculation is matched in Cart page "
+				print(cartPageCal)
+				}
+				else{
+					cartPageCal = 'cartPageCalculation is not Accurate'
+				}
+			}else {
+				tenPercentsubtotal = trimmed_subtotal * 0.1 as float
+				strrr_cart = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_cart_calculation'))) /// ex.18 Monthly Payments of $98.83
+				duesAfterInitialPay = trimmed_totalrate - trimmed_totalDueToday as float
+				def match_month_cart = strrr_cart.find(/\d+/)?.toInteger()
+				//def month = match_month[0].toInteger()
+				def match_pay = strrr_cart.find(/\$\d+\.\d{2}/)
+				def cart_num = strrr_cart.tokenize('$')[1].toDouble().toFloat()
+	 
+				cart_cal = (duesAfterInitialPay / match_month_cart).round(2) as float
+				def cartPageCal = ''
+				if(cart_cal == cart_num && tenPercentsubtotal == trimmed_totalDueToday) {
+					cartPageCal = 'Initial Pay, and monthly payment calculation is accurate in cart page'
+					println(cartPageCalculation)
+				}else {
+				 cartPageCal = 'cartPageCalculation is not Accurate'
+				println(cartPageCalculation)
+			}
+			}
+			///////////////////
+			}else {
+				cartPageCalculation = 'Calculation is not applicable for PAY IN FULL option'
+				totalDueToday_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_TotalDueToday'))
+				subtotal_cartPage=WebUI.getText(findTestObject('Object Repository/Vroom/Vroom_cart_subtotal'))
+				trimmed_subtotal = subtotal_cartPage.replaceAll('\\$|\\.\\d+|,', '') as float
+				trimmed_totalDueToday = totalDueToday_cartPage.replaceAll(/[^0-9.]/, '') as float
+			}
+			
+			//---END--->
 
 		WebUI.click(findTestObject('Object Repository/Vroom/button_CHECKOUT'))
 
@@ -396,6 +470,8 @@ if(status=='Pass') {
 			trimmedfeePaymentPlan = feePaymentPlan.find(/\d+/)?.toInteger()
 			println(trimmedfeePaymentPlan)
 			monthlyPayment1 = ((trimmed_subtotal-trimmed_totalDueToday_checkout)+trimmed_salesTax)/trimmedfeePaymentPlan as float
+			// Round the result to two decimal places
+			monthlyPayment1 = monthlyPayment1.round(2)
 			println(monthlyPayment1)
 			if(monthlyPayment1 == trimmed_monthlyPayment ) {
 				monthlyPaymentMessage = "Calculation for remaining payment is matched"
@@ -436,9 +512,22 @@ if(status=='Pass') {
 				checkoutPageCal = 'Calculation is not matched for Checkout page'
 			}
 		}else {
-			checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
-			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal'))
-			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax'))
+//			checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
+//			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal'))
+//			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax'))
+			
+				checkoutPageCal = 'Calculation is not applicable for PAY IN FULL option'
+				subtotal=WebUI.getText(findTestObject('Object Repository/Nissan/Pay-In-Full/rates_subtotal'))
+				salesTax=WebUI.getText(findTestObject('Object Repository/Nissan/Pay-In-Full/sales_tax_nissan_Checkout'))
+				totalDueToday_checkout=WebUI.getText((findTestObject('Object Repository/Nissan/Pay-In-Full/Total_rate_Nissan_checkout')))
+				trimmed_subtotal = subtotal.replaceAll(/[^0-9.]/, '') as float
+				trimmed_salesTax = salesTax.replaceAll(/[^0-9.]/, '') as float
+				trimmed_totalrate = totalDueToday_checkout.replaceAll(/[^0-9.]/, '') as float
+				trim_strrr = "no remaining payment for Pay In Full"
+				monthlyPaymentMessage = "no remaining payment message for Pay In Full"
+				totalrateMessage = "no total amount message for Pay In Full"
+				totalrate = ""
+			
 		}
 	//-->end
 		
@@ -567,13 +656,87 @@ WebUI.delay(2)
 writeResult()
 
 //WebUI.closeBrowser()
-WebUI.delay(30)
+WebUI.delay(3)
 WebUI.closeBrowser()
 
 
 
  // added for commenting out after checking 5 db tables
 
+def writeResult()
+{
+	'Writing the result to the excel file'
+	UtilKeywords utilKeywords = new UtilKeywords()
+	String currentDate = utilKeywords.getCurrentDate()
+
+	String status = 'PASS'
+	//println(contractStatus)
+	String responseDescription = 'SUCCESS'
+	//println(responseDescription)
+
+	String[] valueToWrite = new String[80]
+
+	(valueToWrite[0]) = testCase
+		(valueToWrite[1]) = portal
+		(valueToWrite[2]) = vinNo
+		(valueToWrite[3]) = firstName
+		(valueToWrite[4]) = lastName
+		(valueToWrite[5]) = email
+		(valueToWrite[6]) = vehicle_reg_province
+		(valueToWrite[7]) = plan
+		(valueToWrite[8]) = initial_payment
+		(valueToWrite[9]) = termLength
+		(valueToWrite[10]) = mileage
+		(valueToWrite[11]) = feePaymentPlan
+		(valueToWrite[12]) = trimmed_subtotal
+		(valueToWrite[13]) = trimmed_salesTax
+		(valueToWrite[14]) = trimmed_totalrate
+		(valueToWrite[15]) = totalDueToday_checkout
+		(valueToWrite[16]) = trim_strrr  //monthly/remaining payment
+//			(valueToWrite[17]) = CheckoutTotalDueTodayMessage
+		(valueToWrite[18]) = monthlyPaymentMessage
+		(valueToWrite[19]) = totalrateMessage
+		(valueToWrite[20]) = status
+		(valueToWrite[16]) = customerOrderNo
+	//	(valueToWrite[15]) = verifyDB
+	//	(valueToWrite[16]) = cms_contract_Id
+		(valueToWrite[24]) = currentDate
+		(valueToWrite[25]) = error_msg
+//			(valueToWrite[19]) = first_query_result
+//
+//			(valueToWrite[20]) = second_query_result
+//
+//			(valueToWrite[21]) = third_query_result
+//
+//			(valueToWrite[22]) = fourth_query_result
+//
+//			(valueToWrite[23]) = fifth_query_result
+//			(valueToWrite[24]) = sixth_query_result
+//
+//			(valueToWrite[25]) = seventh_query_result
+//
+//			(valueToWrite[26]) = eightth_query_result
+		(valueToWrite[34]) = link1
+		(valueToWrite[35]) = link4
+		(valueToWrite[36]) = link5
+	//	(valueToWrite[27]) = pdfResultPrint
+	//	(valueToWrite[28]) = link2
+	//	(valueToWrite[29]) = link3
+		(valueToWrite[40]) = cartPageCal
+		(valueToWrite[41]) = checkoutPageCal
+		//(valueToWrite[32]) = link6
+		//(valueToWrite[33]) = link7
+		//(valueToWrite[34]) = link8
+		//(valueToWrite[35]) = link9
+
+
+	ExcelKeywords excelKeywords = new ExcelKeywords()
+	excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Nissan_result', valueToWrite)
+
+
+}
+//--->End(new result function)
+/*
 	def writeResult()
 	{
 		'Writing the result to the excel file'
@@ -669,6 +832,6 @@ WebUI.closeBrowser()
 
 
 	}
-	
+	*/
 	
 	

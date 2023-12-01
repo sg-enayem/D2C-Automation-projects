@@ -347,7 +347,8 @@ if(status=='Pass') {
 //	try {
 		//checkout page accounting
 		println(trimmed_totalDueToday)
-
+  
+		/*
 		if (feePaymentPlan != 'Pay In Full') {
 			
 			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal_NISSAN_checkout'))
@@ -398,7 +399,58 @@ if(status=='Pass') {
 			println(trimmed_subtotal +" "+ trimmed_salesTax +" "+ trimmed_totalrate)
 			
 		}
+		*/
 		WebUI.delay(3)
+		if (feePaymentPlan != 'Pay In Full') {
+			subtotal=WebUI.getText(findTestObject('Object Repository/Vroom/rates_subtotal_NISSAN_checkout'))
+			salesTax=WebUI.getText(findTestObject('Object Repository/Vroom/sales_tax_nissan_Checkout'))
+			totalrate=WebUI.getText((findTestObject('Object Repository/Vroom/Total_rate_Nissan_checkout')))
+			totalDueToday_checkout = WebUI.getText((findTestObject('Object Repository/Vroom/Vroom_checkout_TotalDueToday')))
+			trimmed_subtotal = subtotal.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_salesTax = salesTax.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalrate = totalrate.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			trimmed_totalDueToday_checkout = totalDueToday_checkout.replace(",", ".").replaceAll(/[^0-9.]/, '') as float
+			println("Total rate= "+ trimmed_totalrate)
+			println("Total due today= "+ trimmed_totalDueToday_checkout)
+			println("Sales Tax= "+ trimmed_salesTax)
+			println("Sub Total= "+ trimmed_subtotal)
+		strrr = WebUI.getText((findTestObject('Object Repository/Vroom/checkoutcalculation_nissan')))
+		println(strrr)
+		int charactersToRemove = 2
+		trim_strrr = strrr.replace(",", ".").substring(charactersToRemove).replaceAll(/[^0-9.]/, '') as float
+		println("Monthly Payment= "+ trim_strrr)
+
+		//monthly payment calculation
+		if(feePaymentPlan != 'Pay In Full' ) {
+			trimmedfeePaymentPlan = feePaymentPlan.find(/\d+/)?.toInteger()
+			println(trimmedfeePaymentPlan)
+			monthlyPayment1 = ((trimmed_subtotal-trimmed_totalDueToday_checkout)+trimmed_salesTax)/trimmedfeePaymentPlan as float
+			println(monthlyPayment1)
+			//monthlyPayment1 = monthlyPayment1.round(2)
+			
+			def roundedMonthlyPayment = new BigDecimal(monthlyPayment1.toString()).setScale(2, BigDecimal.ROUND_HALF_UP).floatValue() // Round the result to two decimal places using BigDecimal
+			println(roundedMonthlyPayment)
+		
+			if(roundedMonthlyPayment == trim_strrr.toFloat() ) {
+				monthlyPaymentMessage = "Calculation for remaining payment is matched"
+				println(monthlyPaymentMessage)
+			}else {
+				monthlyPaymentMessage = "Calculation for remaining payment is not matched"
+				println(monthlyPaymentMessage)
+			}
+		}//end
+		//total rates calculation and matching
+	totalrates1 = trimmed_subtotal + trimmed_salesTax as float
+	println(totalrates1)
+	if(totalrates1 == trimmed_totalrate ) {
+		totalrateMessage = "Calculation for total rate is matched"
+		println(totalrateMessage)
+	}else {
+		totalrateMessage = "Calculation for total rate is not matched"
+		println(totalrateMessage)
+	}	///end
+		
+	WebUI.delay(3)
 		WebUI.setText(findTestObject('Object Repository/Schomp/input_Name On Card'), nameOnCard)
 
 		WebUI.setText(findTestObject('Object Repository/Schomp/input_Card Number'),cardNumber)
@@ -492,7 +544,7 @@ if(status=='Pass') {
 //		error_msg='payment data page error'}
 }
 
-
+}
 
 
 
@@ -507,100 +559,79 @@ WebUI.closeBrowser()
 		
  // added for commenting out after checking 5 db tables
 
-	def writeResult()
-	{
-		'Writing the result to the excel file'
-		UtilKeywords utilKeywords = new UtilKeywords()
-		String currentDate = utilKeywords.getCurrentDate()
+  def writeResult()
+{
+	'Writing the result to the excel file'
+	UtilKeywords utilKeywords = new UtilKeywords()
+	String currentDate = utilKeywords.getCurrentDate()
 
-		String status = 'PASS'
-		//println(contractStatus)
-		String responseDescription = 'SUCCESS'
-		//println(responseDescription)
+	String status = 'PASS'
+	//println(contractStatus)
+	String responseDescription = 'SUCCESS'
+	//println(responseDescription)
 
-		String[] valueToWrite = new String[80]
+	String[] valueToWrite = new String[80]
 
-		(valueToWrite[0]) = testCase
-		
-			(valueToWrite[1]) = portal
-		
-			(valueToWrite[2]) = vinNo
-		
-			(valueToWrite[3]) = firstName
-		
-			(valueToWrite[4]) = lastName
-		
-			(valueToWrite[5]) = vehicle_reg_province
-		
-			(valueToWrite[6]) = plan
-		
-			(valueToWrite[7]) = termLength
-		
-			(valueToWrite[8]) = mileage
-		
-			(valueToWrite[9]) = feePaymentPlan
-		
-			(valueToWrite[10]) = trimmed_subtotal
-		
-			(valueToWrite[11]) = trimmed_salesTax
-		
-			(valueToWrite[12]) = trimmed_totalrate
-		
-			(valueToWrite[13]) = status
-		
-			(valueToWrite[14]) = customerOrderNo
-		
-		//	(valueToWrite[15]) = verifyDB
-		
-		//	(valueToWrite[16]) = cms_contract_Id
-		
-			(valueToWrite[17]) = currentDate
-		
-			(valueToWrite[18]) = error_msg
-		
+	(valueToWrite[0]) = testCase
+		(valueToWrite[1]) = portal
+		(valueToWrite[2]) = vinNo
+		(valueToWrite[3]) = firstName
+		(valueToWrite[4]) = lastName
+		(valueToWrite[5]) = email
+		(valueToWrite[6]) = vehicle_reg_province
+		(valueToWrite[7]) = plan
+		(valueToWrite[8]) = initial_payment
+		(valueToWrite[9]) = termLength
+		(valueToWrite[10]) = mileage
+		(valueToWrite[11]) = feePaymentPlan
+		(valueToWrite[12]) = trimmed_subtotal
+		(valueToWrite[13]) = trimmed_salesTax
+		(valueToWrite[14]) = trimmed_totalrate
+		(valueToWrite[15]) = trimmed_totalDueToday
+		(valueToWrite[16]) = trim_strrr  //monthly/remaining payment
+//			(valueToWrite[17]) = CheckoutTotalDueTodayMessage
+		(valueToWrite[18]) = monthlyPaymentMessage
+		(valueToWrite[19]) = totalrateMessage
+		(valueToWrite[20]) = status
+		(valueToWrite[16]) = customerOrderNo
+	//	(valueToWrite[15]) = verifyDB
+	//	(valueToWrite[16]) = cms_contract_Id
+		(valueToWrite[24]) = currentDate
+		(valueToWrite[25]) = error_msg
 //			(valueToWrite[19]) = first_query_result
-//		
+//
 //			(valueToWrite[20]) = second_query_result
-//		
+//
 //			(valueToWrite[21]) = third_query_result
-//		
+//
 //			(valueToWrite[22]) = fourth_query_result
-//		
+//
 //			(valueToWrite[23]) = fifth_query_result
-		
 //			(valueToWrite[24]) = sixth_query_result
-//		
+//
 //			(valueToWrite[25]) = seventh_query_result
-//		
+//
 //			(valueToWrite[26]) = eightth_query_result
-			(valueToWrite[24]) = link1
-			(valueToWrite[25]) = link4
-			(valueToWrite[26]) = link5
-		
-		//	(valueToWrite[27]) = pdfResultPrint
-		
-		//	(valueToWrite[28]) = link2
-		
-		//	(valueToWrite[29]) = link3
-		
-			(valueToWrite[28]) = cartPageCal
-		
-			(valueToWrite[29]) = checkoutPageCal
-		
-			//(valueToWrite[32]) = link6
-		
-			//(valueToWrite[33]) = link7
-		
-			//(valueToWrite[34]) = link8
-		
-			//(valueToWrite[35]) = link9
+		(valueToWrite[34]) = link1
+		(valueToWrite[35]) = link4
+		(valueToWrite[36]) = link5
+	//	(valueToWrite[27]) = pdfResultPrint
+	//	(valueToWrite[28]) = link2
+	//	(valueToWrite[29]) = link3
+		(valueToWrite[40]) = cartPageCal
+		(valueToWrite[41]) = checkoutPageCal
+		//(valueToWrite[32]) = link6
+		//(valueToWrite[33]) = link7
+		//(valueToWrite[34]) = link8
+		//(valueToWrite[35]) = link9
 
 
-		ExcelKeywords excelKeywords = new ExcelKeywords()
-		excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Nissan_Result', valueToWrite)
+	ExcelKeywords excelKeywords = new ExcelKeywords()
+	excelKeywords.writeExcel(System.getProperty('user.dir'), 'Result.xlsx', 'Nissan_Result', valueToWrite)
 
 
-	}
-	
+}
+//--->End(new result function)
+
 	
 	

@@ -6,7 +6,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>e2ca02df-99f1-489d-b3cf-1cd3c16a2852</dataFileGUID>
-   <dataSourceUrl>C:\Users\enayem\Documents\DTC_katalon - V.4.2\SFTestData.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\enayem\Documents\DTC_katalon - V.4.3\SFTestData.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
